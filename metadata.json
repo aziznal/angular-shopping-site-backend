@@ -3,6 +3,10 @@
     "DB_PORT": 27017,
     "DB_URL": "mongodb://localhost:27017",
 
+    "DB_PRODUCTS": "products",
+    "DB_COMMENTS": "comments",
+    "DB_SPECS": "specs",
+
     "EXPRESS_PORT": 3000
     
 }
