@@ -5,6 +5,13 @@ const sendTestData = (res) => {
     res.send(test_json);
 }
 
+const logRequestBody = (body) => {
+    Object.keys(body).map((val, _) => {
+        console.log(`${val}: ${body[val]}`);
+    })
+}
+
 module.exports = {
-    sendTestData
+    sendTestData,
+    logRequestBody
 }
