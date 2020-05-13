@@ -10,7 +10,6 @@ const app = express();
 
 // To allow CORs
 app.use(cors());
-
 app.use(express.json());
 // app.use(express.urlencoded({ extended: true }));
 
@@ -102,6 +101,7 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                 res.set(test_headers);
 
                 console.log("POST recieved on ROOT/test");
+                lib.logRequestBody(req.body);
 
                 res.send("got POST request on ROOT/test");
             })
@@ -111,6 +111,7 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                 res.set(test_headers);
 
                 console.log("PUT recieved on ROOT/test");
+                lib.logRequestBody(req.body);
 
                 res.send("got PUT request on ROOT/test");
             })
