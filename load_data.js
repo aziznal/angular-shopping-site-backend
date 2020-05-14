@@ -20,6 +20,7 @@ const LAPTOP_DATA = require('./mockdata/products/laptops.json');
 
 //#region Functions
 
+// This method can be used to reset any given collection to 0 documents
 const resetCollection = (db, collection_to_reset, callback) => {
     const collection = db.collection(collection_to_reset);
 
@@ -35,6 +36,7 @@ const resetCollection = (db, collection_to_reset, callback) => {
 
 }
 
+// Clean objects from _sub fields
 const cleanSchema = (data) => {
 
     // Delete _sub keys
@@ -44,18 +46,20 @@ const cleanSchema = (data) => {
 
 }
 
-const loadLaptopData = (db, callback) => {
+
+// loads data <Object> -> load_to <string: collection name> 
+const loadCollectionData = (db, data, load_to, callback) => {
     console.log("Loading all LAPTOP products into database...\n");
 
-    const collection = db.collection(env_var.DB_PRODUCTS);
+    const collection = db.collection(load_to);
 
     console.log("Cleaning Data...");
 
-    for (item of LAPTOP_DATA){
+    for (item of data){
         cleanSchema(item);
     }
 
-    collection.insertMany(LAPTOP_DATA, (err, res) => {
+    collection.insertMany(data, (err, res) => {
         if (err) throw err;
         console.log("Successfully Added " + res.result.n + " Documents to Database");
 
@@ -73,7 +77,7 @@ MongoClient.connect(env_var.DB_URL, { useUnifiedTopology: true }, (err, client) 
 
     // resetCollection(db, env_var.DB_PRODUCTS, () => { client.close(); });
 
-    loadLaptopData(db, () => { client.close(); });
+    loadCollectionData(db,LAPTOP_DATA, env_var.DB_PRODUCTS, () => { client.close(); });
 
 
 });
