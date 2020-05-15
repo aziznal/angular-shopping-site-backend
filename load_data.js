@@ -11,6 +11,7 @@
 const MongoClient = require('mongodb');
 
 const lib = require('./lib.js');
+const fs = require('fs');
 const env_var = require('./metadata.json');
 
 const LAPTOP_DATA = require('./mockdata/products/laptops.json');
@@ -36,28 +37,31 @@ const resetCollection = (db, collection_to_reset, callback) => {
 
 }
 
-// Clean objects from _sub fields
-const cleanSchema = (data) => {
+// Clean data, convert numbers into correct format
+const cleanData = (data, path_) => {
+    for (let item of data){
 
-    // Delete _sub keys
-    Object.keys(data).map((key, _) => {
-        if (/.*_sub\d*/.test(key)) delete data[key];
-    });
+        Object.keys(item).map((key, _) => {
 
+            // delete _sub fields
+            if (/.*_sub\d*/.test(key)) delete item[key];
+
+            // convert numerical fields into correct format
+            if (key == "sold" || key == "price" || key == "rating") {
+                item[key] = parseFloat(item[key]);
+            }
+        });
+    }
+
+    // Save to not have to clean everytime
+    fs.writeFileSync(path_, JSON.stringify(data, null, 2));
 }
-
 
 // loads data <Object> -> load_to <string: collection name> 
 const loadCollectionData = (db, data, load_to, callback) => {
     console.log("Loading all LAPTOP products into database...\n");
 
     const collection = db.collection(load_to);
-
-    console.log("Cleaning Data...");
-
-    for (item of data){
-        cleanSchema(item);
-    }
 
     collection.insertMany(data, (err, res) => {
         if (err) throw err;
@@ -77,8 +81,10 @@ MongoClient.connect(env_var.DB_URL, { useUnifiedTopology: true }, (err, client) 
 
     // resetCollection(db, env_var.DB_PRODUCTS, () => { client.close(); });
 
-    loadCollectionData(db,LAPTOP_DATA, env_var.DB_PRODUCTS, () => { client.close(); });
+    // console.log("Cleaning Data...");
+    // cleanData(LAPTOP_DATA, "./mockdata/products/laptops.json");
 
+    loadCollectionData(db,LAPTOP_DATA, env_var.DB_PRODUCTS, () => { client.close(); });
 
 });
 
