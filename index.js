@@ -1,3 +1,5 @@
+// BUG: data can't be properly queried because numerical types have been converted to string.
+
 const express = require("express");
 const cors = require('cors');
 const MongoClient = require("mongodb").MongoClient;
@@ -32,18 +34,13 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
         if (err) throw err;
 
         const db = client.db(env_var.DB_NAME);
-        console.log(
-            "Connected to '",
-            env_var.DB_NAME,
-            "' database on port",
-            env_var.DB_PORT
-        );
+        console.log("Connected to '", env_var.DB_NAME, "' database on port", env_var.DB_PORT);
 
         //#region REQUEST HANDLERS
 
         //#region ROOT HANDLER
 
-        // for POST, PUT, and DELETE. note: Allow header MUST be defined accordingt to code 405
+        // for POST, PUT, and DELETE. note: Allow header MUST be defined according to code 405
         res_headers = {
             "Content-Type": "text/plain",
             Allow: "GET",
@@ -126,6 +123,57 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                 res.send("got DELETE request on ROOT/test");
             });
         //#endregion TEST HANDLER
+        
+        //#region PRODUCT_FORMS 
+        app.route("/forms")
+
+            // GET Handler
+            .get((req, res) => {
+
+                console.log("\nGot the following as request body: ");
+                lib.logRequestBody(req.body);
+
+                lib.searchQuery(db, req.body, (search_results) => {
+                    console.log("Found " + search_results.length + " Documents\n");
+                    res.send(search_results);
+                });
+            })
+
+            // POST Handler
+            .post((req, res) => {
+                lib.createProduct(db, req.body, (results) => {
+
+                    console.log("\nCreated Document with ID = " + results.insertedId);
+                    console.log("ID has been sent back as response\n");
+
+                    // Server sends back ID of inserted Document as response
+                    res.set({'Content-Type': 'plain/text'});
+                    res.send(results.insertedId);
+
+                });
+            })
+
+            // PUT Handler
+            .put((req, res) => {
+                // Note: req.body is expected to be in the form { _id, set: { stuff_to: update} }
+                lib.updateProduct(db, req.body, (results) => {
+                    console.log("\nUpdated " + results.result.n + " Documents\n");
+                    res.send("\nUpdated " + results.result.n + " Documents\n");
+                })
+            })
+
+            // DELETE Handler
+            .delete((req, res) => {
+                lib.deleteQuery(db, req.body, (results) => {
+
+                    console.log("\nDeleted " + results.result.n + " documents\n");
+
+                    res.send("Deleted " + results.result.n + " documents");
+
+                })
+            })
+
+        //#endregion PRODUCT_FORMS
 
         //#endregion REQUEST HANDLERS
     }
