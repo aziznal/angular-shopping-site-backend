@@ -1,500 +1,4502 @@
-[{"category":"LAPTOP","brand":"AZES","model_sub1":"Y-find","model":"Y-find HM-42","name":"AZES Y-find HM-42","price":"371.00","rating_sub1":3,"rating_sub2":"51","rating":"3.51","sold":"48069"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Aerified","model":"Aerified YN-16","name":"AZES Aerified YN-16","price":"739.00","rating_sub1":3,"rating_sub2":"01","rating":"3.01","sold":"445"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Fixflex","model":"Fixflex DL-95","name":"REVOLVO Fixflex DL-95","price":"971.00","rating_sub1":1,"rating_sub2":"24","rating":"1.24","sold":"996"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Keylex","model":"Keylex GR-46","name":"MAK Keylex GR-46","price":"856.00","rating_sub1":2,"rating_sub2":"41","rating":"2.41","sold":"22607"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Konklux","model":"Konklux ML-96","name":"H&P Konklux ML-96","price":"730.00","rating_sub1":2,"rating_sub2":"72","rating":"2.72","sold":"282"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sonsing","model":"Sonsing DU-09","name":"COURSEAIR Sonsing DU-09","price":"000.00","rating_sub1":3,"rating_sub2":"30","rating":"3.30","sold":"3229"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Redhold","model":"Redhold NI-66","name":"LOGICHTE Redhold NI-66","price":"668.00","rating_sub1":3,"rating_sub2":"27","rating":"3.27","sold":"986"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Prodder","model":"Prodder OH-13","name":"REVOLVO Prodder OH-13","price":"535.00","rating_sub1":3,"rating_sub2":"12","rating":"3.12","sold":"843358"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tempsoft","model":"Tempsoft FU-84","name":"H&P Tempsoft FU-84","price":"553.00","rating_sub1":2,"rating_sub2":"09","rating":"2.09","sold":"87150"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Stim","model":"Stim LX-68","name":"H&P Stim LX-68","price":"533.00","rating_sub1":4,"rating_sub2":"91","rating":"4.91","sold":"22848"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Y-find","model":"Y-find OX-29","name":"LOGICHTE Y-find OX-29","price":"245.00","rating_sub1":1,"rating_sub2":"40","rating":"1.40","sold":"1452"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Sub-Ex","model":"Sub-Ex IP-73","name":"MAK Sub-Ex IP-73","price":"624.00","rating_sub1":1,"rating_sub2":"43","rating":"1.43","sold":"59146"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Konklab","model":"Konklab HO-10","name":"COURSEAIR Konklab HO-10","price":"600.00","rating_sub1":1,"rating_sub2":"08","rating":"1.08","sold":"240"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Fixflex","model":"Fixflex PW-71","name":"MAK Fixflex PW-71","price":"777.00","rating_sub1":2,"rating_sub2":"61","rating":"2.61","sold":"99975"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Zamit","model":"Zamit VW-39","name":"MAK Zamit VW-39","price":"209.00","rating_sub1":2,"rating_sub2":"99","rating":"2.99","sold":"80767"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Zaam-Dox","model":"Zaam-Dox PZ-56","name":"SONNY Zaam-Dox PZ-56","price":"724.00","rating_sub1":4,"rating_sub2":"13","rating":"4.13","sold":"1479"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Matsoft","model":"Matsoft BL-24","name":"REVOLVO Matsoft BL-24","price":"252.00","rating_sub1":2,"rating_sub2":"16","rating":"2.16","sold":"24630"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Overhold","model":"Overhold CY-30","name":"REVOLVO Overhold CY-30","price":"584.00","rating_sub1":3,"rating_sub2":"99","rating":"3.99","sold":"7814"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Holdlamis","model":"Holdlamis WS-72","name":"REVOLVO Holdlamis WS-72","price":"992.00","rating_sub1":3,"rating_sub2":"12","rating":"3.12","sold":"59268"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Zathin","model":"Zathin WF-09","name":"H&P Zathin WF-09","price":"667.00","rating_sub1":1,"rating_sub2":"04","rating":"1.04","sold":"11937"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Cardify","model":"Cardify QT-47","name":"REVOLVO Cardify QT-47","price":"484.00","rating_sub1":2,"rating_sub2":"25","rating":"2.25","sold":"13804"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Zoolab","model":"Zoolab RA-15","name":"LOGICHTE Zoolab RA-15","price":"347.00","rating_sub1":1,"rating_sub2":"75","rating":"1.75","sold":"57929"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Domainer","model":"Domainer LF-99","name":"REVOLVO Domainer LF-99","price":"830.00","rating_sub1":1,"rating_sub2":"07","rating":"1.07","sold":"22128"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Job","model":"Job GM-44","name":"AZES Job GM-44","price":"729.00","rating_sub1":4,"rating_sub2":"68","rating":"4.68","sold":"39241"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Andalax","model":"Andalax KV-31","name":"SONNY Andalax KV-31","price":"181.00","rating_sub1":3,"rating_sub2":"66","rating":"3.66","sold":"58525"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Ronstring","model":"Ronstring OR-13","name":"REVOLVO Ronstring OR-13","price":"439.00","rating_sub1":3,"rating_sub2":"95","rating":"3.95","sold":"476"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Sonair","model":"Sonair NW-08","name":"MAK Sonair NW-08","price":"766.00","rating_sub1":1,"rating_sub2":"80","rating":"1.80","sold":"8787"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Holdlamis","model":"Holdlamis NW-35","name":"REVOLVO Holdlamis NW-35","price":"583.00","rating_sub1":1,"rating_sub2":"21","rating":"1.21","sold":"712393"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Voyatouch","model":"Voyatouch MS-95","name":"COURSEAIR Voyatouch MS-95","price":"094.00","rating_sub1":1,"rating_sub2":"45","rating":"1.45","sold":"902509"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Stringtough","model":"Stringtough KD-22","name":"COURSEAIR Stringtough KD-22","price":"062.00","rating_sub1":1,"rating_sub2":"15","rating":"1.15","sold":"0394"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Bitchip","model":"Bitchip SQ-46","name":"AZES Bitchip SQ-46","price":"498.00","rating_sub1":2,"rating_sub2":"99","rating":"2.99","sold":"2244"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Job","model":"Job ZQ-00","name":"REVOLVO Job ZQ-00","price":"424.00","rating_sub1":1,"rating_sub2":"51","rating":"1.51","sold":"447"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Tampflex","model":"Tampflex GD-70","name":"MAK Tampflex GD-70","price":"097.00","rating_sub1":2,"rating_sub2":"17","rating":"2.17","sold":"8913"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Redhold","model":"Redhold BF-99","name":"REVOLVO Redhold BF-99","price":"349.00","rating_sub1":4,"rating_sub2":"64","rating":"4.64","sold":"090763"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Keylex","model":"Keylex VJ-81","name":"MAK Keylex VJ-81","price":"428.00","rating_sub1":3,"rating_sub2":"25","rating":"3.25","sold":"46600"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Bamity","model":"Bamity YZ-02","name":"SONNY Bamity YZ-02","price":"561.00","rating_sub1":2,"rating_sub2":"87","rating":"2.87","sold":"27296"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Flowdesk","model":"Flowdesk DV-63","name":"H&P Flowdesk DV-63","price":"794.00","rating_sub1":2,"rating_sub2":"39","rating":"2.39","sold":"43601"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Y-find","model":"Y-find WN-27","name":"LOGICHTE Y-find WN-27","price":"528.00","rating_sub1":2,"rating_sub2":"44","rating":"2.44","sold":"620"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Bytecard","model":"Bytecard PC-06","name":"MAK Bytecard PC-06","price":"598.00","rating_sub1":2,"rating_sub2":"25","rating":"2.25","sold":"90622"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Holdlamis","model":"Holdlamis ZE-15","name":"AZES Holdlamis ZE-15","price":"082.00","rating_sub1":2,"rating_sub2":"32","rating":"2.32","sold":"488"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Zontrax","model":"Zontrax RV-31","name":"REVOLVO Zontrax RV-31","price":"146.00","rating_sub1":1,"rating_sub2":"12","rating":"1.12","sold":"1003"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Matsoft","model":"Matsoft CY-54","name":"LOGICHTE Matsoft CY-54","price":"634.00","rating_sub1":4,"rating_sub2":"93","rating":"4.93","sold":"4494"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Toughjoyfax","model":"Toughjoyfax AN-65","name":"COURSEAIR Toughjoyfax AN-65","price":"673.00","rating_sub1":4,"rating_sub2":"95","rating":"4.95","sold":"54665"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Zathin","model":"Zathin MK-62","name":"COURSEAIR Zathin MK-62","price":"950.00","rating_sub1":1,"rating_sub2":"62","rating":"1.62","sold":"58455"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Domainer","model":"Domainer SP-71","name":"AZES Domainer SP-71","price":"758.00","rating_sub1":1,"rating_sub2":"29","rating":"1.29","sold":"2087"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Mat Lam Tam","model":"Mat Lam Tam EH-24","name":"AZES Mat Lam Tam EH-24","price":"666.00","rating_sub1":2,"rating_sub2":"56","rating":"2.56","sold":"500"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Cardguard","model":"Cardguard SV-43","name":"COURSEAIR Cardguard SV-43","price":"034.00","rating_sub1":4,"rating_sub2":"73","rating":"4.73","sold":"8478"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Tres-Zap","model":"Tres-Zap KR-17","name":"MAK Tres-Zap KR-17","price":"572.00","rating_sub1":3,"rating_sub2":"68","rating":"3.68","sold":"22961"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Greenlam","model":"Greenlam PY-55","name":"SONNY Greenlam PY-55","price":"746.00","rating_sub1":2,"rating_sub2":"01","rating":"2.01","sold":"42386"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Flexidy","model":"Flexidy KC-75","name":"SONNY Flexidy KC-75","price":"083.00","rating_sub1":4,"rating_sub2":"19","rating":"4.19","sold":"97775"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Voyatouch","model":"Voyatouch DN-97","name":"REVOLVO Voyatouch DN-97","price":"528.00","rating_sub1":1,"rating_sub2":"00","rating":"1.00","sold":"09322"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Mat Lam Tam","model":"Mat Lam Tam DC-22","name":"REVOLVO Mat Lam Tam DC-22","price":"530.00","rating_sub1":4,"rating_sub2":"13","rating":"4.13","sold":"35979"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Toughjoyfax","model":"Toughjoyfax IE-23","name":"COURSEAIR Toughjoyfax IE-23","price":"370.00","rating_sub1":2,"rating_sub2":"69","rating":"2.69","sold":"0421"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Kanlam","model":"Kanlam ES-91","name":"MAK Kanlam ES-91","price":"061.00","rating_sub1":3,"rating_sub2":"88","rating":"3.88","sold":"50077"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Cardguard","model":"Cardguard ER-67","name":"REVOLVO Cardguard ER-67","price":"326.00","rating_sub1":2,"rating_sub2":"42","rating":"2.42","sold":"8451"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Hatity","model":"Hatity GP-09","name":"MAK Hatity GP-09","price":"065.00","rating_sub1":4,"rating_sub2":"73","rating":"4.73","sold":"553"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Fixflex","model":"Fixflex XN-34","name":"COURSEAIR Fixflex XN-34","price":"535.00","rating_sub1":2,"rating_sub2":"05","rating":"2.05","sold":"534709"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Lotstring","model":"Lotstring MW-63","name":"LOGICHTE Lotstring MW-63","price":"648.00","rating_sub1":3,"rating_sub2":"32","rating":"3.32","sold":"669047"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Stringtough","model":"Stringtough SN-82","name":"AZES Stringtough SN-82","price":"267.00","rating_sub1":2,"rating_sub2":"33","rating":"2.33","sold":"1918"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sonair","model":"Sonair KU-01","name":"COURSEAIR Sonair KU-01","price":"435.00","rating_sub1":3,"rating_sub2":"14","rating":"3.14","sold":"67010"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Prodder","model":"Prodder UI-92","name":"H&P Prodder UI-92","price":"973.00","rating_sub1":4,"rating_sub2":"90","rating":"4.90","sold":"9394"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Hatity","model":"Hatity DS-54","name":"AZES Hatity DS-54","price":"548.00","rating_sub1":2,"rating_sub2":"06","rating":"2.06","sold":"172704"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Zaam-Dox","model":"Zaam-Dox UM-04","name":"H&P Zaam-Dox UM-04","price":"891.00","rating_sub1":1,"rating_sub2":"41","rating":"1.41","sold":"6309"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Flowdesk","model":"Flowdesk VD-23","name":"SONNY Flowdesk VD-23","price":"866.00","rating_sub1":2,"rating_sub2":"64","rating":"2.64","sold":"73943"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Domainer","model":"Domainer WM-13","name":"SONNY Domainer WM-13","price":"977.00","rating_sub1":3,"rating_sub2":"23","rating":"3.23","sold":"63282"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Greenlam","model":"Greenlam UA-36","name":"COURSEAIR Greenlam UA-36","price":"815.00","rating_sub1":3,"rating_sub2":"66","rating":"3.66","sold":"397"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Ronstring","model":"Ronstring NW-20","name":"COURSEAIR Ronstring NW-20","price":"466.00","rating_sub1":2,"rating_sub2":"67","rating":"2.67","sold":"853204"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Stim","model":"Stim WY-59","name":"LOGICHTE Stim WY-59","price":"110.00","rating_sub1":3,"rating_sub2":"23","rating":"3.23","sold":"76537"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Andalax","model":"Andalax ZE-74","name":"H&P Andalax ZE-74","price":"369.00","rating_sub1":3,"rating_sub2":"17","rating":"3.17","sold":"562"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Regrant","model":"Regrant EN-41","name":"AZES Regrant EN-41","price":"528.00","rating_sub1":4,"rating_sub2":"21","rating":"4.21","sold":"4964"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tin","model":"Tin HX-94","name":"H&P Tin HX-94","price":"192.00","rating_sub1":4,"rating_sub2":"81","rating":"4.81","sold":"7581"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Namfix","model":"Namfix PD-04","name":"MAK Namfix PD-04","price":"182.00","rating_sub1":4,"rating_sub2":"63","rating":"4.63","sold":"81412"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Sub-Ex","model":"Sub-Ex UZ-13","name":"SONNY Sub-Ex UZ-13","price":"143.00","rating_sub1":1,"rating_sub2":"83","rating":"1.83","sold":"8478"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Wrapsafe","model":"Wrapsafe UI-15","name":"H&P Wrapsafe UI-15","price":"469.00","rating_sub1":3,"rating_sub2":"63","rating":"3.63","sold":"731390"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Prodder","model":"Prodder OM-28","name":"H&P Prodder OM-28","price":"544.00","rating_sub1":1,"rating_sub2":"32","rating":"1.32","sold":"828"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Voltsillam","model":"Voltsillam RF-84","name":"SONNY Voltsillam RF-84","price":"086.00","rating_sub1":4,"rating_sub2":"92","rating":"4.92","sold":"6281"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Stringtough","model":"Stringtough QS-37","name":"REVOLVO Stringtough QS-37","price":"303.00","rating_sub1":1,"rating_sub2":"98","rating":"1.98","sold":"97221"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Zathin","model":"Zathin JU-18","name":"COURSEAIR Zathin JU-18","price":"446.00","rating_sub1":1,"rating_sub2":"88","rating":"1.88","sold":"90874"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"It","model":"It UQ-86","name":"H&P It UQ-86","price":"193.00","rating_sub1":1,"rating_sub2":"05","rating":"1.05","sold":"40106"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Alphazap","model":"Alphazap MF-58","name":"SONNY Alphazap MF-58","price":"215.00","rating_sub1":3,"rating_sub2":"41","rating":"3.41","sold":"1745"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Wrapsafe","model":"Wrapsafe YT-71","name":"MAK Wrapsafe YT-71","price":"304.00","rating_sub1":1,"rating_sub2":"01","rating":"1.01","sold":"3816"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Stronghold","model":"Stronghold DU-82","name":"AZES Stronghold DU-82","price":"245.00","rating_sub1":2,"rating_sub2":"09","rating":"2.09","sold":"47697"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Greenlam","model":"Greenlam HG-18","name":"COURSEAIR Greenlam HG-18","price":"850.00","rating_sub1":1,"rating_sub2":"88","rating":"1.88","sold":"31610"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Cookley","model":"Cookley DS-13","name":"COURSEAIR Cookley DS-13","price":"431.00","rating_sub1":3,"rating_sub2":"90","rating":"3.90","sold":"727567"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Veribet","model":"Veribet YX-25","name":"AZES Veribet YX-25","price":"495.00","rating_sub1":2,"rating_sub2":"43","rating":"2.43","sold":"324"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Tresom","model":"Tresom MY-53","name":"COURSEAIR Tresom MY-53","price":"523.00","rating_sub1":3,"rating_sub2":"72","rating":"3.72","sold":"793"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Zamit","model":"Zamit SW-60","name":"REVOLVO Zamit SW-60","price":"433.00","rating_sub1":3,"rating_sub2":"92","rating":"3.92","sold":"575474"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Overhold","model":"Overhold ZW-21","name":"AZES Overhold ZW-21","price":"560.00","rating_sub1":3,"rating_sub2":"16","rating":"3.16","sold":"9667"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Alpha","model":"Alpha NK-47","name":"REVOLVO Alpha NK-47","price":"325.00","rating_sub1":3,"rating_sub2":"68","rating":"3.68","sold":"5702"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Regrant","model":"Regrant HJ-70","name":"COURSEAIR Regrant HJ-70","price":"618.00","rating_sub1":2,"rating_sub2":"23","rating":"2.23","sold":"0155"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tempsoft","model":"Tempsoft WH-30","name":"H&P Tempsoft WH-30","price":"515.00","rating_sub1":1,"rating_sub2":"86","rating":"1.86","sold":"3383"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bigtax","model":"Bigtax MR-30","name":"LOGICHTE Bigtax MR-30","price":"024.00","rating_sub1":3,"rating_sub2":"11","rating":"3.11","sold":"8751"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Alpha","model":"Alpha HL-48","name":"AZES Alpha HL-48","price":"776.00","rating_sub1":1,"rating_sub2":"88","rating":"1.88","sold":"908789"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Bigtax","model":"Bigtax NR-01","name":"SONNY Bigtax NR-01","price":"648.00","rating_sub1":4,"rating_sub2":"41","rating":"4.41","sold":"15965"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Opela","model":"Opela AF-79","name":"REVOLVO Opela AF-79","price":"398.00","rating_sub1":2,"rating_sub2":"55","rating":"2.55","sold":"3184"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Zoolab","model":"Zoolab EY-09","name":"MAK Zoolab EY-09","price":"558.00","rating_sub1":3,"rating_sub2":"78","rating":"3.78","sold":"381998"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Bitwolf","model":"Bitwolf KB-14","name":"COURSEAIR Bitwolf KB-14","price":"301.00","rating_sub1":1,"rating_sub2":"48","rating":"1.48","sold":"4204"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Toughjoyfax","model":"Toughjoyfax WD-73","name":"SONNY Toughjoyfax WD-73","price":"468.00","rating_sub1":1,"rating_sub2":"12","rating":"1.12","sold":"1160"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Veribet","model":"Veribet RB-26","name":"MAK Veribet RB-26","price":"353.00","rating_sub1":4,"rating_sub2":"35","rating":"4.35","sold":"1798"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Stringtough","model":"Stringtough YW-91","name":"AZES Stringtough YW-91","price":"379.00","rating_sub1":3,"rating_sub2":"41","rating":"3.41","sold":"8966"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Lotstring","model":"Lotstring CJ-08","name":"MAK Lotstring CJ-08","price":"210.00","rating_sub1":2,"rating_sub2":"38","rating":"2.38","sold":"40370"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Daltfresh","model":"Daltfresh AN-95","name":"COURSEAIR Daltfresh AN-95","price":"427.00","rating_sub1":2,"rating_sub2":"66","rating":"2.66","sold":"8959"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Rank","model":"Rank SH-77","name":"COURSEAIR Rank SH-77","price":"717.00","rating_sub1":3,"rating_sub2":"65","rating":"3.65","sold":"7455"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Transcof","model":"Transcof XG-16","name":"COURSEAIR Transcof XG-16","price":"781.00","rating_sub1":1,"rating_sub2":"22","rating":"1.22","sold":"25873"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Ventosanzap","model":"Ventosanzap VZ-95","name":"MAK Ventosanzap VZ-95","price":"081.00","rating_sub1":1,"rating_sub2":"99","rating":"1.99","sold":"219002"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Voyatouch","model":"Voyatouch FM-51","name":"LOGICHTE Voyatouch FM-51","price":"703.00","rating_sub1":1,"rating_sub2":"26","rating":"1.26","sold":"99569"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Opela","model":"Opela BU-19","name":"REVOLVO Opela BU-19","price":"608.00","rating_sub1":3,"rating_sub2":"78","rating":"3.78","sold":"298088"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bytecard","model":"Bytecard VW-95","name":"LOGICHTE Bytecard VW-95","price":"680.00","rating_sub1":2,"rating_sub2":"25","rating":"2.25","sold":"0344"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Tres-Zap","model":"Tres-Zap CJ-06","name":"COURSEAIR Tres-Zap CJ-06","price":"926.00","rating_sub1":4,"rating_sub2":"97","rating":"4.97","sold":"316796"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Toughjoyfax","model":"Toughjoyfax MZ-60","name":"AZES Toughjoyfax MZ-60","price":"487.00","rating_sub1":2,"rating_sub2":"84","rating":"2.84","sold":"6261"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Asoka","model":"Asoka AV-90","name":"H&P Asoka AV-90","price":"123.00","rating_sub1":1,"rating_sub2":"50","rating":"1.50","sold":"7016"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Overhold","model":"Overhold PD-78","name":"LOGICHTE Overhold PD-78","price":"748.00","rating_sub1":4,"rating_sub2":"29","rating":"4.29","sold":"9339"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Tin","model":"Tin QA-93","name":"SONNY Tin QA-93","price":"616.00","rating_sub1":2,"rating_sub2":"08","rating":"2.08","sold":"9504"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Fixflex","model":"Fixflex FU-73","name":"H&P Fixflex FU-73","price":"694.00","rating_sub1":3,"rating_sub2":"68","rating":"3.68","sold":"0598"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Opela","model":"Opela HA-41","name":"REVOLVO Opela HA-41","price":"078.00","rating_sub1":1,"rating_sub2":"43","rating":"1.43","sold":"69724"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Prodder","model":"Prodder OC-42","name":"H&P Prodder OC-42","price":"663.00","rating_sub1":3,"rating_sub2":"85","rating":"3.85","sold":"935849"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Alpha","model":"Alpha WT-58","name":"COURSEAIR Alpha WT-58","price":"761.00","rating_sub1":4,"rating_sub2":"98","rating":"4.98","sold":"0716"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Flowdesk","model":"Flowdesk ES-88","name":"MAK Flowdesk ES-88","price":"294.00","rating_sub1":3,"rating_sub2":"57","rating":"3.57","sold":"6342"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Prodder","model":"Prodder AC-45","name":"COURSEAIR Prodder AC-45","price":"534.00","rating_sub1":4,"rating_sub2":"27","rating":"4.27","sold":"30934"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"It","model":"It EG-30","name":"LOGICHTE It EG-30","price":"455.00","rating_sub1":1,"rating_sub2":"51","rating":"1.51","sold":"5227"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Cardguard","model":"Cardguard NV-38","name":"COURSEAIR Cardguard NV-38","price":"752.00","rating_sub1":4,"rating_sub2":"09","rating":"4.09","sold":"84506"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Stronghold","model":"Stronghold SF-93","name":"H&P Stronghold SF-93","price":"760.00","rating_sub1":2,"rating_sub2":"57","rating":"2.57","sold":"41265"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Hatity","model":"Hatity PM-81","name":"REVOLVO Hatity PM-81","price":"800.00","rating_sub1":2,"rating_sub2":"84","rating":"2.84","sold":"3106"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Matsoft","model":"Matsoft AH-10","name":"REVOLVO Matsoft AH-10","price":"509.00","rating_sub1":1,"rating_sub2":"38","rating":"1.38","sold":"637"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Ronstring","model":"Ronstring XG-49","name":"REVOLVO Ronstring XG-49","price":"422.00","rating_sub1":3,"rating_sub2":"94","rating":"3.94","sold":"5582"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Fixflex","model":"Fixflex IT-28","name":"H&P Fixflex IT-28","price":"836.00","rating_sub1":4,"rating_sub2":"65","rating":"4.65","sold":"2172"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Flowdesk","model":"Flowdesk UI-52","name":"AZES Flowdesk UI-52","price":"494.00","rating_sub1":2,"rating_sub2":"37","rating":"2.37","sold":"522323"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Konklux","model":"Konklux UA-84","name":"MAK Konklux UA-84","price":"636.00","rating_sub1":4,"rating_sub2":"61","rating":"4.61","sold":"6469"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Tempsoft","model":"Tempsoft NH-36","name":"SONNY Tempsoft NH-36","price":"935.00","rating_sub1":3,"rating_sub2":"68","rating":"3.68","sold":"09062"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Treeflex","model":"Treeflex QU-02","name":"AZES Treeflex QU-02","price":"241.00","rating_sub1":3,"rating_sub2":"79","rating":"3.79","sold":"03704"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Gembucket","model":"Gembucket MP-39","name":"LOGICHTE Gembucket MP-39","price":"435.00","rating_sub1":2,"rating_sub2":"55","rating":"2.55","sold":"1904"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Stronghold","model":"Stronghold RY-10","name":"AZES Stronghold RY-10","price":"450.00","rating_sub1":2,"rating_sub2":"76","rating":"2.76","sold":"77449"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Kanlam","model":"Kanlam AM-72","name":"COURSEAIR Kanlam AM-72","price":"872.00","rating_sub1":3,"rating_sub2":"95","rating":"3.95","sold":"7503"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Cookley","model":"Cookley HY-50","name":"SONNY Cookley HY-50","price":"136.00","rating_sub1":3,"rating_sub2":"57","rating":"3.57","sold":"7534"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Stim","model":"Stim MB-26","name":"AZES Stim MB-26","price":"610.00","rating_sub1":1,"rating_sub2":"24","rating":"1.24","sold":"69831"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Keylex","model":"Keylex EA-30","name":"H&P Keylex EA-30","price":"792.00","rating_sub1":3,"rating_sub2":"74","rating":"3.74","sold":"5353"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sonsing","model":"Sonsing GJ-63","name":"COURSEAIR Sonsing GJ-63","price":"809.00","rating_sub1":4,"rating_sub2":"76","rating":"4.76","sold":"66079"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Alphazap","model":"Alphazap ZI-81","name":"H&P Alphazap ZI-81","price":"493.00","rating_sub1":1,"rating_sub2":"64","rating":"1.64","sold":"17894"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Voyatouch","model":"Voyatouch BL-13","name":"H&P Voyatouch BL-13","price":"919.00","rating_sub1":3,"rating_sub2":"04","rating":"3.04","sold":"6032"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Prodder","model":"Prodder PR-48","name":"MAK Prodder PR-48","price":"911.00","rating_sub1":3,"rating_sub2":"65","rating":"3.65","sold":"978"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Voyatouch","model":"Voyatouch LO-67","name":"LOGICHTE Voyatouch LO-67","price":"889.00","rating_sub1":4,"rating_sub2":"93","rating":"4.93","sold":"6995"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Tampflex","model":"Tampflex BY-29","name":"REVOLVO Tampflex BY-29","price":"359.00","rating_sub1":2,"rating_sub2":"23","rating":"2.23","sold":"4645"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Konklab","model":"Konklab WE-31","name":"MAK Konklab WE-31","price":"812.00","rating_sub1":1,"rating_sub2":"77","rating":"1.77","sold":"577083"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Ventosanzap","model":"Ventosanzap YG-30","name":"MAK Ventosanzap YG-30","price":"800.00","rating_sub1":1,"rating_sub2":"29","rating":"1.29","sold":"330"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Redhold","model":"Redhold OA-06","name":"LOGICHTE Redhold OA-06","price":"381.00","rating_sub1":2,"rating_sub2":"18","rating":"2.18","sold":"74483"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Fix San","model":"Fix San FI-61","name":"COURSEAIR Fix San FI-61","price":"934.00","rating_sub1":4,"rating_sub2":"71","rating":"4.71","sold":"7746"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Redhold","model":"Redhold VZ-63","name":"MAK Redhold VZ-63","price":"606.00","rating_sub1":4,"rating_sub2":"55","rating":"4.55","sold":"494389"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Zoolab","model":"Zoolab SA-54","name":"SONNY Zoolab SA-54","price":"908.00","rating_sub1":2,"rating_sub2":"66","rating":"2.66","sold":"3299"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Latlux","model":"Latlux ZI-90","name":"H&P Latlux ZI-90","price":"909.00","rating_sub1":3,"rating_sub2":"86","rating":"3.86","sold":"931"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Holdlamis","model":"Holdlamis AW-53","name":"H&P Holdlamis AW-53","price":"950.00","rating_sub1":3,"rating_sub2":"59","rating":"3.59","sold":"324179"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Tres-Zap","model":"Tres-Zap NX-93","name":"SONNY Tres-Zap NX-93","price":"660.00","rating_sub1":1,"rating_sub2":"54","rating":"1.54","sold":"466"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"It","model":"It RU-60","name":"MAK It RU-60","price":"470.00","rating_sub1":2,"rating_sub2":"47","rating":"2.47","sold":"493767"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Daltfresh","model":"Daltfresh IC-91","name":"LOGICHTE Daltfresh IC-91","price":"600.00","rating_sub1":3,"rating_sub2":"11","rating":"3.11","sold":"61182"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Solarbreeze","model":"Solarbreeze DC-26","name":"REVOLVO Solarbreeze DC-26","price":"954.00","rating_sub1":3,"rating_sub2":"34","rating":"3.34","sold":"09397"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Viva","model":"Viva XD-12","name":"AZES Viva XD-12","price":"951.00","rating_sub1":2,"rating_sub2":"76","rating":"2.76","sold":"2305"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Fix San","model":"Fix San LM-23","name":"REVOLVO Fix San LM-23","price":"675.00","rating_sub1":4,"rating_sub2":"32","rating":"4.32","sold":"44378"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Tampflex","model":"Tampflex YJ-32","name":"MAK Tampflex YJ-32","price":"448.00","rating_sub1":1,"rating_sub2":"21","rating":"1.21","sold":"736743"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Wrapsafe","model":"Wrapsafe OS-42","name":"H&P Wrapsafe OS-42","price":"549.00","rating_sub1":2,"rating_sub2":"95","rating":"2.95","sold":"8828"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Flexidy","model":"Flexidy IK-25","name":"COURSEAIR Flexidy IK-25","price":"086.00","rating_sub1":1,"rating_sub2":"72","rating":"1.72","sold":"85970"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Bitchip","model":"Bitchip IY-43","name":"H&P Bitchip IY-43","price":"626.00","rating_sub1":4,"rating_sub2":"77","rating":"4.77","sold":"09952"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Quo Lux","model":"Quo Lux ZP-07","name":"H&P Quo Lux ZP-07","price":"656.00","rating_sub1":1,"rating_sub2":"95","rating":"1.95","sold":"36309"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Lotlux","model":"Lotlux QL-71","name":"MAK Lotlux QL-71","price":"949.00","rating_sub1":3,"rating_sub2":"77","rating":"3.77","sold":"5600"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Bigtax","model":"Bigtax WV-63","name":"COURSEAIR Bigtax WV-63","price":"569.00","rating_sub1":3,"rating_sub2":"68","rating":"3.68","sold":"7853"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Alpha","model":"Alpha TP-06","name":"COURSEAIR Alpha TP-06","price":"652.00","rating_sub1":3,"rating_sub2":"09","rating":"3.09","sold":"26597"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Matsoft","model":"Matsoft MK-19","name":"MAK Matsoft MK-19","price":"921.00","rating_sub1":2,"rating_sub2":"65","rating":"2.65","sold":"6138"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Y-find","model":"Y-find NP-36","name":"REVOLVO Y-find NP-36","price":"177.00","rating_sub1":4,"rating_sub2":"36","rating":"4.36","sold":"146"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Voltsillam","model":"Voltsillam BZ-60","name":"REVOLVO Voltsillam BZ-60","price":"043.00","rating_sub1":4,"rating_sub2":"40","rating":"4.40","sold":"8572"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Tresom","model":"Tresom AK-51","name":"REVOLVO Tresom AK-51","price":"138.00","rating_sub1":1,"rating_sub2":"29","rating":"1.29","sold":"995806"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Span","model":"Span PH-63","name":"REVOLVO Span PH-63","price":"710.00","rating_sub1":1,"rating_sub2":"70","rating":"1.70","sold":"72397"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Stringtough","model":"Stringtough BV-04","name":"COURSEAIR Stringtough BV-04","price":"155.00","rating_sub1":3,"rating_sub2":"01","rating":"3.01","sold":"9181"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Zoolab","model":"Zoolab XQ-94","name":"REVOLVO Zoolab XQ-94","price":"061.00","rating_sub1":2,"rating_sub2":"27","rating":"2.27","sold":"1911"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Cookley","model":"Cookley JC-35","name":"COURSEAIR Cookley JC-35","price":"236.00","rating_sub1":1,"rating_sub2":"37","rating":"1.37","sold":"642588"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Biodex","model":"Biodex OD-79","name":"SONNY Biodex OD-79","price":"512.00","rating_sub1":4,"rating_sub2":"80","rating":"4.80","sold":"9763"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Y-Solowarm","model":"Y-Solowarm SJ-63","name":"MAK Y-Solowarm SJ-63","price":"557.00","rating_sub1":1,"rating_sub2":"41","rating":"1.41","sold":"57295"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bitchip","model":"Bitchip YL-01","name":"LOGICHTE Bitchip YL-01","price":"672.00","rating_sub1":4,"rating_sub2":"59","rating":"4.59","sold":"7096"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Matsoft","model":"Matsoft UR-73","name":"LOGICHTE Matsoft UR-73","price":"757.00","rating_sub1":3,"rating_sub2":"26","rating":"3.26","sold":"50608"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Veribet","model":"Veribet BO-99","name":"AZES Veribet BO-99","price":"387.00","rating_sub1":4,"rating_sub2":"01","rating":"4.01","sold":"1023"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bigtax","model":"Bigtax PH-37","name":"LOGICHTE Bigtax PH-37","price":"557.00","rating_sub1":1,"rating_sub2":"83","rating":"1.83","sold":"07809"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Aerified","model":"Aerified BV-20","name":"H&P Aerified BV-20","price":"849.00","rating_sub1":4,"rating_sub2":"69","rating":"4.69","sold":"9377"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Biodex","model":"Biodex BX-01","name":"LOGICHTE Biodex BX-01","price":"890.00","rating_sub1":4,"rating_sub2":"74","rating":"4.74","sold":"285"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Quo Lux","model":"Quo Lux JM-10","name":"MAK Quo Lux JM-10","price":"813.00","rating_sub1":4,"rating_sub2":"95","rating":"4.95","sold":"57445"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Flowdesk","model":"Flowdesk OS-69","name":"REVOLVO Flowdesk OS-69","price":"922.00","rating_sub1":4,"rating_sub2":"18","rating":"4.18","sold":"1236"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Pannier","model":"Pannier HQ-26","name":"COURSEAIR Pannier HQ-26","price":"697.00","rating_sub1":2,"rating_sub2":"77","rating":"2.77","sold":"80998"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sonsing","model":"Sonsing JT-64","name":"COURSEAIR Sonsing JT-64","price":"795.00","rating_sub1":4,"rating_sub2":"50","rating":"4.50","sold":"8044"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Viva","model":"Viva LX-04","name":"LOGICHTE Viva LX-04","price":"416.00","rating_sub1":4,"rating_sub2":"55","rating":"4.55","sold":"47970"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Bytecard","model":"Bytecard GV-83","name":"MAK Bytecard GV-83","price":"470.00","rating_sub1":3,"rating_sub2":"06","rating":"3.06","sold":"8243"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Andalax","model":"Andalax KO-76","name":"REVOLVO Andalax KO-76","price":"512.00","rating_sub1":1,"rating_sub2":"98","rating":"1.98","sold":"4094"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Cardify","model":"Cardify JZ-63","name":"AZES Cardify JZ-63","price":"673.00","rating_sub1":3,"rating_sub2":"05","rating":"3.05","sold":"35625"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Asoka","model":"Asoka MG-68","name":"AZES Asoka MG-68","price":"350.00","rating_sub1":2,"rating_sub2":"48","rating":"2.48","sold":"629"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Lotstring","model":"Lotstring YC-16","name":"COURSEAIR Lotstring YC-16","price":"410.00","rating_sub1":2,"rating_sub2":"28","rating":"2.28","sold":"13918"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Alphazap","model":"Alphazap TC-03","name":"COURSEAIR Alphazap TC-03","price":"905.00","rating_sub1":2,"rating_sub2":"96","rating":"2.96","sold":"9474"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Keylex","model":"Keylex PR-08","name":"SONNY Keylex PR-08","price":"713.00","rating_sub1":4,"rating_sub2":"96","rating":"4.96","sold":"347"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Lotlux","model":"Lotlux JG-49","name":"SONNY Lotlux JG-49","price":"577.00","rating_sub1":3,"rating_sub2":"73","rating":"3.73","sold":"6137"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Zamit","model":"Zamit JK-13","name":"H&P Zamit JK-13","price":"321.00","rating_sub1":1,"rating_sub2":"30","rating":"1.30","sold":"9946"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Overhold","model":"Overhold QP-10","name":"LOGICHTE Overhold QP-10","price":"703.00","rating_sub1":3,"rating_sub2":"61","rating":"3.61","sold":"476990"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Cardguard","model":"Cardguard MD-10","name":"LOGICHTE Cardguard MD-10","price":"285.00","rating_sub1":4,"rating_sub2":"67","rating":"4.67","sold":"50249"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Bitwolf","model":"Bitwolf HA-93","name":"AZES Bitwolf HA-93","price":"647.00","rating_sub1":4,"rating_sub2":"24","rating":"4.24","sold":"77381"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tresom","model":"Tresom JY-81","name":"H&P Tresom JY-81","price":"831.00","rating_sub1":4,"rating_sub2":"12","rating":"4.12","sold":"1477"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Gembucket","model":"Gembucket VY-00","name":"AZES Gembucket VY-00","price":"146.00","rating_sub1":1,"rating_sub2":"08","rating":"1.08","sold":"5062"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Cardify","model":"Cardify JS-77","name":"H&P Cardify JS-77","price":"024.00","rating_sub1":1,"rating_sub2":"35","rating":"1.35","sold":"65343"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Voltsillam","model":"Voltsillam JO-07","name":"REVOLVO Voltsillam JO-07","price":"284.00","rating_sub1":4,"rating_sub2":"95","rating":"4.95","sold":"333"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Viva","model":"Viva ON-68","name":"COURSEAIR Viva ON-68","price":"695.00","rating_sub1":3,"rating_sub2":"02","rating":"3.02","sold":"56651"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Job","model":"Job UV-92","name":"COURSEAIR Job UV-92","price":"100.00","rating_sub1":4,"rating_sub2":"89","rating":"4.89","sold":"531"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Otcom","model":"Otcom BY-81","name":"REVOLVO Otcom BY-81","price":"841.00","rating_sub1":3,"rating_sub2":"84","rating":"3.84","sold":"0034"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Mat Lam Tam","model":"Mat Lam Tam JF-06","name":"COURSEAIR Mat Lam Tam JF-06","price":"367.00","rating_sub1":2,"rating_sub2":"34","rating":"2.34","sold":"66627"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Latlux","model":"Latlux TP-43","name":"COURSEAIR Latlux TP-43","price":"702.00","rating_sub1":3,"rating_sub2":"26","rating":"3.26","sold":"29999"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Viva","model":"Viva AP-21","name":"AZES Viva AP-21","price":"476.00","rating_sub1":4,"rating_sub2":"50","rating":"4.50","sold":"3760"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Rank","model":"Rank WY-85","name":"MAK Rank WY-85","price":"236.00","rating_sub1":2,"rating_sub2":"55","rating":"2.55","sold":"2769"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Latlux","model":"Latlux HU-08","name":"LOGICHTE Latlux HU-08","price":"890.00","rating_sub1":4,"rating_sub2":"56","rating":"4.56","sold":"04101"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Toughjoyfax","model":"Toughjoyfax YT-68","name":"SONNY Toughjoyfax YT-68","price":"162.00","rating_sub1":4,"rating_sub2":"16","rating":"4.16","sold":"5326"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Holdlamis","model":"Holdlamis WO-20","name":"AZES Holdlamis WO-20","price":"920.00","rating_sub1":4,"rating_sub2":"08","rating":"4.08","sold":"967"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Sub-Ex","model":"Sub-Ex RV-20","name":"MAK Sub-Ex RV-20","price":"598.00","rating_sub1":1,"rating_sub2":"65","rating":"1.65","sold":"66301"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Stim","model":"Stim DB-71","name":"LOGICHTE Stim DB-71","price":"189.00","rating_sub1":3,"rating_sub2":"65","rating":"3.65","sold":"0998"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Treeflex","model":"Treeflex IV-24","name":"MAK Treeflex IV-24","price":"400.00","rating_sub1":4,"rating_sub2":"75","rating":"4.75","sold":"76894"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Y-find","model":"Y-find GM-84","name":"MAK Y-find GM-84","price":"756.00","rating_sub1":4,"rating_sub2":"11","rating":"4.11","sold":"382"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Y-find","model":"Y-find SC-84","name":"COURSEAIR Y-find SC-84","price":"448.00","rating_sub1":3,"rating_sub2":"60","rating":"3.60","sold":"4732"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Sub-Ex","model":"Sub-Ex RF-33","name":"AZES Sub-Ex RF-33","price":"940.00","rating_sub1":1,"rating_sub2":"73","rating":"1.73","sold":"67599"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Quo Lux","model":"Quo Lux XM-07","name":"REVOLVO Quo Lux XM-07","price":"269.00","rating_sub1":3,"rating_sub2":"87","rating":"3.87","sold":"4210"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Toughjoyfax","model":"Toughjoyfax YP-28","name":"LOGICHTE Toughjoyfax YP-28","price":"118.00","rating_sub1":1,"rating_sub2":"79","rating":"1.79","sold":"64157"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Flowdesk","model":"Flowdesk US-19","name":"AZES Flowdesk US-19","price":"238.00","rating_sub1":4,"rating_sub2":"86","rating":"4.86","sold":"92241"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Sonair","model":"Sonair YI-52","name":"SONNY Sonair YI-52","price":"518.00","rating_sub1":3,"rating_sub2":"55","rating":"3.55","sold":"03484"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Viva","model":"Viva QU-75","name":"H&P Viva QU-75","price":"483.00","rating_sub1":1,"rating_sub2":"52","rating":"1.52","sold":"3746"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Rank","model":"Rank OW-15","name":"MAK Rank OW-15","price":"924.00","rating_sub1":1,"rating_sub2":"51","rating":"1.51","sold":"835968"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Mat Lam Tam","model":"Mat Lam Tam WN-03","name":"COURSEAIR Mat Lam Tam WN-03","price":"864.00","rating_sub1":1,"rating_sub2":"87","rating":"1.87","sold":"7456"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Flowdesk","model":"Flowdesk XV-69","name":"SONNY Flowdesk XV-69","price":"073.00","rating_sub1":4,"rating_sub2":"75","rating":"4.75","sold":"747014"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Sonsing","model":"Sonsing EJ-14","name":"H&P Sonsing EJ-14","price":"060.00","rating_sub1":3,"rating_sub2":"46","rating":"3.46","sold":"350"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Regrant","model":"Regrant CY-01","name":"COURSEAIR Regrant CY-01","price":"625.00","rating_sub1":1,"rating_sub2":"24","rating":"1.24","sold":"7363"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Stim","model":"Stim JI-70","name":"SONNY Stim JI-70","price":"210.00","rating_sub1":2,"rating_sub2":"04","rating":"2.04","sold":"2520"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Bamity","model":"Bamity JU-62","name":"H&P Bamity JU-62","price":"675.00","rating_sub1":3,"rating_sub2":"20","rating":"3.20","sold":"65566"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bamity","model":"Bamity NQ-01","name":"LOGICHTE Bamity NQ-01","price":"142.00","rating_sub1":4,"rating_sub2":"91","rating":"4.91","sold":"142467"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Voyatouch","model":"Voyatouch FR-18","name":"MAK Voyatouch FR-18","price":"015.00","rating_sub1":2,"rating_sub2":"68","rating":"2.68","sold":"7858"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Veribet","model":"Veribet DH-30","name":"AZES Veribet DH-30","price":"449.00","rating_sub1":2,"rating_sub2":"66","rating":"2.66","sold":"2169"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Opela","model":"Opela IO-56","name":"MAK Opela IO-56","price":"099.00","rating_sub1":4,"rating_sub2":"20","rating":"4.20","sold":"498943"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Hatity","model":"Hatity ZU-10","name":"REVOLVO Hatity ZU-10","price":"853.00","rating_sub1":1,"rating_sub2":"78","rating":"1.78","sold":"683"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Zamit","model":"Zamit MW-44","name":"SONNY Zamit MW-44","price":"977.00","rating_sub1":1,"rating_sub2":"55","rating":"1.55","sold":"7740"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Fixflex","model":"Fixflex BV-28","name":"AZES Fixflex BV-28","price":"612.00","rating_sub1":2,"rating_sub2":"53","rating":"2.53","sold":"6181"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sonsing","model":"Sonsing GO-59","name":"COURSEAIR Sonsing GO-59","price":"752.00","rating_sub1":1,"rating_sub2":"04","rating":"1.04","sold":"196834"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Y-find","model":"Y-find EP-40","name":"REVOLVO Y-find EP-40","price":"401.00","rating_sub1":1,"rating_sub2":"01","rating":"1.01","sold":"83676"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Tin","model":"Tin UF-61","name":"MAK Tin UF-61","price":"134.00","rating_sub1":4,"rating_sub2":"44","rating":"4.44","sold":"04886"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Y-find","model":"Y-find LZ-43","name":"MAK Y-find LZ-43","price":"575.00","rating_sub1":3,"rating_sub2":"40","rating":"3.40","sold":"610"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Subin","model":"Subin KY-87","name":"COURSEAIR Subin KY-87","price":"655.00","rating_sub1":3,"rating_sub2":"34","rating":"3.34","sold":"1790"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Bitchip","model":"Bitchip LT-52","name":"AZES Bitchip LT-52","price":"513.00","rating_sub1":2,"rating_sub2":"81","rating":"2.81","sold":"1253"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Greenlam","model":"Greenlam EF-37","name":"LOGICHTE Greenlam EF-37","price":"795.00","rating_sub1":2,"rating_sub2":"68","rating":"2.68","sold":"75606"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Fixflex","model":"Fixflex YO-18","name":"AZES Fixflex YO-18","price":"952.00","rating_sub1":1,"rating_sub2":"12","rating":"1.12","sold":"28381"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Andalax","model":"Andalax ZE-98","name":"SONNY Andalax ZE-98","price":"479.00","rating_sub1":2,"rating_sub2":"83","rating":"2.83","sold":"639"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Flowdesk","model":"Flowdesk ND-52","name":"COURSEAIR Flowdesk ND-52","price":"181.00","rating_sub1":1,"rating_sub2":"44","rating":"1.44","sold":"79388"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Matsoft","model":"Matsoft VF-10","name":"MAK Matsoft VF-10","price":"607.00","rating_sub1":2,"rating_sub2":"32","rating":"2.32","sold":"7680"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Ronstring","model":"Ronstring WS-22","name":"REVOLVO Ronstring WS-22","price":"613.00","rating_sub1":4,"rating_sub2":"34","rating":"4.34","sold":"923573"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Prodder","model":"Prodder FD-08","name":"H&P Prodder FD-08","price":"196.00","rating_sub1":3,"rating_sub2":"09","rating":"3.09","sold":"68629"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Greenlam","model":"Greenlam PE-25","name":"SONNY Greenlam PE-25","price":"694.00","rating_sub1":2,"rating_sub2":"27","rating":"2.27","sold":"043015"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Tampflex","model":"Tampflex SU-45","name":"AZES Tampflex SU-45","price":"645.00","rating_sub1":4,"rating_sub2":"62","rating":"4.62","sold":"871132"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Ronstring","model":"Ronstring YN-62","name":"H&P Ronstring YN-62","price":"407.00","rating_sub1":4,"rating_sub2":"81","rating":"4.81","sold":"163151"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Y-find","model":"Y-find IO-97","name":"COURSEAIR Y-find IO-97","price":"456.00","rating_sub1":4,"rating_sub2":"72","rating":"4.72","sold":"27974"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Bytecard","model":"Bytecard TO-79","name":"MAK Bytecard TO-79","price":"618.00","rating_sub1":3,"rating_sub2":"42","rating":"3.42","sold":"60439"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Zamit","model":"Zamit ZS-43","name":"COURSEAIR Zamit ZS-43","price":"338.00","rating_sub1":4,"rating_sub2":"76","rating":"4.76","sold":"7812"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Stim","model":"Stim GB-46","name":"H&P Stim GB-46","price":"305.00","rating_sub1":2,"rating_sub2":"64","rating":"2.64","sold":"713496"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Trippledex","model":"Trippledex HQ-96","name":"SONNY Trippledex HQ-96","price":"949.00","rating_sub1":2,"rating_sub2":"11","rating":"2.11","sold":"87656"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Regrant","model":"Regrant YW-72","name":"REVOLVO Regrant YW-72","price":"329.00","rating_sub1":1,"rating_sub2":"88","rating":"1.88","sold":"5932"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Temp","model":"Temp RE-36","name":"LOGICHTE Temp RE-36","price":"635.00","rating_sub1":3,"rating_sub2":"99","rating":"3.99","sold":"714"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Hatity","model":"Hatity TR-26","name":"LOGICHTE Hatity TR-26","price":"734.00","rating_sub1":3,"rating_sub2":"40","rating":"3.40","sold":"44017"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Zathin","model":"Zathin WV-30","name":"LOGICHTE Zathin WV-30","price":"504.00","rating_sub1":1,"rating_sub2":"33","rating":"1.33","sold":"91987"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Alpha","model":"Alpha UR-74","name":"COURSEAIR Alpha UR-74","price":"326.00","rating_sub1":2,"rating_sub2":"79","rating":"2.79","sold":"1191"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Alpha","model":"Alpha JP-44","name":"SONNY Alpha JP-44","price":"433.00","rating_sub1":4,"rating_sub2":"37","rating":"4.37","sold":"0865"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Tres-Zap","model":"Tres-Zap MA-39","name":"REVOLVO Tres-Zap MA-39","price":"164.00","rating_sub1":2,"rating_sub2":"63","rating":"2.63","sold":"09974"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Zamit","model":"Zamit ZW-23","name":"SONNY Zamit ZW-23","price":"757.00","rating_sub1":4,"rating_sub2":"16","rating":"4.16","sold":"1626"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tresom","model":"Tresom QF-80","name":"H&P Tresom QF-80","price":"913.00","rating_sub1":3,"rating_sub2":"96","rating":"3.96","sold":"003"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bytecard","model":"Bytecard LX-41","name":"LOGICHTE Bytecard LX-41","price":"547.00","rating_sub1":2,"rating_sub2":"17","rating":"2.17","sold":"086230"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Biodex","model":"Biodex NJ-09","name":"LOGICHTE Biodex NJ-09","price":"140.00","rating_sub1":2,"rating_sub2":"23","rating":"2.23","sold":"3071"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Rank","model":"Rank XM-40","name":"REVOLVO Rank XM-40","price":"282.00","rating_sub1":4,"rating_sub2":"77","rating":"4.77","sold":"2399"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tempsoft","model":"Tempsoft ZI-43","name":"H&P Tempsoft ZI-43","price":"339.00","rating_sub1":1,"rating_sub2":"25","rating":"1.25","sold":"56815"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Fix San","model":"Fix San RM-58","name":"SONNY Fix San RM-58","price":"938.00","rating_sub1":1,"rating_sub2":"88","rating":"1.88","sold":"9840"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Rank","model":"Rank VM-84","name":"AZES Rank VM-84","price":"182.00","rating_sub1":2,"rating_sub2":"78","rating":"2.78","sold":"489"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Vagram","model":"Vagram KT-63","name":"H&P Vagram KT-63","price":"353.00","rating_sub1":4,"rating_sub2":"09","rating":"4.09","sold":"2433"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Latlux","model":"Latlux KJ-27","name":"H&P Latlux KJ-27","price":"453.00","rating_sub1":3,"rating_sub2":"54","rating":"3.54","sold":"7621"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Zamit","model":"Zamit UV-01","name":"COURSEAIR Zamit UV-01","price":"349.00","rating_sub1":1,"rating_sub2":"13","rating":"1.13","sold":"261"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Y-find","model":"Y-find JV-59","name":"REVOLVO Y-find JV-59","price":"970.00","rating_sub1":2,"rating_sub2":"37","rating":"2.37","sold":"848"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Cardify","model":"Cardify DH-89","name":"AZES Cardify DH-89","price":"822.00","rating_sub1":3,"rating_sub2":"34","rating":"3.34","sold":"6273"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Tin","model":"Tin JG-65","name":"AZES Tin JG-65","price":"986.00","rating_sub1":3,"rating_sub2":"04","rating":"3.04","sold":"869"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Lotlux","model":"Lotlux KW-68","name":"H&P Lotlux KW-68","price":"330.00","rating_sub1":1,"rating_sub2":"87","rating":"1.87","sold":"294"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Daltfresh","model":"Daltfresh RS-49","name":"H&P Daltfresh RS-49","price":"004.00","rating_sub1":4,"rating_sub2":"86","rating":"4.86","sold":"69891"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Mat Lam Tam","model":"Mat Lam Tam EK-82","name":"H&P Mat Lam Tam EK-82","price":"700.00","rating_sub1":4,"rating_sub2":"78","rating":"4.78","sold":"42979"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Tresom","model":"Tresom IE-09","name":"REVOLVO Tresom IE-09","price":"043.00","rating_sub1":4,"rating_sub2":"66","rating":"4.66","sold":"12821"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Opela","model":"Opela QL-16","name":"LOGICHTE Opela QL-16","price":"649.00","rating_sub1":1,"rating_sub2":"69","rating":"1.69","sold":"97176"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Tempsoft","model":"Tempsoft ND-12","name":"COURSEAIR Tempsoft ND-12","price":"449.00","rating_sub1":2,"rating_sub2":"24","rating":"2.24","sold":"196845"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Kanlam","model":"Kanlam IW-26","name":"AZES Kanlam IW-26","price":"501.00","rating_sub1":4,"rating_sub2":"15","rating":"4.15","sold":"6921"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Toughjoyfax","model":"Toughjoyfax YO-08","name":"LOGICHTE Toughjoyfax YO-08","price":"957.00","rating_sub1":3,"rating_sub2":"95","rating":"3.95","sold":"4575"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sub-Ex","model":"Sub-Ex XA-42","name":"COURSEAIR Sub-Ex XA-42","price":"396.00","rating_sub1":2,"rating_sub2":"04","rating":"2.04","sold":"54059"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Alphazap","model":"Alphazap AT-30","name":"MAK Alphazap AT-30","price":"973.00","rating_sub1":1,"rating_sub2":"83","rating":"1.83","sold":"2031"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Cardify","model":"Cardify PB-56","name":"MAK Cardify PB-56","price":"870.00","rating_sub1":3,"rating_sub2":"22","rating":"3.22","sold":"20924"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Biodex","model":"Biodex HM-87","name":"REVOLVO Biodex HM-87","price":"671.00","rating_sub1":3,"rating_sub2":"54","rating":"3.54","sold":"925"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Redhold","model":"Redhold XO-46","name":"AZES Redhold XO-46","price":"866.00","rating_sub1":2,"rating_sub2":"02","rating":"2.02","sold":"7371"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Solarbreeze","model":"Solarbreeze HP-64","name":"H&P Solarbreeze HP-64","price":"974.00","rating_sub1":2,"rating_sub2":"02","rating":"2.02","sold":"582"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Alpha","model":"Alpha LT-67","name":"AZES Alpha LT-67","price":"105.00","rating_sub1":4,"rating_sub2":"67","rating":"4.67","sold":"7303"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Daltfresh","model":"Daltfresh GC-80","name":"COURSEAIR Daltfresh GC-80","price":"183.00","rating_sub1":1,"rating_sub2":"78","rating":"1.78","sold":"1991"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Flexidy","model":"Flexidy DE-37","name":"LOGICHTE Flexidy DE-37","price":"189.00","rating_sub1":3,"rating_sub2":"10","rating":"3.10","sold":"04684"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Zathin","model":"Zathin XV-28","name":"REVOLVO Zathin XV-28","price":"723.00","rating_sub1":4,"rating_sub2":"33","rating":"4.33","sold":"0430"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Sonsing","model":"Sonsing PR-39","name":"AZES Sonsing PR-39","price":"093.00","rating_sub1":4,"rating_sub2":"24","rating":"4.24","sold":"95082"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tin","model":"Tin OG-12","name":"H&P Tin OG-12","price":"196.00","rating_sub1":2,"rating_sub2":"75","rating":"2.75","sold":"66813"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Solarbreeze","model":"Solarbreeze HN-58","name":"REVOLVO Solarbreeze HN-58","price":"109.00","rating_sub1":3,"rating_sub2":"73","rating":"3.73","sold":"519783"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Matsoft","model":"Matsoft DF-99","name":"SONNY Matsoft DF-99","price":"189.00","rating_sub1":3,"rating_sub2":"36","rating":"3.36","sold":"7852"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Tresom","model":"Tresom OJ-17","name":"COURSEAIR Tresom OJ-17","price":"090.00","rating_sub1":2,"rating_sub2":"82","rating":"2.82","sold":"73361"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Wrapsafe","model":"Wrapsafe DM-34","name":"SONNY Wrapsafe DM-34","price":"794.00","rating_sub1":4,"rating_sub2":"71","rating":"4.71","sold":"3186"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Tres-Zap","model":"Tres-Zap LX-73","name":"AZES Tres-Zap LX-73","price":"141.00","rating_sub1":2,"rating_sub2":"58","rating":"2.58","sold":"5577"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Bamity","model":"Bamity CS-40","name":"MAK Bamity CS-40","price":"158.00","rating_sub1":3,"rating_sub2":"54","rating":"3.54","sold":"14384"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Zontrax","model":"Zontrax BR-81","name":"COURSEAIR Zontrax BR-81","price":"583.00","rating_sub1":2,"rating_sub2":"64","rating":"2.64","sold":"68131"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Keylex","model":"Keylex HC-30","name":"AZES Keylex HC-30","price":"877.00","rating_sub1":4,"rating_sub2":"95","rating":"4.95","sold":"52944"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Lotlux","model":"Lotlux LJ-18","name":"H&P Lotlux LJ-18","price":"423.00","rating_sub1":2,"rating_sub2":"92","rating":"2.92","sold":"01654"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Redhold","model":"Redhold WI-15","name":"SONNY Redhold WI-15","price":"863.00","rating_sub1":3,"rating_sub2":"32","rating":"3.32","sold":"144"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Bamity","model":"Bamity WI-40","name":"REVOLVO Bamity WI-40","price":"612.00","rating_sub1":3,"rating_sub2":"54","rating":"3.54","sold":"8338"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Overhold","model":"Overhold PT-82","name":"AZES Overhold PT-82","price":"294.00","rating_sub1":4,"rating_sub2":"30","rating":"4.30","sold":"32658"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Gembucket","model":"Gembucket ZR-08","name":"H&P Gembucket ZR-08","price":"244.00","rating_sub1":4,"rating_sub2":"56","rating":"4.56","sold":"226828"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Vagram","model":"Vagram OC-77","name":"H&P Vagram OC-77","price":"794.00","rating_sub1":3,"rating_sub2":"08","rating":"3.08","sold":"8409"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Fintone","model":"Fintone QE-28","name":"H&P Fintone QE-28","price":"407.00","rating_sub1":3,"rating_sub2":"13","rating":"3.13","sold":"716"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Otcom","model":"Otcom SJ-93","name":"LOGICHTE Otcom SJ-93","price":"765.00","rating_sub1":4,"rating_sub2":"45","rating":"4.45","sold":"25486"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Toughjoyfax","model":"Toughjoyfax XF-16","name":"AZES Toughjoyfax XF-16","price":"475.00","rating_sub1":1,"rating_sub2":"26","rating":"1.26","sold":"19691"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Sonair","model":"Sonair EX-67","name":"REVOLVO Sonair EX-67","price":"451.00","rating_sub1":2,"rating_sub2":"01","rating":"2.01","sold":"039680"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Pannier","model":"Pannier CJ-92","name":"REVOLVO Pannier CJ-92","price":"194.00","rating_sub1":3,"rating_sub2":"95","rating":"3.95","sold":"548947"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Zontrax","model":"Zontrax QH-11","name":"COURSEAIR Zontrax QH-11","price":"771.00","rating_sub1":2,"rating_sub2":"62","rating":"2.62","sold":"765"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Veribet","model":"Veribet IU-24","name":"H&P Veribet IU-24","price":"629.00","rating_sub1":4,"rating_sub2":"35","rating":"4.35","sold":"628"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Viva","model":"Viva YW-33","name":"H&P Viva YW-33","price":"768.00","rating_sub1":1,"rating_sub2":"73","rating":"1.73","sold":"304"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Trippledex","model":"Trippledex FB-39","name":"MAK Trippledex FB-39","price":"581.00","rating_sub1":1,"rating_sub2":"01","rating":"1.01","sold":"6349"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Tin","model":"Tin QO-51","name":"SONNY Tin QO-51","price":"638.00","rating_sub1":1,"rating_sub2":"59","rating":"1.59","sold":"6764"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Lotlux","model":"Lotlux LS-42","name":"LOGICHTE Lotlux LS-42","price":"995.00","rating_sub1":2,"rating_sub2":"65","rating":"2.65","sold":"9652"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Keylex","model":"Keylex MG-18","name":"LOGICHTE Keylex MG-18","price":"964.00","rating_sub1":4,"rating_sub2":"97","rating":"4.97","sold":"776628"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Duobam","model":"Duobam JL-99","name":"REVOLVO Duobam JL-99","price":"791.00","rating_sub1":1,"rating_sub2":"14","rating":"1.14","sold":"981488"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Span","model":"Span JH-48","name":"SONNY Span JH-48","price":"675.00","rating_sub1":2,"rating_sub2":"99","rating":"2.99","sold":"12649"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Flexidy","model":"Flexidy DQ-40","name":"H&P Flexidy DQ-40","price":"050.00","rating_sub1":4,"rating_sub2":"64","rating":"4.64","sold":"25949"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Job","model":"Job LG-01","name":"LOGICHTE Job LG-01","price":"680.00","rating_sub1":2,"rating_sub2":"89","rating":"2.89","sold":"5705"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Flowdesk","model":"Flowdesk SF-77","name":"REVOLVO Flowdesk SF-77","price":"273.00","rating_sub1":3,"rating_sub2":"40","rating":"3.40","sold":"66516"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Zaam-Dox","model":"Zaam-Dox TU-19","name":"REVOLVO Zaam-Dox TU-19","price":"797.00","rating_sub1":4,"rating_sub2":"44","rating":"4.44","sold":"811699"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Solarbreeze","model":"Solarbreeze TF-60","name":"H&P Solarbreeze TF-60","price":"841.00","rating_sub1":1,"rating_sub2":"26","rating":"1.26","sold":"9651"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Kanlam","model":"Kanlam ME-73","name":"AZES Kanlam ME-73","price":"744.00","rating_sub1":1,"rating_sub2":"57","rating":"1.57","sold":"4371"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Sonsing","model":"Sonsing PD-87","name":"AZES Sonsing PD-87","price":"936.00","rating_sub1":3,"rating_sub2":"29","rating":"3.29","sold":"586087"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Voltsillam","model":"Voltsillam ZJ-09","name":"AZES Voltsillam ZJ-09","price":"498.00","rating_sub1":2,"rating_sub2":"94","rating":"2.94","sold":"7499"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Ventosanzap","model":"Ventosanzap DH-05","name":"REVOLVO Ventosanzap DH-05","price":"054.00","rating_sub1":2,"rating_sub2":"83","rating":"2.83","sold":"84822"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Vagram","model":"Vagram NM-32","name":"REVOLVO Vagram NM-32","price":"175.00","rating_sub1":4,"rating_sub2":"02","rating":"4.02","sold":"60630"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Domainer","model":"Domainer SV-89","name":"MAK Domainer SV-89","price":"566.00","rating_sub1":3,"rating_sub2":"45","rating":"3.45","sold":"77875"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Hatity","model":"Hatity KR-66","name":"COURSEAIR Hatity KR-66","price":"917.00","rating_sub1":3,"rating_sub2":"91","rating":"3.91","sold":"160859"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Lotlux","model":"Lotlux HI-98","name":"COURSEAIR Lotlux HI-98","price":"832.00","rating_sub1":1,"rating_sub2":"34","rating":"1.34","sold":"05755"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Zoolab","model":"Zoolab IY-82","name":"SONNY Zoolab IY-82","price":"804.00","rating_sub1":4,"rating_sub2":"05","rating":"4.05","sold":"8601"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Viva","model":"Viva AI-29","name":"MAK Viva AI-29","price":"503.00","rating_sub1":2,"rating_sub2":"82","rating":"2.82","sold":"1129"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Y-find","model":"Y-find YA-89","name":"AZES Y-find YA-89","price":"609.00","rating_sub1":2,"rating_sub2":"61","rating":"2.61","sold":"9253"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Lotstring","model":"Lotstring RI-85","name":"AZES Lotstring RI-85","price":"372.00","rating_sub1":1,"rating_sub2":"44","rating":"1.44","sold":"55084"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Konklab","model":"Konklab EC-05","name":"AZES Konklab EC-05","price":"654.00","rating_sub1":4,"rating_sub2":"96","rating":"4.96","sold":"1691"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Regrant","model":"Regrant FU-27","name":"SONNY Regrant FU-27","price":"729.00","rating_sub1":1,"rating_sub2":"92","rating":"1.92","sold":"26471"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Zathin","model":"Zathin RK-75","name":"H&P Zathin RK-75","price":"053.00","rating_sub1":1,"rating_sub2":"03","rating":"1.03","sold":"5875"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Keylex","model":"Keylex ST-97","name":"COURSEAIR Keylex ST-97","price":"772.00","rating_sub1":3,"rating_sub2":"25","rating":"3.25","sold":"5500"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Transcof","model":"Transcof NM-81","name":"AZES Transcof NM-81","price":"260.00","rating_sub1":1,"rating_sub2":"68","rating":"1.68","sold":"7973"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Tampflex","model":"Tampflex DJ-87","name":"REVOLVO Tampflex DJ-87","price":"156.00","rating_sub1":2,"rating_sub2":"93","rating":"2.93","sold":"6431"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Trippledex","model":"Trippledex FX-96","name":"REVOLVO Trippledex FX-96","price":"375.00","rating_sub1":2,"rating_sub2":"51","rating":"2.51","sold":"29308"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Stringtough","model":"Stringtough DE-88","name":"REVOLVO Stringtough DE-88","price":"332.00","rating_sub1":4,"rating_sub2":"54","rating":"4.54","sold":"69283"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Otcom","model":"Otcom IU-79","name":"REVOLVO Otcom IU-79","price":"397.00","rating_sub1":1,"rating_sub2":"45","rating":"1.45","sold":"0187"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Zathin","model":"Zathin OZ-86","name":"LOGICHTE Zathin OZ-86","price":"487.00","rating_sub1":4,"rating_sub2":"07","rating":"4.07","sold":"88240"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Overhold","model":"Overhold OI-80","name":"H&P Overhold OI-80","price":"633.00","rating_sub1":2,"rating_sub2":"21","rating":"2.21","sold":"7565"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Biodex","model":"Biodex ZO-65","name":"LOGICHTE Biodex ZO-65","price":"566.00","rating_sub1":2,"rating_sub2":"31","rating":"2.31","sold":"4431"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Latlux","model":"Latlux BZ-27","name":"COURSEAIR Latlux BZ-27","price":"571.00","rating_sub1":4,"rating_sub2":"05","rating":"4.05","sold":"4998"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Pannier","model":"Pannier CQ-58","name":"MAK Pannier CQ-58","price":"009.00","rating_sub1":1,"rating_sub2":"17","rating":"1.17","sold":"5492"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Fix San","model":"Fix San ZH-26","name":"LOGICHTE Fix San ZH-26","price":"462.00","rating_sub1":2,"rating_sub2":"64","rating":"2.64","sold":"857137"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Temp","model":"Temp ZV-20","name":"LOGICHTE Temp ZV-20","price":"369.00","rating_sub1":1,"rating_sub2":"84","rating":"1.84","sold":"4864"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Zontrax","model":"Zontrax OC-23","name":"COURSEAIR Zontrax OC-23","price":"774.00","rating_sub1":2,"rating_sub2":"41","rating":"2.41","sold":"2852"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Wrapsafe","model":"Wrapsafe IX-02","name":"MAK Wrapsafe IX-02","price":"956.00","rating_sub1":2,"rating_sub2":"70","rating":"2.70","sold":"0870"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Fix San","model":"Fix San MY-72","name":"SONNY Fix San MY-72","price":"120.00","rating_sub1":1,"rating_sub2":"37","rating":"1.37","sold":"9005"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Tresom","model":"Tresom JV-14","name":"COURSEAIR Tresom JV-14","price":"044.00","rating_sub1":4,"rating_sub2":"70","rating":"4.70","sold":"3812"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Stringtough","model":"Stringtough OT-03","name":"REVOLVO Stringtough OT-03","price":"484.00","rating_sub1":4,"rating_sub2":"27","rating":"4.27","sold":"628628"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Tempsoft","model":"Tempsoft IC-04","name":"COURSEAIR Tempsoft IC-04","price":"863.00","rating_sub1":4,"rating_sub2":"75","rating":"4.75","sold":"34029"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Treeflex","model":"Treeflex IW-54","name":"SONNY Treeflex IW-54","price":"564.00","rating_sub1":1,"rating_sub2":"94","rating":"1.94","sold":"3599"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Y-find","model":"Y-find HD-62","name":"REVOLVO Y-find HD-62","price":"264.00","rating_sub1":2,"rating_sub2":"49","rating":"2.49","sold":"5114"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Hatity","model":"Hatity RF-04","name":"LOGICHTE Hatity RF-04","price":"890.00","rating_sub1":1,"rating_sub2":"47","rating":"1.47","sold":"4674"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Temp","model":"Temp AU-44","name":"REVOLVO Temp AU-44","price":"224.00","rating_sub1":4,"rating_sub2":"94","rating":"4.94","sold":"102"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Rank","model":"Rank SP-98","name":"REVOLVO Rank SP-98","price":"334.00","rating_sub1":1,"rating_sub2":"48","rating":"1.48","sold":"74935"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Sonair","model":"Sonair KX-05","name":"AZES Sonair KX-05","price":"351.00","rating_sub1":2,"rating_sub2":"73","rating":"2.73","sold":"34294"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Duobam","model":"Duobam VM-57","name":"H&P Duobam VM-57","price":"925.00","rating_sub1":3,"rating_sub2":"62","rating":"3.62","sold":"94654"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Bytecard","model":"Bytecard SO-08","name":"COURSEAIR Bytecard SO-08","price":"259.00","rating_sub1":3,"rating_sub2":"63","rating":"3.63","sold":"0304"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Temp","model":"Temp DG-94","name":"MAK Temp DG-94","price":"035.00","rating_sub1":4,"rating_sub2":"06","rating":"4.06","sold":"761"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Zontrax","model":"Zontrax LK-02","name":"SONNY Zontrax LK-02","price":"223.00","rating_sub1":3,"rating_sub2":"38","rating":"3.38","sold":"717871"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Job","model":"Job QB-71","name":"H&P Job QB-71","price":"945.00","rating_sub1":1,"rating_sub2":"12","rating":"1.12","sold":"983"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tampflex","model":"Tampflex YP-57","name":"H&P Tampflex YP-57","price":"763.00","rating_sub1":4,"rating_sub2":"24","rating":"4.24","sold":"81429"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Sonair","model":"Sonair PU-48","name":"H&P Sonair PU-48","price":"277.00","rating_sub1":4,"rating_sub2":"64","rating":"4.64","sold":"46938"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Voyatouch","model":"Voyatouch FZ-55","name":"SONNY Voyatouch FZ-55","price":"400.00","rating_sub1":3,"rating_sub2":"34","rating":"3.34","sold":"1578"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Redhold","model":"Redhold DS-77","name":"COURSEAIR Redhold DS-77","price":"498.00","rating_sub1":2,"rating_sub2":"79","rating":"2.79","sold":"68950"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Cardguard","model":"Cardguard BG-95","name":"MAK Cardguard BG-95","price":"434.00","rating_sub1":4,"rating_sub2":"51","rating":"4.51","sold":"9029"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Transcof","model":"Transcof GO-29","name":"LOGICHTE Transcof GO-29","price":"743.00","rating_sub1":2,"rating_sub2":"69","rating":"2.69","sold":"262"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Greenlam","model":"Greenlam FH-01","name":"AZES Greenlam FH-01","price":"455.00","rating_sub1":1,"rating_sub2":"98","rating":"1.98","sold":"0392"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Aerified","model":"Aerified EM-11","name":"REVOLVO Aerified EM-11","price":"243.00","rating_sub1":1,"rating_sub2":"47","rating":"1.47","sold":"95645"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Cookley","model":"Cookley GS-45","name":"COURSEAIR Cookley GS-45","price":"250.00","rating_sub1":2,"rating_sub2":"79","rating":"2.79","sold":"628"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Konklab","model":"Konklab WE-54","name":"MAK Konklab WE-54","price":"601.00","rating_sub1":1,"rating_sub2":"61","rating":"1.61","sold":"770084"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Andalax","model":"Andalax NF-87","name":"MAK Andalax NF-87","price":"048.00","rating_sub1":4,"rating_sub2":"33","rating":"4.33","sold":"994"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Biodex","model":"Biodex WM-56","name":"REVOLVO Biodex WM-56","price":"274.00","rating_sub1":4,"rating_sub2":"71","rating":"4.71","sold":"290339"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Zamit","model":"Zamit BZ-30","name":"MAK Zamit BZ-30","price":"715.00","rating_sub1":4,"rating_sub2":"41","rating":"4.41","sold":"29459"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Mat Lam Tam","model":"Mat Lam Tam ET-90","name":"H&P Mat Lam Tam ET-90","price":"071.00","rating_sub1":2,"rating_sub2":"14","rating":"2.14","sold":"7812"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Daltfresh","model":"Daltfresh JT-22","name":"MAK Daltfresh JT-22","price":"679.00","rating_sub1":2,"rating_sub2":"41","rating":"2.41","sold":"5144"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Fix San","model":"Fix San QW-84","name":"REVOLVO Fix San QW-84","price":"412.00","rating_sub1":1,"rating_sub2":"70","rating":"1.70","sold":"294212"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Zontrax","model":"Zontrax AH-70","name":"H&P Zontrax AH-70","price":"200.00","rating_sub1":4,"rating_sub2":"75","rating":"4.75","sold":"63127"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Bigtax","model":"Bigtax VI-06","name":"SONNY Bigtax VI-06","price":"864.00","rating_sub1":3,"rating_sub2":"70","rating":"3.70","sold":"42935"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Subin","model":"Subin UB-14","name":"AZES Subin UB-14","price":"162.00","rating_sub1":4,"rating_sub2":"71","rating":"4.71","sold":"3964"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Bigtax","model":"Bigtax KD-02","name":"H&P Bigtax KD-02","price":"013.00","rating_sub1":2,"rating_sub2":"78","rating":"2.78","sold":"8148"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Flexidy","model":"Flexidy PX-55","name":"LOGICHTE Flexidy PX-55","price":"200.00","rating_sub1":3,"rating_sub2":"10","rating":"3.10","sold":"057"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Tempsoft","model":"Tempsoft JL-17","name":"AZES Tempsoft JL-17","price":"039.00","rating_sub1":3,"rating_sub2":"74","rating":"3.74","sold":"32724"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Ventosanzap","model":"Ventosanzap CT-69","name":"REVOLVO Ventosanzap CT-69","price":"102.00","rating_sub1":1,"rating_sub2":"77","rating":"1.77","sold":"5213"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Pannier","model":"Pannier QX-65","name":"LOGICHTE Pannier QX-65","price":"863.00","rating_sub1":1,"rating_sub2":"56","rating":"1.56","sold":"35454"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Hatity","model":"Hatity KO-40","name":"SONNY Hatity KO-40","price":"349.00","rating_sub1":1,"rating_sub2":"37","rating":"1.37","sold":"18072"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Solarbreeze","model":"Solarbreeze DV-51","name":"SONNY Solarbreeze DV-51","price":"319.00","rating_sub1":4,"rating_sub2":"05","rating":"4.05","sold":"06967"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Wrapsafe","model":"Wrapsafe NP-65","name":"H&P Wrapsafe NP-65","price":"531.00","rating_sub1":3,"rating_sub2":"86","rating":"3.86","sold":"7603"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Zoolab","model":"Zoolab XM-15","name":"LOGICHTE Zoolab XM-15","price":"361.00","rating_sub1":1,"rating_sub2":"40","rating":"1.40","sold":"6367"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Daltfresh","model":"Daltfresh UQ-10","name":"H&P Daltfresh UQ-10","price":"790.00","rating_sub1":3,"rating_sub2":"45","rating":"3.45","sold":"68120"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Aerified","model":"Aerified RN-81","name":"MAK Aerified RN-81","price":"404.00","rating_sub1":3,"rating_sub2":"01","rating":"3.01","sold":"698"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Ventosanzap","model":"Ventosanzap IH-69","name":"H&P Ventosanzap IH-69","price":"429.00","rating_sub1":4,"rating_sub2":"58","rating":"4.58","sold":"287485"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Temp","model":"Temp YR-96","name":"SONNY Temp YR-96","price":"121.00","rating_sub1":1,"rating_sub2":"33","rating":"1.33","sold":"80076"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Holdlamis","model":"Holdlamis KG-01","name":"REVOLVO Holdlamis KG-01","price":"024.00","rating_sub1":1,"rating_sub2":"61","rating":"1.61","sold":"3815"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Latlux","model":"Latlux ON-79","name":"COURSEAIR Latlux ON-79","price":"732.00","rating_sub1":4,"rating_sub2":"46","rating":"4.46","sold":"1862"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Otcom","model":"Otcom HG-90","name":"AZES Otcom HG-90","price":"083.00","rating_sub1":2,"rating_sub2":"09","rating":"2.09","sold":"8361"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Fintone","model":"Fintone ZJ-12","name":"H&P Fintone ZJ-12","price":"340.00","rating_sub1":4,"rating_sub2":"11","rating":"4.11","sold":"20179"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Kanlam","model":"Kanlam SG-64","name":"COURSEAIR Kanlam SG-64","price":"746.00","rating_sub1":4,"rating_sub2":"29","rating":"4.29","sold":"48426"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Viva","model":"Viva IH-16","name":"LOGICHTE Viva IH-16","price":"827.00","rating_sub1":2,"rating_sub2":"27","rating":"2.27","sold":"16993"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Voyatouch","model":"Voyatouch FO-09","name":"MAK Voyatouch FO-09","price":"098.00","rating_sub1":3,"rating_sub2":"85","rating":"3.85","sold":"706"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Fix San","model":"Fix San LG-39","name":"SONNY Fix San LG-39","price":"309.00","rating_sub1":3,"rating_sub2":"80","rating":"3.80","sold":"926674"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Tres-Zap","model":"Tres-Zap GA-27","name":"LOGICHTE Tres-Zap GA-27","price":"987.00","rating_sub1":3,"rating_sub2":"68","rating":"3.68","sold":"8463"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Solarbreeze","model":"Solarbreeze IO-74","name":"REVOLVO Solarbreeze IO-74","price":"093.00","rating_sub1":4,"rating_sub2":"00","rating":"4.00","sold":"123"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Transcof","model":"Transcof UV-12","name":"COURSEAIR Transcof UV-12","price":"528.00","rating_sub1":1,"rating_sub2":"24","rating":"1.24","sold":"0257"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Zoolab","model":"Zoolab YQ-81","name":"REVOLVO Zoolab YQ-81","price":"443.00","rating_sub1":2,"rating_sub2":"58","rating":"2.58","sold":"30939"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Ventosanzap","model":"Ventosanzap LI-10","name":"H&P Ventosanzap LI-10","price":"438.00","rating_sub1":4,"rating_sub2":"41","rating":"4.41","sold":"934"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Cookley","model":"Cookley EL-15","name":"LOGICHTE Cookley EL-15","price":"763.00","rating_sub1":2,"rating_sub2":"03","rating":"2.03","sold":"4876"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Zoolab","model":"Zoolab QK-76","name":"REVOLVO Zoolab QK-76","price":"848.00","rating_sub1":4,"rating_sub2":"82","rating":"4.82","sold":"255"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Konklab","model":"Konklab KL-72","name":"COURSEAIR Konklab KL-72","price":"988.00","rating_sub1":3,"rating_sub2":"73","rating":"3.73","sold":"8127"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Fintone","model":"Fintone HN-72","name":"AZES Fintone HN-72","price":"034.00","rating_sub1":3,"rating_sub2":"84","rating":"3.84","sold":"58452"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Cardguard","model":"Cardguard EW-71","name":"COURSEAIR Cardguard EW-71","price":"802.00","rating_sub1":1,"rating_sub2":"33","rating":"1.33","sold":"3909"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Hatity","model":"Hatity CW-06","name":"LOGICHTE Hatity CW-06","price":"489.00","rating_sub1":1,"rating_sub2":"76","rating":"1.76","sold":"7414"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Rank","model":"Rank IP-14","name":"SONNY Rank IP-14","price":"159.00","rating_sub1":4,"rating_sub2":"38","rating":"4.38","sold":"6650"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Zoolab","model":"Zoolab LE-76","name":"AZES Zoolab LE-76","price":"153.00","rating_sub1":3,"rating_sub2":"15","rating":"3.15","sold":"2453"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Andalax","model":"Andalax CF-51","name":"AZES Andalax CF-51","price":"976.00","rating_sub1":3,"rating_sub2":"82","rating":"3.82","sold":"53272"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Bitwolf","model":"Bitwolf QE-27","name":"COURSEAIR Bitwolf QE-27","price":"565.00","rating_sub1":4,"rating_sub2":"65","rating":"4.65","sold":"57122"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Sonair","model":"Sonair EN-16","name":"LOGICHTE Sonair EN-16","price":"299.00","rating_sub1":3,"rating_sub2":"90","rating":"3.90","sold":"19209"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Bitchip","model":"Bitchip QR-59","name":"REVOLVO Bitchip QR-59","price":"862.00","rating_sub1":3,"rating_sub2":"45","rating":"3.45","sold":"62995"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Viva","model":"Viva AD-60","name":"SONNY Viva AD-60","price":"428.00","rating_sub1":2,"rating_sub2":"61","rating":"2.61","sold":"4022"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Temp","model":"Temp YL-43","name":"SONNY Temp YL-43","price":"952.00","rating_sub1":3,"rating_sub2":"89","rating":"3.89","sold":"94669"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Duobam","model":"Duobam JK-03","name":"AZES Duobam JK-03","price":"073.00","rating_sub1":2,"rating_sub2":"90","rating":"2.90","sold":"1680"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Latlux","model":"Latlux QB-05","name":"AZES Latlux QB-05","price":"547.00","rating_sub1":1,"rating_sub2":"72","rating":"1.72","sold":"442402"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Lotstring","model":"Lotstring DV-52","name":"MAK Lotstring DV-52","price":"826.00","rating_sub1":4,"rating_sub2":"65","rating":"4.65","sold":"498"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Alphazap","model":"Alphazap ZO-24","name":"LOGICHTE Alphazap ZO-24","price":"392.00","rating_sub1":2,"rating_sub2":"19","rating":"2.19","sold":"0372"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Hatity","model":"Hatity TN-38","name":"COURSEAIR Hatity TN-38","price":"125.00","rating_sub1":3,"rating_sub2":"99","rating":"3.99","sold":"0682"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Fintone","model":"Fintone KR-51","name":"COURSEAIR Fintone KR-51","price":"369.00","rating_sub1":1,"rating_sub2":"22","rating":"1.22","sold":"974173"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Flowdesk","model":"Flowdesk XZ-37","name":"AZES Flowdesk XZ-37","price":"872.00","rating_sub1":1,"rating_sub2":"71","rating":"1.71","sold":"132383"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Veribet","model":"Veribet JM-75","name":"MAK Veribet JM-75","price":"072.00","rating_sub1":3,"rating_sub2":"89","rating":"3.89","sold":"7992"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Stringtough","model":"Stringtough IG-69","name":"MAK Stringtough IG-69","price":"348.00","rating_sub1":4,"rating_sub2":"09","rating":"4.09","sold":"1976"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Y-Solowarm","model":"Y-Solowarm QJ-20","name":"MAK Y-Solowarm QJ-20","price":"023.00","rating_sub1":3,"rating_sub2":"51","rating":"3.51","sold":"88277"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Pannier","model":"Pannier NW-78","name":"AZES Pannier NW-78","price":"547.00","rating_sub1":1,"rating_sub2":"23","rating":"1.23","sold":"3980"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Veribet","model":"Veribet DF-38","name":"LOGICHTE Veribet DF-38","price":"259.00","rating_sub1":3,"rating_sub2":"42","rating":"3.42","sold":"5982"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Hatity","model":"Hatity GL-77","name":"REVOLVO Hatity GL-77","price":"714.00","rating_sub1":2,"rating_sub2":"21","rating":"2.21","sold":"281"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Viva","model":"Viva AU-62","name":"REVOLVO Viva AU-62","price":"287.00","rating_sub1":1,"rating_sub2":"09","rating":"1.09","sold":"01015"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Andalax","model":"Andalax BD-22","name":"REVOLVO Andalax BD-22","price":"730.00","rating_sub1":2,"rating_sub2":"47","rating":"2.47","sold":"94903"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Keylex","model":"Keylex JL-27","name":"MAK Keylex JL-27","price":"959.00","rating_sub1":1,"rating_sub2":"59","rating":"1.59","sold":"3389"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Fix San","model":"Fix San PR-69","name":"SONNY Fix San PR-69","price":"877.00","rating_sub1":3,"rating_sub2":"26","rating":"3.26","sold":"6617"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Otcom","model":"Otcom SP-20","name":"H&P Otcom SP-20","price":"405.00","rating_sub1":3,"rating_sub2":"74","rating":"3.74","sold":"8190"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Cookley","model":"Cookley SF-97","name":"MAK Cookley SF-97","price":"770.00","rating_sub1":3,"rating_sub2":"57","rating":"3.57","sold":"331"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Alpha","model":"Alpha IU-33","name":"H&P Alpha IU-33","price":"332.00","rating_sub1":1,"rating_sub2":"57","rating":"1.57","sold":"902"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Treeflex","model":"Treeflex YU-58","name":"MAK Treeflex YU-58","price":"505.00","rating_sub1":4,"rating_sub2":"28","rating":"4.28","sold":"4899"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Prodder","model":"Prodder CI-26","name":"SONNY Prodder CI-26","price":"933.00","rating_sub1":1,"rating_sub2":"20","rating":"1.20","sold":"51084"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Opela","model":"Opela WG-03","name":"H&P Opela WG-03","price":"087.00","rating_sub1":3,"rating_sub2":"48","rating":"3.48","sold":"47478"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Matsoft","model":"Matsoft FX-13","name":"LOGICHTE Matsoft FX-13","price":"895.00","rating_sub1":2,"rating_sub2":"01","rating":"2.01","sold":"4980"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Solarbreeze","model":"Solarbreeze LU-26","name":"LOGICHTE Solarbreeze LU-26","price":"453.00","rating_sub1":1,"rating_sub2":"57","rating":"1.57","sold":"850"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Asoka","model":"Asoka GL-97","name":"REVOLVO Asoka GL-97","price":"516.00","rating_sub1":1,"rating_sub2":"23","rating":"1.23","sold":"6989"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Temp","model":"Temp NZ-22","name":"SONNY Temp NZ-22","price":"221.00","rating_sub1":2,"rating_sub2":"39","rating":"2.39","sold":"13798"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bitchip","model":"Bitchip SW-17","name":"LOGICHTE Bitchip SW-17","price":"522.00","rating_sub1":4,"rating_sub2":"72","rating":"4.72","sold":"4050"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Fintone","model":"Fintone AB-32","name":"MAK Fintone AB-32","price":"900.00","rating_sub1":2,"rating_sub2":"25","rating":"2.25","sold":"063"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Aerified","model":"Aerified GX-00","name":"COURSEAIR Aerified GX-00","price":"962.00","rating_sub1":2,"rating_sub2":"33","rating":"2.33","sold":"37027"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Greenlam","model":"Greenlam FV-27","name":"SONNY Greenlam FV-27","price":"190.00","rating_sub1":2,"rating_sub2":"26","rating":"2.26","sold":"82053"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tempsoft","model":"Tempsoft CE-11","name":"H&P Tempsoft CE-11","price":"942.00","rating_sub1":3,"rating_sub2":"79","rating":"3.79","sold":"789"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sonair","model":"Sonair PR-26","name":"COURSEAIR Sonair PR-26","price":"582.00","rating_sub1":3,"rating_sub2":"59","rating":"3.59","sold":"85460"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Stronghold","model":"Stronghold MN-33","name":"SONNY Stronghold MN-33","price":"467.00","rating_sub1":2,"rating_sub2":"22","rating":"2.22","sold":"00647"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Cardguard","model":"Cardguard DW-31","name":"H&P Cardguard DW-31","price":"967.00","rating_sub1":1,"rating_sub2":"57","rating":"1.57","sold":"97140"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Viva","model":"Viva GN-09","name":"COURSEAIR Viva GN-09","price":"532.00","rating_sub1":3,"rating_sub2":"67","rating":"3.67","sold":"1388"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Redhold","model":"Redhold AV-83","name":"REVOLVO Redhold AV-83","price":"394.00","rating_sub1":4,"rating_sub2":"54","rating":"4.54","sold":"415"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Fix San","model":"Fix San WI-21","name":"H&P Fix San WI-21","price":"062.00","rating_sub1":3,"rating_sub2":"76","rating":"3.76","sold":"1781"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tempsoft","model":"Tempsoft AK-62","name":"H&P Tempsoft AK-62","price":"081.00","rating_sub1":2,"rating_sub2":"68","rating":"2.68","sold":"680"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Sonair","model":"Sonair WN-66","name":"H&P Sonair WN-66","price":"396.00","rating_sub1":3,"rating_sub2":"37","rating":"3.37","sold":"25921"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Domainer","model":"Domainer UT-76","name":"AZES Domainer UT-76","price":"470.00","rating_sub1":4,"rating_sub2":"42","rating":"4.42","sold":"0886"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Fintone","model":"Fintone MW-74","name":"MAK Fintone MW-74","price":"438.00","rating_sub1":4,"rating_sub2":"28","rating":"4.28","sold":"008604"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Matsoft","model":"Matsoft DL-01","name":"MAK Matsoft DL-01","price":"386.00","rating_sub1":1,"rating_sub2":"73","rating":"1.73","sold":"2313"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Zontrax","model":"Zontrax LV-66","name":"SONNY Zontrax LV-66","price":"601.00","rating_sub1":3,"rating_sub2":"54","rating":"3.54","sold":"8494"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Bytecard","model":"Bytecard ME-60","name":"LOGICHTE Bytecard ME-60","price":"149.00","rating_sub1":3,"rating_sub2":"20","rating":"3.20","sold":"1519"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Fintone","model":"Fintone TI-32","name":"H&P Fintone TI-32","price":"136.00","rating_sub1":2,"rating_sub2":"09","rating":"2.09","sold":"7950"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Bamity","model":"Bamity SK-92","name":"MAK Bamity SK-92","price":"581.00","rating_sub1":3,"rating_sub2":"40","rating":"3.40","sold":"0196"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Alpha","model":"Alpha JY-93","name":"AZES Alpha JY-93","price":"889.00","rating_sub1":1,"rating_sub2":"21","rating":"1.21","sold":"2855"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"It","model":"It CE-94","name":"H&P It CE-94","price":"648.00","rating_sub1":1,"rating_sub2":"82","rating":"1.82","sold":"81670"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Job","model":"Job KQ-53","name":"AZES Job KQ-53","price":"395.00","rating_sub1":4,"rating_sub2":"99","rating":"4.99","sold":"8580"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Greenlam","model":"Greenlam BA-28","name":"MAK Greenlam BA-28","price":"504.00","rating_sub1":4,"rating_sub2":"62","rating":"4.62","sold":"0176"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Job","model":"Job EH-72","name":"COURSEAIR Job EH-72","price":"343.00","rating_sub1":3,"rating_sub2":"59","rating":"3.59","sold":"759705"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Sonsing","model":"Sonsing NE-03","name":"COURSEAIR Sonsing NE-03","price":"340.00","rating_sub1":4,"rating_sub2":"56","rating":"4.56","sold":"9768"},
-{"category":"LAPTOP","brand":"AZES","model_sub1":"Bitchip","model":"Bitchip FQ-86","name":"AZES Bitchip FQ-86","price":"792.00","rating_sub1":1,"rating_sub2":"08","rating":"1.08","sold":"57433"},
-{"category":"LAPTOP","brand":"COURSEAIR","model_sub1":"Keylex","model":"Keylex XW-10","name":"COURSEAIR Keylex XW-10","price":"337.00","rating_sub1":3,"rating_sub2":"29","rating":"3.29","sold":"2960"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Ventosanzap","model":"Ventosanzap MD-94","name":"SONNY Ventosanzap MD-94","price":"563.00","rating_sub1":1,"rating_sub2":"93","rating":"1.93","sold":"4180"},
-{"category":"LAPTOP","brand":"H&P","model_sub1":"Tampflex","model":"Tampflex BO-40","name":"H&P Tampflex BO-40","price":"199.00","rating_sub1":3,"rating_sub2":"77","rating":"3.77","sold":"92379"},
-{"category":"LAPTOP","brand":"LOGICHTE","model_sub1":"Voyatouch","model":"Voyatouch OW-30","name":"LOGICHTE Voyatouch OW-30","price":"307.00","rating_sub1":3,"rating_sub2":"60","rating":"3.60","sold":"0855"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Veribet","model":"Veribet FA-82","name":"SONNY Veribet FA-82","price":"711.00","rating_sub1":1,"rating_sub2":"93","rating":"1.93","sold":"04516"},
-{"category":"LAPTOP","brand":"REVOLVO","model_sub1":"Tin","model":"Tin KM-76","name":"REVOLVO Tin KM-76","price":"831.00","rating_sub1":1,"rating_sub2":"56","rating":"1.56","sold":"407"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Ronstring","model":"Ronstring IM-05","name":"SONNY Ronstring IM-05","price":"726.00","rating_sub1":2,"rating_sub2":"16","rating":"2.16","sold":"42258"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Tempsoft","model":"Tempsoft UT-28","name":"SONNY Tempsoft UT-28","price":"241.00","rating_sub1":1,"rating_sub2":"58","rating":"1.58","sold":"39573"},
-{"category":"LAPTOP","brand":"MAK","model_sub1":"Otcom","model":"Otcom EW-37","name":"MAK Otcom EW-37","price":"019.00","rating_sub1":2,"rating_sub2":"47","rating":"2.47","sold":"1069"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Overhold","model":"Overhold SL-87","name":"SONNY Overhold SL-87","price":"648.00","rating_sub1":3,"rating_sub2":"97","rating":"3.97","sold":"4445"},
-{"category":"LAPTOP","brand":"SONNY","model_sub1":"Temp","model":"Temp AH-33","name":"SONNY Temp AH-33","price":"409.00","rating_sub1":3,"rating_sub2":"76","rating":"3.76","sold":"068784"}]
+[
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Y-find HM-42",
+    "name": "AZES Y-find HM-42",
+    "price": 371,
+    "rating": 3.51,
+    "sold": 48069
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Aerified YN-16",
+    "name": "AZES Aerified YN-16",
+    "price": 739,
+    "rating": 3.01,
+    "sold": 445
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Fixflex DL-95",
+    "name": "REVOLVO Fixflex DL-95",
+    "price": 971,
+    "rating": 1.24,
+    "sold": 996
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Keylex GR-46",
+    "name": "MAK Keylex GR-46",
+    "price": 856,
+    "rating": 2.41,
+    "sold": 22607
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Konklux ML-96",
+    "name": "H&P Konklux ML-96",
+    "price": 730,
+    "rating": 2.72,
+    "sold": 282
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sonsing DU-09",
+    "name": "COURSEAIR Sonsing DU-09",
+    "price": 0,
+    "rating": 3.3,
+    "sold": 3229
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Redhold NI-66",
+    "name": "LOGICHTE Redhold NI-66",
+    "price": 668,
+    "rating": 3.27,
+    "sold": 986
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Prodder OH-13",
+    "name": "REVOLVO Prodder OH-13",
+    "price": 535,
+    "rating": 3.12,
+    "sold": 843358
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tempsoft FU-84",
+    "name": "H&P Tempsoft FU-84",
+    "price": 553,
+    "rating": 2.09,
+    "sold": 87150
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Stim LX-68",
+    "name": "H&P Stim LX-68",
+    "price": 533,
+    "rating": 4.91,
+    "sold": 22848
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Y-find OX-29",
+    "name": "LOGICHTE Y-find OX-29",
+    "price": 245,
+    "rating": 1.4,
+    "sold": 1452
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Sub-Ex IP-73",
+    "name": "MAK Sub-Ex IP-73",
+    "price": 624,
+    "rating": 1.43,
+    "sold": 59146
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Konklab HO-10",
+    "name": "COURSEAIR Konklab HO-10",
+    "price": 600,
+    "rating": 1.08,
+    "sold": 240
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Fixflex PW-71",
+    "name": "MAK Fixflex PW-71",
+    "price": 777,
+    "rating": 2.61,
+    "sold": 99975
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Zamit VW-39",
+    "name": "MAK Zamit VW-39",
+    "price": 209,
+    "rating": 2.99,
+    "sold": 80767
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Zaam-Dox PZ-56",
+    "name": "SONNY Zaam-Dox PZ-56",
+    "price": 724,
+    "rating": 4.13,
+    "sold": 1479
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Matsoft BL-24",
+    "name": "REVOLVO Matsoft BL-24",
+    "price": 252,
+    "rating": 2.16,
+    "sold": 24630
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Overhold CY-30",
+    "name": "REVOLVO Overhold CY-30",
+    "price": 584,
+    "rating": 3.99,
+    "sold": 7814
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Holdlamis WS-72",
+    "name": "REVOLVO Holdlamis WS-72",
+    "price": 992,
+    "rating": 3.12,
+    "sold": 59268
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Zathin WF-09",
+    "name": "H&P Zathin WF-09",
+    "price": 667,
+    "rating": 1.04,
+    "sold": 11937
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Cardify QT-47",
+    "name": "REVOLVO Cardify QT-47",
+    "price": 484,
+    "rating": 2.25,
+    "sold": 13804
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Zoolab RA-15",
+    "name": "LOGICHTE Zoolab RA-15",
+    "price": 347,
+    "rating": 1.75,
+    "sold": 57929
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Domainer LF-99",
+    "name": "REVOLVO Domainer LF-99",
+    "price": 830,
+    "rating": 1.07,
+    "sold": 22128
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Job GM-44",
+    "name": "AZES Job GM-44",
+    "price": 729,
+    "rating": 4.68,
+    "sold": 39241
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Andalax KV-31",
+    "name": "SONNY Andalax KV-31",
+    "price": 181,
+    "rating": 3.66,
+    "sold": 58525
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Ronstring OR-13",
+    "name": "REVOLVO Ronstring OR-13",
+    "price": 439,
+    "rating": 3.95,
+    "sold": 476
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Sonair NW-08",
+    "name": "MAK Sonair NW-08",
+    "price": 766,
+    "rating": 1.8,
+    "sold": 8787
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Holdlamis NW-35",
+    "name": "REVOLVO Holdlamis NW-35",
+    "price": 583,
+    "rating": 1.21,
+    "sold": 712393
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Voyatouch MS-95",
+    "name": "COURSEAIR Voyatouch MS-95",
+    "price": 94,
+    "rating": 1.45,
+    "sold": 902509
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Stringtough KD-22",
+    "name": "COURSEAIR Stringtough KD-22",
+    "price": 62,
+    "rating": 1.15,
+    "sold": 394
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Bitchip SQ-46",
+    "name": "AZES Bitchip SQ-46",
+    "price": 498,
+    "rating": 2.99,
+    "sold": 2244
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Job ZQ-00",
+    "name": "REVOLVO Job ZQ-00",
+    "price": 424,
+    "rating": 1.51,
+    "sold": 447
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Tampflex GD-70",
+    "name": "MAK Tampflex GD-70",
+    "price": 97,
+    "rating": 2.17,
+    "sold": 8913
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Redhold BF-99",
+    "name": "REVOLVO Redhold BF-99",
+    "price": 349,
+    "rating": 4.64,
+    "sold": 90763
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Keylex VJ-81",
+    "name": "MAK Keylex VJ-81",
+    "price": 428,
+    "rating": 3.25,
+    "sold": 46600
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Bamity YZ-02",
+    "name": "SONNY Bamity YZ-02",
+    "price": 561,
+    "rating": 2.87,
+    "sold": 27296
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Flowdesk DV-63",
+    "name": "H&P Flowdesk DV-63",
+    "price": 794,
+    "rating": 2.39,
+    "sold": 43601
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Y-find WN-27",
+    "name": "LOGICHTE Y-find WN-27",
+    "price": 528,
+    "rating": 2.44,
+    "sold": 620
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Bytecard PC-06",
+    "name": "MAK Bytecard PC-06",
+    "price": 598,
+    "rating": 2.25,
+    "sold": 90622
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Holdlamis ZE-15",
+    "name": "AZES Holdlamis ZE-15",
+    "price": 82,
+    "rating": 2.32,
+    "sold": 488
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Zontrax RV-31",
+    "name": "REVOLVO Zontrax RV-31",
+    "price": 146,
+    "rating": 1.12,
+    "sold": 1003
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Matsoft CY-54",
+    "name": "LOGICHTE Matsoft CY-54",
+    "price": 634,
+    "rating": 4.93,
+    "sold": 4494
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Toughjoyfax AN-65",
+    "name": "COURSEAIR Toughjoyfax AN-65",
+    "price": 673,
+    "rating": 4.95,
+    "sold": 54665
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Zathin MK-62",
+    "name": "COURSEAIR Zathin MK-62",
+    "price": 950,
+    "rating": 1.62,
+    "sold": 58455
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Domainer SP-71",
+    "name": "AZES Domainer SP-71",
+    "price": 758,
+    "rating": 1.29,
+    "sold": 2087
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Mat Lam Tam EH-24",
+    "name": "AZES Mat Lam Tam EH-24",
+    "price": 666,
+    "rating": 2.56,
+    "sold": 500
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Cardguard SV-43",
+    "name": "COURSEAIR Cardguard SV-43",
+    "price": 34,
+    "rating": 4.73,
+    "sold": 8478
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Tres-Zap KR-17",
+    "name": "MAK Tres-Zap KR-17",
+    "price": 572,
+    "rating": 3.68,
+    "sold": 22961
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Greenlam PY-55",
+    "name": "SONNY Greenlam PY-55",
+    "price": 746,
+    "rating": 2.01,
+    "sold": 42386
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Flexidy KC-75",
+    "name": "SONNY Flexidy KC-75",
+    "price": 83,
+    "rating": 4.19,
+    "sold": 97775
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Voyatouch DN-97",
+    "name": "REVOLVO Voyatouch DN-97",
+    "price": 528,
+    "rating": 1,
+    "sold": 9322
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Mat Lam Tam DC-22",
+    "name": "REVOLVO Mat Lam Tam DC-22",
+    "price": 530,
+    "rating": 4.13,
+    "sold": 35979
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Toughjoyfax IE-23",
+    "name": "COURSEAIR Toughjoyfax IE-23",
+    "price": 370,
+    "rating": 2.69,
+    "sold": 421
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Kanlam ES-91",
+    "name": "MAK Kanlam ES-91",
+    "price": 61,
+    "rating": 3.88,
+    "sold": 50077
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Cardguard ER-67",
+    "name": "REVOLVO Cardguard ER-67",
+    "price": 326,
+    "rating": 2.42,
+    "sold": 8451
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Hatity GP-09",
+    "name": "MAK Hatity GP-09",
+    "price": 65,
+    "rating": 4.73,
+    "sold": 553
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Fixflex XN-34",
+    "name": "COURSEAIR Fixflex XN-34",
+    "price": 535,
+    "rating": 2.05,
+    "sold": 534709
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Lotstring MW-63",
+    "name": "LOGICHTE Lotstring MW-63",
+    "price": 648,
+    "rating": 3.32,
+    "sold": 669047
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Stringtough SN-82",
+    "name": "AZES Stringtough SN-82",
+    "price": 267,
+    "rating": 2.33,
+    "sold": 1918
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sonair KU-01",
+    "name": "COURSEAIR Sonair KU-01",
+    "price": 435,
+    "rating": 3.14,
+    "sold": 67010
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Prodder UI-92",
+    "name": "H&P Prodder UI-92",
+    "price": 973,
+    "rating": 4.9,
+    "sold": 9394
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Hatity DS-54",
+    "name": "AZES Hatity DS-54",
+    "price": 548,
+    "rating": 2.06,
+    "sold": 172704
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Zaam-Dox UM-04",
+    "name": "H&P Zaam-Dox UM-04",
+    "price": 891,
+    "rating": 1.41,
+    "sold": 6309
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Flowdesk VD-23",
+    "name": "SONNY Flowdesk VD-23",
+    "price": 866,
+    "rating": 2.64,
+    "sold": 73943
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Domainer WM-13",
+    "name": "SONNY Domainer WM-13",
+    "price": 977,
+    "rating": 3.23,
+    "sold": 63282
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Greenlam UA-36",
+    "name": "COURSEAIR Greenlam UA-36",
+    "price": 815,
+    "rating": 3.66,
+    "sold": 397
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Ronstring NW-20",
+    "name": "COURSEAIR Ronstring NW-20",
+    "price": 466,
+    "rating": 2.67,
+    "sold": 853204
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Stim WY-59",
+    "name": "LOGICHTE Stim WY-59",
+    "price": 110,
+    "rating": 3.23,
+    "sold": 76537
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Andalax ZE-74",
+    "name": "H&P Andalax ZE-74",
+    "price": 369,
+    "rating": 3.17,
+    "sold": 562
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Regrant EN-41",
+    "name": "AZES Regrant EN-41",
+    "price": 528,
+    "rating": 4.21,
+    "sold": 4964
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tin HX-94",
+    "name": "H&P Tin HX-94",
+    "price": 192,
+    "rating": 4.81,
+    "sold": 7581
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Namfix PD-04",
+    "name": "MAK Namfix PD-04",
+    "price": 182,
+    "rating": 4.63,
+    "sold": 81412
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Sub-Ex UZ-13",
+    "name": "SONNY Sub-Ex UZ-13",
+    "price": 143,
+    "rating": 1.83,
+    "sold": 8478
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Wrapsafe UI-15",
+    "name": "H&P Wrapsafe UI-15",
+    "price": 469,
+    "rating": 3.63,
+    "sold": 731390
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Prodder OM-28",
+    "name": "H&P Prodder OM-28",
+    "price": 544,
+    "rating": 1.32,
+    "sold": 828
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Voltsillam RF-84",
+    "name": "SONNY Voltsillam RF-84",
+    "price": 86,
+    "rating": 4.92,
+    "sold": 6281
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Stringtough QS-37",
+    "name": "REVOLVO Stringtough QS-37",
+    "price": 303,
+    "rating": 1.98,
+    "sold": 97221
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Zathin JU-18",
+    "name": "COURSEAIR Zathin JU-18",
+    "price": 446,
+    "rating": 1.88,
+    "sold": 90874
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "It UQ-86",
+    "name": "H&P It UQ-86",
+    "price": 193,
+    "rating": 1.05,
+    "sold": 40106
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Alphazap MF-58",
+    "name": "SONNY Alphazap MF-58",
+    "price": 215,
+    "rating": 3.41,
+    "sold": 1745
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Wrapsafe YT-71",
+    "name": "MAK Wrapsafe YT-71",
+    "price": 304,
+    "rating": 1.01,
+    "sold": 3816
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Stronghold DU-82",
+    "name": "AZES Stronghold DU-82",
+    "price": 245,
+    "rating": 2.09,
+    "sold": 47697
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Greenlam HG-18",
+    "name": "COURSEAIR Greenlam HG-18",
+    "price": 850,
+    "rating": 1.88,
+    "sold": 31610
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Cookley DS-13",
+    "name": "COURSEAIR Cookley DS-13",
+    "price": 431,
+    "rating": 3.9,
+    "sold": 727567
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Veribet YX-25",
+    "name": "AZES Veribet YX-25",
+    "price": 495,
+    "rating": 2.43,
+    "sold": 324
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Tresom MY-53",
+    "name": "COURSEAIR Tresom MY-53",
+    "price": 523,
+    "rating": 3.72,
+    "sold": 793
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Zamit SW-60",
+    "name": "REVOLVO Zamit SW-60",
+    "price": 433,
+    "rating": 3.92,
+    "sold": 575474
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Overhold ZW-21",
+    "name": "AZES Overhold ZW-21",
+    "price": 560,
+    "rating": 3.16,
+    "sold": 9667
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Alpha NK-47",
+    "name": "REVOLVO Alpha NK-47",
+    "price": 325,
+    "rating": 3.68,
+    "sold": 5702
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Regrant HJ-70",
+    "name": "COURSEAIR Regrant HJ-70",
+    "price": 618,
+    "rating": 2.23,
+    "sold": 155
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tempsoft WH-30",
+    "name": "H&P Tempsoft WH-30",
+    "price": 515,
+    "rating": 1.86,
+    "sold": 3383
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bigtax MR-30",
+    "name": "LOGICHTE Bigtax MR-30",
+    "price": 24,
+    "rating": 3.11,
+    "sold": 8751
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Alpha HL-48",
+    "name": "AZES Alpha HL-48",
+    "price": 776,
+    "rating": 1.88,
+    "sold": 908789
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Bigtax NR-01",
+    "name": "SONNY Bigtax NR-01",
+    "price": 648,
+    "rating": 4.41,
+    "sold": 15965
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Opela AF-79",
+    "name": "REVOLVO Opela AF-79",
+    "price": 398,
+    "rating": 2.55,
+    "sold": 3184
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Zoolab EY-09",
+    "name": "MAK Zoolab EY-09",
+    "price": 558,
+    "rating": 3.78,
+    "sold": 381998
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Bitwolf KB-14",
+    "name": "COURSEAIR Bitwolf KB-14",
+    "price": 301,
+    "rating": 1.48,
+    "sold": 4204
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Toughjoyfax WD-73",
+    "name": "SONNY Toughjoyfax WD-73",
+    "price": 468,
+    "rating": 1.12,
+    "sold": 1160
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Veribet RB-26",
+    "name": "MAK Veribet RB-26",
+    "price": 353,
+    "rating": 4.35,
+    "sold": 1798
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Stringtough YW-91",
+    "name": "AZES Stringtough YW-91",
+    "price": 379,
+    "rating": 3.41,
+    "sold": 8966
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Lotstring CJ-08",
+    "name": "MAK Lotstring CJ-08",
+    "price": 210,
+    "rating": 2.38,
+    "sold": 40370
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Daltfresh AN-95",
+    "name": "COURSEAIR Daltfresh AN-95",
+    "price": 427,
+    "rating": 2.66,
+    "sold": 8959
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Rank SH-77",
+    "name": "COURSEAIR Rank SH-77",
+    "price": 717,
+    "rating": 3.65,
+    "sold": 7455
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Transcof XG-16",
+    "name": "COURSEAIR Transcof XG-16",
+    "price": 781,
+    "rating": 1.22,
+    "sold": 25873
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Ventosanzap VZ-95",
+    "name": "MAK Ventosanzap VZ-95",
+    "price": 81,
+    "rating": 1.99,
+    "sold": 219002
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Voyatouch FM-51",
+    "name": "LOGICHTE Voyatouch FM-51",
+    "price": 703,
+    "rating": 1.26,
+    "sold": 99569
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Opela BU-19",
+    "name": "REVOLVO Opela BU-19",
+    "price": 608,
+    "rating": 3.78,
+    "sold": 298088
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bytecard VW-95",
+    "name": "LOGICHTE Bytecard VW-95",
+    "price": 680,
+    "rating": 2.25,
+    "sold": 344
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Tres-Zap CJ-06",
+    "name": "COURSEAIR Tres-Zap CJ-06",
+    "price": 926,
+    "rating": 4.97,
+    "sold": 316796
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Toughjoyfax MZ-60",
+    "name": "AZES Toughjoyfax MZ-60",
+    "price": 487,
+    "rating": 2.84,
+    "sold": 6261
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Asoka AV-90",
+    "name": "H&P Asoka AV-90",
+    "price": 123,
+    "rating": 1.5,
+    "sold": 7016
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Overhold PD-78",
+    "name": "LOGICHTE Overhold PD-78",
+    "price": 748,
+    "rating": 4.29,
+    "sold": 9339
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Tin QA-93",
+    "name": "SONNY Tin QA-93",
+    "price": 616,
+    "rating": 2.08,
+    "sold": 9504
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Fixflex FU-73",
+    "name": "H&P Fixflex FU-73",
+    "price": 694,
+    "rating": 3.68,
+    "sold": 598
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Opela HA-41",
+    "name": "REVOLVO Opela HA-41",
+    "price": 78,
+    "rating": 1.43,
+    "sold": 69724
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Prodder OC-42",
+    "name": "H&P Prodder OC-42",
+    "price": 663,
+    "rating": 3.85,
+    "sold": 935849
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Alpha WT-58",
+    "name": "COURSEAIR Alpha WT-58",
+    "price": 761,
+    "rating": 4.98,
+    "sold": 716
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Flowdesk ES-88",
+    "name": "MAK Flowdesk ES-88",
+    "price": 294,
+    "rating": 3.57,
+    "sold": 6342
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Prodder AC-45",
+    "name": "COURSEAIR Prodder AC-45",
+    "price": 534,
+    "rating": 4.27,
+    "sold": 30934
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "It EG-30",
+    "name": "LOGICHTE It EG-30",
+    "price": 455,
+    "rating": 1.51,
+    "sold": 5227
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Cardguard NV-38",
+    "name": "COURSEAIR Cardguard NV-38",
+    "price": 752,
+    "rating": 4.09,
+    "sold": 84506
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Stronghold SF-93",
+    "name": "H&P Stronghold SF-93",
+    "price": 760,
+    "rating": 2.57,
+    "sold": 41265
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Hatity PM-81",
+    "name": "REVOLVO Hatity PM-81",
+    "price": 800,
+    "rating": 2.84,
+    "sold": 3106
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Matsoft AH-10",
+    "name": "REVOLVO Matsoft AH-10",
+    "price": 509,
+    "rating": 1.38,
+    "sold": 637
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Ronstring XG-49",
+    "name": "REVOLVO Ronstring XG-49",
+    "price": 422,
+    "rating": 3.94,
+    "sold": 5582
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Fixflex IT-28",
+    "name": "H&P Fixflex IT-28",
+    "price": 836,
+    "rating": 4.65,
+    "sold": 2172
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Flowdesk UI-52",
+    "name": "AZES Flowdesk UI-52",
+    "price": 494,
+    "rating": 2.37,
+    "sold": 522323
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Konklux UA-84",
+    "name": "MAK Konklux UA-84",
+    "price": 636,
+    "rating": 4.61,
+    "sold": 6469
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Tempsoft NH-36",
+    "name": "SONNY Tempsoft NH-36",
+    "price": 935,
+    "rating": 3.68,
+    "sold": 9062
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Treeflex QU-02",
+    "name": "AZES Treeflex QU-02",
+    "price": 241,
+    "rating": 3.79,
+    "sold": 3704
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Gembucket MP-39",
+    "name": "LOGICHTE Gembucket MP-39",
+    "price": 435,
+    "rating": 2.55,
+    "sold": 1904
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Stronghold RY-10",
+    "name": "AZES Stronghold RY-10",
+    "price": 450,
+    "rating": 2.76,
+    "sold": 77449
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Kanlam AM-72",
+    "name": "COURSEAIR Kanlam AM-72",
+    "price": 872,
+    "rating": 3.95,
+    "sold": 7503
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Cookley HY-50",
+    "name": "SONNY Cookley HY-50",
+    "price": 136,
+    "rating": 3.57,
+    "sold": 7534
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Stim MB-26",
+    "name": "AZES Stim MB-26",
+    "price": 610,
+    "rating": 1.24,
+    "sold": 69831
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Keylex EA-30",
+    "name": "H&P Keylex EA-30",
+    "price": 792,
+    "rating": 3.74,
+    "sold": 5353
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sonsing GJ-63",
+    "name": "COURSEAIR Sonsing GJ-63",
+    "price": 809,
+    "rating": 4.76,
+    "sold": 66079
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Alphazap ZI-81",
+    "name": "H&P Alphazap ZI-81",
+    "price": 493,
+    "rating": 1.64,
+    "sold": 17894
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Voyatouch BL-13",
+    "name": "H&P Voyatouch BL-13",
+    "price": 919,
+    "rating": 3.04,
+    "sold": 6032
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Prodder PR-48",
+    "name": "MAK Prodder PR-48",
+    "price": 911,
+    "rating": 3.65,
+    "sold": 978
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Voyatouch LO-67",
+    "name": "LOGICHTE Voyatouch LO-67",
+    "price": 889,
+    "rating": 4.93,
+    "sold": 6995
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Tampflex BY-29",
+    "name": "REVOLVO Tampflex BY-29",
+    "price": 359,
+    "rating": 2.23,
+    "sold": 4645
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Konklab WE-31",
+    "name": "MAK Konklab WE-31",
+    "price": 812,
+    "rating": 1.77,
+    "sold": 577083
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Ventosanzap YG-30",
+    "name": "MAK Ventosanzap YG-30",
+    "price": 800,
+    "rating": 1.29,
+    "sold": 330
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Redhold OA-06",
+    "name": "LOGICHTE Redhold OA-06",
+    "price": 381,
+    "rating": 2.18,
+    "sold": 74483
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Fix San FI-61",
+    "name": "COURSEAIR Fix San FI-61",
+    "price": 934,
+    "rating": 4.71,
+    "sold": 7746
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Redhold VZ-63",
+    "name": "MAK Redhold VZ-63",
+    "price": 606,
+    "rating": 4.55,
+    "sold": 494389
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Zoolab SA-54",
+    "name": "SONNY Zoolab SA-54",
+    "price": 908,
+    "rating": 2.66,
+    "sold": 3299
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Latlux ZI-90",
+    "name": "H&P Latlux ZI-90",
+    "price": 909,
+    "rating": 3.86,
+    "sold": 931
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Holdlamis AW-53",
+    "name": "H&P Holdlamis AW-53",
+    "price": 950,
+    "rating": 3.59,
+    "sold": 324179
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Tres-Zap NX-93",
+    "name": "SONNY Tres-Zap NX-93",
+    "price": 660,
+    "rating": 1.54,
+    "sold": 466
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "It RU-60",
+    "name": "MAK It RU-60",
+    "price": 470,
+    "rating": 2.47,
+    "sold": 493767
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Daltfresh IC-91",
+    "name": "LOGICHTE Daltfresh IC-91",
+    "price": 600,
+    "rating": 3.11,
+    "sold": 61182
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Solarbreeze DC-26",
+    "name": "REVOLVO Solarbreeze DC-26",
+    "price": 954,
+    "rating": 3.34,
+    "sold": 9397
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Viva XD-12",
+    "name": "AZES Viva XD-12",
+    "price": 951,
+    "rating": 2.76,
+    "sold": 2305
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Fix San LM-23",
+    "name": "REVOLVO Fix San LM-23",
+    "price": 675,
+    "rating": 4.32,
+    "sold": 44378
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Tampflex YJ-32",
+    "name": "MAK Tampflex YJ-32",
+    "price": 448,
+    "rating": 1.21,
+    "sold": 736743
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Wrapsafe OS-42",
+    "name": "H&P Wrapsafe OS-42",
+    "price": 549,
+    "rating": 2.95,
+    "sold": 8828
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Flexidy IK-25",
+    "name": "COURSEAIR Flexidy IK-25",
+    "price": 86,
+    "rating": 1.72,
+    "sold": 85970
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Bitchip IY-43",
+    "name": "H&P Bitchip IY-43",
+    "price": 626,
+    "rating": 4.77,
+    "sold": 9952
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Quo Lux ZP-07",
+    "name": "H&P Quo Lux ZP-07",
+    "price": 656,
+    "rating": 1.95,
+    "sold": 36309
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Lotlux QL-71",
+    "name": "MAK Lotlux QL-71",
+    "price": 949,
+    "rating": 3.77,
+    "sold": 5600
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Bigtax WV-63",
+    "name": "COURSEAIR Bigtax WV-63",
+    "price": 569,
+    "rating": 3.68,
+    "sold": 7853
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Alpha TP-06",
+    "name": "COURSEAIR Alpha TP-06",
+    "price": 652,
+    "rating": 3.09,
+    "sold": 26597
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Matsoft MK-19",
+    "name": "MAK Matsoft MK-19",
+    "price": 921,
+    "rating": 2.65,
+    "sold": 6138
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Y-find NP-36",
+    "name": "REVOLVO Y-find NP-36",
+    "price": 177,
+    "rating": 4.36,
+    "sold": 146
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Voltsillam BZ-60",
+    "name": "REVOLVO Voltsillam BZ-60",
+    "price": 43,
+    "rating": 4.4,
+    "sold": 8572
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Tresom AK-51",
+    "name": "REVOLVO Tresom AK-51",
+    "price": 138,
+    "rating": 1.29,
+    "sold": 995806
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Span PH-63",
+    "name": "REVOLVO Span PH-63",
+    "price": 710,
+    "rating": 1.7,
+    "sold": 72397
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Stringtough BV-04",
+    "name": "COURSEAIR Stringtough BV-04",
+    "price": 155,
+    "rating": 3.01,
+    "sold": 9181
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Zoolab XQ-94",
+    "name": "REVOLVO Zoolab XQ-94",
+    "price": 61,
+    "rating": 2.27,
+    "sold": 1911
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Cookley JC-35",
+    "name": "COURSEAIR Cookley JC-35",
+    "price": 236,
+    "rating": 1.37,
+    "sold": 642588
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Biodex OD-79",
+    "name": "SONNY Biodex OD-79",
+    "price": 512,
+    "rating": 4.8,
+    "sold": 9763
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Y-Solowarm SJ-63",
+    "name": "MAK Y-Solowarm SJ-63",
+    "price": 557,
+    "rating": 1.41,
+    "sold": 57295
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bitchip YL-01",
+    "name": "LOGICHTE Bitchip YL-01",
+    "price": 672,
+    "rating": 4.59,
+    "sold": 7096
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Matsoft UR-73",
+    "name": "LOGICHTE Matsoft UR-73",
+    "price": 757,
+    "rating": 3.26,
+    "sold": 50608
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Veribet BO-99",
+    "name": "AZES Veribet BO-99",
+    "price": 387,
+    "rating": 4.01,
+    "sold": 1023
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bigtax PH-37",
+    "name": "LOGICHTE Bigtax PH-37",
+    "price": 557,
+    "rating": 1.83,
+    "sold": 7809
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Aerified BV-20",
+    "name": "H&P Aerified BV-20",
+    "price": 849,
+    "rating": 4.69,
+    "sold": 9377
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Biodex BX-01",
+    "name": "LOGICHTE Biodex BX-01",
+    "price": 890,
+    "rating": 4.74,
+    "sold": 285
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Quo Lux JM-10",
+    "name": "MAK Quo Lux JM-10",
+    "price": 813,
+    "rating": 4.95,
+    "sold": 57445
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Flowdesk OS-69",
+    "name": "REVOLVO Flowdesk OS-69",
+    "price": 922,
+    "rating": 4.18,
+    "sold": 1236
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Pannier HQ-26",
+    "name": "COURSEAIR Pannier HQ-26",
+    "price": 697,
+    "rating": 2.77,
+    "sold": 80998
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sonsing JT-64",
+    "name": "COURSEAIR Sonsing JT-64",
+    "price": 795,
+    "rating": 4.5,
+    "sold": 8044
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Viva LX-04",
+    "name": "LOGICHTE Viva LX-04",
+    "price": 416,
+    "rating": 4.55,
+    "sold": 47970
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Bytecard GV-83",
+    "name": "MAK Bytecard GV-83",
+    "price": 470,
+    "rating": 3.06,
+    "sold": 8243
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Andalax KO-76",
+    "name": "REVOLVO Andalax KO-76",
+    "price": 512,
+    "rating": 1.98,
+    "sold": 4094
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Cardify JZ-63",
+    "name": "AZES Cardify JZ-63",
+    "price": 673,
+    "rating": 3.05,
+    "sold": 35625
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Asoka MG-68",
+    "name": "AZES Asoka MG-68",
+    "price": 350,
+    "rating": 2.48,
+    "sold": 629
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Lotstring YC-16",
+    "name": "COURSEAIR Lotstring YC-16",
+    "price": 410,
+    "rating": 2.28,
+    "sold": 13918
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Alphazap TC-03",
+    "name": "COURSEAIR Alphazap TC-03",
+    "price": 905,
+    "rating": 2.96,
+    "sold": 9474
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Keylex PR-08",
+    "name": "SONNY Keylex PR-08",
+    "price": 713,
+    "rating": 4.96,
+    "sold": 347
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Lotlux JG-49",
+    "name": "SONNY Lotlux JG-49",
+    "price": 577,
+    "rating": 3.73,
+    "sold": 6137
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Zamit JK-13",
+    "name": "H&P Zamit JK-13",
+    "price": 321,
+    "rating": 1.3,
+    "sold": 9946
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Overhold QP-10",
+    "name": "LOGICHTE Overhold QP-10",
+    "price": 703,
+    "rating": 3.61,
+    "sold": 476990
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Cardguard MD-10",
+    "name": "LOGICHTE Cardguard MD-10",
+    "price": 285,
+    "rating": 4.67,
+    "sold": 50249
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Bitwolf HA-93",
+    "name": "AZES Bitwolf HA-93",
+    "price": 647,
+    "rating": 4.24,
+    "sold": 77381
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tresom JY-81",
+    "name": "H&P Tresom JY-81",
+    "price": 831,
+    "rating": 4.12,
+    "sold": 1477
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Gembucket VY-00",
+    "name": "AZES Gembucket VY-00",
+    "price": 146,
+    "rating": 1.08,
+    "sold": 5062
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Cardify JS-77",
+    "name": "H&P Cardify JS-77",
+    "price": 24,
+    "rating": 1.35,
+    "sold": 65343
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Voltsillam JO-07",
+    "name": "REVOLVO Voltsillam JO-07",
+    "price": 284,
+    "rating": 4.95,
+    "sold": 333
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Viva ON-68",
+    "name": "COURSEAIR Viva ON-68",
+    "price": 695,
+    "rating": 3.02,
+    "sold": 56651
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Job UV-92",
+    "name": "COURSEAIR Job UV-92",
+    "price": 100,
+    "rating": 4.89,
+    "sold": 531
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Otcom BY-81",
+    "name": "REVOLVO Otcom BY-81",
+    "price": 841,
+    "rating": 3.84,
+    "sold": 34
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Mat Lam Tam JF-06",
+    "name": "COURSEAIR Mat Lam Tam JF-06",
+    "price": 367,
+    "rating": 2.34,
+    "sold": 66627
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Latlux TP-43",
+    "name": "COURSEAIR Latlux TP-43",
+    "price": 702,
+    "rating": 3.26,
+    "sold": 29999
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Viva AP-21",
+    "name": "AZES Viva AP-21",
+    "price": 476,
+    "rating": 4.5,
+    "sold": 3760
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Rank WY-85",
+    "name": "MAK Rank WY-85",
+    "price": 236,
+    "rating": 2.55,
+    "sold": 2769
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Latlux HU-08",
+    "name": "LOGICHTE Latlux HU-08",
+    "price": 890,
+    "rating": 4.56,
+    "sold": 4101
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Toughjoyfax YT-68",
+    "name": "SONNY Toughjoyfax YT-68",
+    "price": 162,
+    "rating": 4.16,
+    "sold": 5326
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Holdlamis WO-20",
+    "name": "AZES Holdlamis WO-20",
+    "price": 920,
+    "rating": 4.08,
+    "sold": 967
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Sub-Ex RV-20",
+    "name": "MAK Sub-Ex RV-20",
+    "price": 598,
+    "rating": 1.65,
+    "sold": 66301
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Stim DB-71",
+    "name": "LOGICHTE Stim DB-71",
+    "price": 189,
+    "rating": 3.65,
+    "sold": 998
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Treeflex IV-24",
+    "name": "MAK Treeflex IV-24",
+    "price": 400,
+    "rating": 4.75,
+    "sold": 76894
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Y-find GM-84",
+    "name": "MAK Y-find GM-84",
+    "price": 756,
+    "rating": 4.11,
+    "sold": 382
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Y-find SC-84",
+    "name": "COURSEAIR Y-find SC-84",
+    "price": 448,
+    "rating": 3.6,
+    "sold": 4732
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Sub-Ex RF-33",
+    "name": "AZES Sub-Ex RF-33",
+    "price": 940,
+    "rating": 1.73,
+    "sold": 67599
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Quo Lux XM-07",
+    "name": "REVOLVO Quo Lux XM-07",
+    "price": 269,
+    "rating": 3.87,
+    "sold": 4210
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Toughjoyfax YP-28",
+    "name": "LOGICHTE Toughjoyfax YP-28",
+    "price": 118,
+    "rating": 1.79,
+    "sold": 64157
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Flowdesk US-19",
+    "name": "AZES Flowdesk US-19",
+    "price": 238,
+    "rating": 4.86,
+    "sold": 92241
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Sonair YI-52",
+    "name": "SONNY Sonair YI-52",
+    "price": 518,
+    "rating": 3.55,
+    "sold": 3484
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Viva QU-75",
+    "name": "H&P Viva QU-75",
+    "price": 483,
+    "rating": 1.52,
+    "sold": 3746
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Rank OW-15",
+    "name": "MAK Rank OW-15",
+    "price": 924,
+    "rating": 1.51,
+    "sold": 835968
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Mat Lam Tam WN-03",
+    "name": "COURSEAIR Mat Lam Tam WN-03",
+    "price": 864,
+    "rating": 1.87,
+    "sold": 7456
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Flowdesk XV-69",
+    "name": "SONNY Flowdesk XV-69",
+    "price": 73,
+    "rating": 4.75,
+    "sold": 747014
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Sonsing EJ-14",
+    "name": "H&P Sonsing EJ-14",
+    "price": 60,
+    "rating": 3.46,
+    "sold": 350
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Regrant CY-01",
+    "name": "COURSEAIR Regrant CY-01",
+    "price": 625,
+    "rating": 1.24,
+    "sold": 7363
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Stim JI-70",
+    "name": "SONNY Stim JI-70",
+    "price": 210,
+    "rating": 2.04,
+    "sold": 2520
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Bamity JU-62",
+    "name": "H&P Bamity JU-62",
+    "price": 675,
+    "rating": 3.2,
+    "sold": 65566
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bamity NQ-01",
+    "name": "LOGICHTE Bamity NQ-01",
+    "price": 142,
+    "rating": 4.91,
+    "sold": 142467
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Voyatouch FR-18",
+    "name": "MAK Voyatouch FR-18",
+    "price": 15,
+    "rating": 2.68,
+    "sold": 7858
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Veribet DH-30",
+    "name": "AZES Veribet DH-30",
+    "price": 449,
+    "rating": 2.66,
+    "sold": 2169
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Opela IO-56",
+    "name": "MAK Opela IO-56",
+    "price": 99,
+    "rating": 4.2,
+    "sold": 498943
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Hatity ZU-10",
+    "name": "REVOLVO Hatity ZU-10",
+    "price": 853,
+    "rating": 1.78,
+    "sold": 683
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Zamit MW-44",
+    "name": "SONNY Zamit MW-44",
+    "price": 977,
+    "rating": 1.55,
+    "sold": 7740
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Fixflex BV-28",
+    "name": "AZES Fixflex BV-28",
+    "price": 612,
+    "rating": 2.53,
+    "sold": 6181
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sonsing GO-59",
+    "name": "COURSEAIR Sonsing GO-59",
+    "price": 752,
+    "rating": 1.04,
+    "sold": 196834
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Y-find EP-40",
+    "name": "REVOLVO Y-find EP-40",
+    "price": 401,
+    "rating": 1.01,
+    "sold": 83676
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Tin UF-61",
+    "name": "MAK Tin UF-61",
+    "price": 134,
+    "rating": 4.44,
+    "sold": 4886
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Y-find LZ-43",
+    "name": "MAK Y-find LZ-43",
+    "price": 575,
+    "rating": 3.4,
+    "sold": 610
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Subin KY-87",
+    "name": "COURSEAIR Subin KY-87",
+    "price": 655,
+    "rating": 3.34,
+    "sold": 1790
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Bitchip LT-52",
+    "name": "AZES Bitchip LT-52",
+    "price": 513,
+    "rating": 2.81,
+    "sold": 1253
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Greenlam EF-37",
+    "name": "LOGICHTE Greenlam EF-37",
+    "price": 795,
+    "rating": 2.68,
+    "sold": 75606
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Fixflex YO-18",
+    "name": "AZES Fixflex YO-18",
+    "price": 952,
+    "rating": 1.12,
+    "sold": 28381
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Andalax ZE-98",
+    "name": "SONNY Andalax ZE-98",
+    "price": 479,
+    "rating": 2.83,
+    "sold": 639
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Flowdesk ND-52",
+    "name": "COURSEAIR Flowdesk ND-52",
+    "price": 181,
+    "rating": 1.44,
+    "sold": 79388
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Matsoft VF-10",
+    "name": "MAK Matsoft VF-10",
+    "price": 607,
+    "rating": 2.32,
+    "sold": 7680
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Ronstring WS-22",
+    "name": "REVOLVO Ronstring WS-22",
+    "price": 613,
+    "rating": 4.34,
+    "sold": 923573
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Prodder FD-08",
+    "name": "H&P Prodder FD-08",
+    "price": 196,
+    "rating": 3.09,
+    "sold": 68629
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Greenlam PE-25",
+    "name": "SONNY Greenlam PE-25",
+    "price": 694,
+    "rating": 2.27,
+    "sold": 43015
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Tampflex SU-45",
+    "name": "AZES Tampflex SU-45",
+    "price": 645,
+    "rating": 4.62,
+    "sold": 871132
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Ronstring YN-62",
+    "name": "H&P Ronstring YN-62",
+    "price": 407,
+    "rating": 4.81,
+    "sold": 163151
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Y-find IO-97",
+    "name": "COURSEAIR Y-find IO-97",
+    "price": 456,
+    "rating": 4.72,
+    "sold": 27974
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Bytecard TO-79",
+    "name": "MAK Bytecard TO-79",
+    "price": 618,
+    "rating": 3.42,
+    "sold": 60439
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Zamit ZS-43",
+    "name": "COURSEAIR Zamit ZS-43",
+    "price": 338,
+    "rating": 4.76,
+    "sold": 7812
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Stim GB-46",
+    "name": "H&P Stim GB-46",
+    "price": 305,
+    "rating": 2.64,
+    "sold": 713496
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Trippledex HQ-96",
+    "name": "SONNY Trippledex HQ-96",
+    "price": 949,
+    "rating": 2.11,
+    "sold": 87656
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Regrant YW-72",
+    "name": "REVOLVO Regrant YW-72",
+    "price": 329,
+    "rating": 1.88,
+    "sold": 5932
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Temp RE-36",
+    "name": "LOGICHTE Temp RE-36",
+    "price": 635,
+    "rating": 3.99,
+    "sold": 714
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Hatity TR-26",
+    "name": "LOGICHTE Hatity TR-26",
+    "price": 734,
+    "rating": 3.4,
+    "sold": 44017
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Zathin WV-30",
+    "name": "LOGICHTE Zathin WV-30",
+    "price": 504,
+    "rating": 1.33,
+    "sold": 91987
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Alpha UR-74",
+    "name": "COURSEAIR Alpha UR-74",
+    "price": 326,
+    "rating": 2.79,
+    "sold": 1191
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Alpha JP-44",
+    "name": "SONNY Alpha JP-44",
+    "price": 433,
+    "rating": 4.37,
+    "sold": 865
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Tres-Zap MA-39",
+    "name": "REVOLVO Tres-Zap MA-39",
+    "price": 164,
+    "rating": 2.63,
+    "sold": 9974
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Zamit ZW-23",
+    "name": "SONNY Zamit ZW-23",
+    "price": 757,
+    "rating": 4.16,
+    "sold": 1626
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tresom QF-80",
+    "name": "H&P Tresom QF-80",
+    "price": 913,
+    "rating": 3.96,
+    "sold": 3
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bytecard LX-41",
+    "name": "LOGICHTE Bytecard LX-41",
+    "price": 547,
+    "rating": 2.17,
+    "sold": 86230
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Biodex NJ-09",
+    "name": "LOGICHTE Biodex NJ-09",
+    "price": 140,
+    "rating": 2.23,
+    "sold": 3071
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Rank XM-40",
+    "name": "REVOLVO Rank XM-40",
+    "price": 282,
+    "rating": 4.77,
+    "sold": 2399
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tempsoft ZI-43",
+    "name": "H&P Tempsoft ZI-43",
+    "price": 339,
+    "rating": 1.25,
+    "sold": 56815
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Fix San RM-58",
+    "name": "SONNY Fix San RM-58",
+    "price": 938,
+    "rating": 1.88,
+    "sold": 9840
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Rank VM-84",
+    "name": "AZES Rank VM-84",
+    "price": 182,
+    "rating": 2.78,
+    "sold": 489
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Vagram KT-63",
+    "name": "H&P Vagram KT-63",
+    "price": 353,
+    "rating": 4.09,
+    "sold": 2433
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Latlux KJ-27",
+    "name": "H&P Latlux KJ-27",
+    "price": 453,
+    "rating": 3.54,
+    "sold": 7621
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Zamit UV-01",
+    "name": "COURSEAIR Zamit UV-01",
+    "price": 349,
+    "rating": 1.13,
+    "sold": 261
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Y-find JV-59",
+    "name": "REVOLVO Y-find JV-59",
+    "price": 970,
+    "rating": 2.37,
+    "sold": 848
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Cardify DH-89",
+    "name": "AZES Cardify DH-89",
+    "price": 822,
+    "rating": 3.34,
+    "sold": 6273
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Tin JG-65",
+    "name": "AZES Tin JG-65",
+    "price": 986,
+    "rating": 3.04,
+    "sold": 869
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Lotlux KW-68",
+    "name": "H&P Lotlux KW-68",
+    "price": 330,
+    "rating": 1.87,
+    "sold": 294
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Daltfresh RS-49",
+    "name": "H&P Daltfresh RS-49",
+    "price": 4,
+    "rating": 4.86,
+    "sold": 69891
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Mat Lam Tam EK-82",
+    "name": "H&P Mat Lam Tam EK-82",
+    "price": 700,
+    "rating": 4.78,
+    "sold": 42979
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Tresom IE-09",
+    "name": "REVOLVO Tresom IE-09",
+    "price": 43,
+    "rating": 4.66,
+    "sold": 12821
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Opela QL-16",
+    "name": "LOGICHTE Opela QL-16",
+    "price": 649,
+    "rating": 1.69,
+    "sold": 97176
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Tempsoft ND-12",
+    "name": "COURSEAIR Tempsoft ND-12",
+    "price": 449,
+    "rating": 2.24,
+    "sold": 196845
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Kanlam IW-26",
+    "name": "AZES Kanlam IW-26",
+    "price": 501,
+    "rating": 4.15,
+    "sold": 6921
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Toughjoyfax YO-08",
+    "name": "LOGICHTE Toughjoyfax YO-08",
+    "price": 957,
+    "rating": 3.95,
+    "sold": 4575
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sub-Ex XA-42",
+    "name": "COURSEAIR Sub-Ex XA-42",
+    "price": 396,
+    "rating": 2.04,
+    "sold": 54059
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Alphazap AT-30",
+    "name": "MAK Alphazap AT-30",
+    "price": 973,
+    "rating": 1.83,
+    "sold": 2031
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Cardify PB-56",
+    "name": "MAK Cardify PB-56",
+    "price": 870,
+    "rating": 3.22,
+    "sold": 20924
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Biodex HM-87",
+    "name": "REVOLVO Biodex HM-87",
+    "price": 671,
+    "rating": 3.54,
+    "sold": 925
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Redhold XO-46",
+    "name": "AZES Redhold XO-46",
+    "price": 866,
+    "rating": 2.02,
+    "sold": 7371
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Solarbreeze HP-64",
+    "name": "H&P Solarbreeze HP-64",
+    "price": 974,
+    "rating": 2.02,
+    "sold": 582
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Alpha LT-67",
+    "name": "AZES Alpha LT-67",
+    "price": 105,
+    "rating": 4.67,
+    "sold": 7303
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Daltfresh GC-80",
+    "name": "COURSEAIR Daltfresh GC-80",
+    "price": 183,
+    "rating": 1.78,
+    "sold": 1991
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Flexidy DE-37",
+    "name": "LOGICHTE Flexidy DE-37",
+    "price": 189,
+    "rating": 3.1,
+    "sold": 4684
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Zathin XV-28",
+    "name": "REVOLVO Zathin XV-28",
+    "price": 723,
+    "rating": 4.33,
+    "sold": 430
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Sonsing PR-39",
+    "name": "AZES Sonsing PR-39",
+    "price": 93,
+    "rating": 4.24,
+    "sold": 95082
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tin OG-12",
+    "name": "H&P Tin OG-12",
+    "price": 196,
+    "rating": 2.75,
+    "sold": 66813
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Solarbreeze HN-58",
+    "name": "REVOLVO Solarbreeze HN-58",
+    "price": 109,
+    "rating": 3.73,
+    "sold": 519783
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Matsoft DF-99",
+    "name": "SONNY Matsoft DF-99",
+    "price": 189,
+    "rating": 3.36,
+    "sold": 7852
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Tresom OJ-17",
+    "name": "COURSEAIR Tresom OJ-17",
+    "price": 90,
+    "rating": 2.82,
+    "sold": 73361
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Wrapsafe DM-34",
+    "name": "SONNY Wrapsafe DM-34",
+    "price": 794,
+    "rating": 4.71,
+    "sold": 3186
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Tres-Zap LX-73",
+    "name": "AZES Tres-Zap LX-73",
+    "price": 141,
+    "rating": 2.58,
+    "sold": 5577
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Bamity CS-40",
+    "name": "MAK Bamity CS-40",
+    "price": 158,
+    "rating": 3.54,
+    "sold": 14384
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Zontrax BR-81",
+    "name": "COURSEAIR Zontrax BR-81",
+    "price": 583,
+    "rating": 2.64,
+    "sold": 68131
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Keylex HC-30",
+    "name": "AZES Keylex HC-30",
+    "price": 877,
+    "rating": 4.95,
+    "sold": 52944
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Lotlux LJ-18",
+    "name": "H&P Lotlux LJ-18",
+    "price": 423,
+    "rating": 2.92,
+    "sold": 1654
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Redhold WI-15",
+    "name": "SONNY Redhold WI-15",
+    "price": 863,
+    "rating": 3.32,
+    "sold": 144
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Bamity WI-40",
+    "name": "REVOLVO Bamity WI-40",
+    "price": 612,
+    "rating": 3.54,
+    "sold": 8338
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Overhold PT-82",
+    "name": "AZES Overhold PT-82",
+    "price": 294,
+    "rating": 4.3,
+    "sold": 32658
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Gembucket ZR-08",
+    "name": "H&P Gembucket ZR-08",
+    "price": 244,
+    "rating": 4.56,
+    "sold": 226828
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Vagram OC-77",
+    "name": "H&P Vagram OC-77",
+    "price": 794,
+    "rating": 3.08,
+    "sold": 8409
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Fintone QE-28",
+    "name": "H&P Fintone QE-28",
+    "price": 407,
+    "rating": 3.13,
+    "sold": 716
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Otcom SJ-93",
+    "name": "LOGICHTE Otcom SJ-93",
+    "price": 765,
+    "rating": 4.45,
+    "sold": 25486
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Toughjoyfax XF-16",
+    "name": "AZES Toughjoyfax XF-16",
+    "price": 475,
+    "rating": 1.26,
+    "sold": 19691
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Sonair EX-67",
+    "name": "REVOLVO Sonair EX-67",
+    "price": 451,
+    "rating": 2.01,
+    "sold": 39680
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Pannier CJ-92",
+    "name": "REVOLVO Pannier CJ-92",
+    "price": 194,
+    "rating": 3.95,
+    "sold": 548947
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Zontrax QH-11",
+    "name": "COURSEAIR Zontrax QH-11",
+    "price": 771,
+    "rating": 2.62,
+    "sold": 765
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Veribet IU-24",
+    "name": "H&P Veribet IU-24",
+    "price": 629,
+    "rating": 4.35,
+    "sold": 628
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Viva YW-33",
+    "name": "H&P Viva YW-33",
+    "price": 768,
+    "rating": 1.73,
+    "sold": 304
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Trippledex FB-39",
+    "name": "MAK Trippledex FB-39",
+    "price": 581,
+    "rating": 1.01,
+    "sold": 6349
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Tin QO-51",
+    "name": "SONNY Tin QO-51",
+    "price": 638,
+    "rating": 1.59,
+    "sold": 6764
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Lotlux LS-42",
+    "name": "LOGICHTE Lotlux LS-42",
+    "price": 995,
+    "rating": 2.65,
+    "sold": 9652
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Keylex MG-18",
+    "name": "LOGICHTE Keylex MG-18",
+    "price": 964,
+    "rating": 4.97,
+    "sold": 776628
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Duobam JL-99",
+    "name": "REVOLVO Duobam JL-99",
+    "price": 791,
+    "rating": 1.14,
+    "sold": 981488
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Span JH-48",
+    "name": "SONNY Span JH-48",
+    "price": 675,
+    "rating": 2.99,
+    "sold": 12649
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Flexidy DQ-40",
+    "name": "H&P Flexidy DQ-40",
+    "price": 50,
+    "rating": 4.64,
+    "sold": 25949
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Job LG-01",
+    "name": "LOGICHTE Job LG-01",
+    "price": 680,
+    "rating": 2.89,
+    "sold": 5705
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Flowdesk SF-77",
+    "name": "REVOLVO Flowdesk SF-77",
+    "price": 273,
+    "rating": 3.4,
+    "sold": 66516
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Zaam-Dox TU-19",
+    "name": "REVOLVO Zaam-Dox TU-19",
+    "price": 797,
+    "rating": 4.44,
+    "sold": 811699
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Solarbreeze TF-60",
+    "name": "H&P Solarbreeze TF-60",
+    "price": 841,
+    "rating": 1.26,
+    "sold": 9651
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Kanlam ME-73",
+    "name": "AZES Kanlam ME-73",
+    "price": 744,
+    "rating": 1.57,
+    "sold": 4371
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Sonsing PD-87",
+    "name": "AZES Sonsing PD-87",
+    "price": 936,
+    "rating": 3.29,
+    "sold": 586087
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Voltsillam ZJ-09",
+    "name": "AZES Voltsillam ZJ-09",
+    "price": 498,
+    "rating": 2.94,
+    "sold": 7499
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Ventosanzap DH-05",
+    "name": "REVOLVO Ventosanzap DH-05",
+    "price": 54,
+    "rating": 2.83,
+    "sold": 84822
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Vagram NM-32",
+    "name": "REVOLVO Vagram NM-32",
+    "price": 175,
+    "rating": 4.02,
+    "sold": 60630
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Domainer SV-89",
+    "name": "MAK Domainer SV-89",
+    "price": 566,
+    "rating": 3.45,
+    "sold": 77875
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Hatity KR-66",
+    "name": "COURSEAIR Hatity KR-66",
+    "price": 917,
+    "rating": 3.91,
+    "sold": 160859
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Lotlux HI-98",
+    "name": "COURSEAIR Lotlux HI-98",
+    "price": 832,
+    "rating": 1.34,
+    "sold": 5755
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Zoolab IY-82",
+    "name": "SONNY Zoolab IY-82",
+    "price": 804,
+    "rating": 4.05,
+    "sold": 8601
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Viva AI-29",
+    "name": "MAK Viva AI-29",
+    "price": 503,
+    "rating": 2.82,
+    "sold": 1129
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Y-find YA-89",
+    "name": "AZES Y-find YA-89",
+    "price": 609,
+    "rating": 2.61,
+    "sold": 9253
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Lotstring RI-85",
+    "name": "AZES Lotstring RI-85",
+    "price": 372,
+    "rating": 1.44,
+    "sold": 55084
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Konklab EC-05",
+    "name": "AZES Konklab EC-05",
+    "price": 654,
+    "rating": 4.96,
+    "sold": 1691
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Regrant FU-27",
+    "name": "SONNY Regrant FU-27",
+    "price": 729,
+    "rating": 1.92,
+    "sold": 26471
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Zathin RK-75",
+    "name": "H&P Zathin RK-75",
+    "price": 53,
+    "rating": 1.03,
+    "sold": 5875
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Keylex ST-97",
+    "name": "COURSEAIR Keylex ST-97",
+    "price": 772,
+    "rating": 3.25,
+    "sold": 5500
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Transcof NM-81",
+    "name": "AZES Transcof NM-81",
+    "price": 260,
+    "rating": 1.68,
+    "sold": 7973
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Tampflex DJ-87",
+    "name": "REVOLVO Tampflex DJ-87",
+    "price": 156,
+    "rating": 2.93,
+    "sold": 6431
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Trippledex FX-96",
+    "name": "REVOLVO Trippledex FX-96",
+    "price": 375,
+    "rating": 2.51,
+    "sold": 29308
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Stringtough DE-88",
+    "name": "REVOLVO Stringtough DE-88",
+    "price": 332,
+    "rating": 4.54,
+    "sold": 69283
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Otcom IU-79",
+    "name": "REVOLVO Otcom IU-79",
+    "price": 397,
+    "rating": 1.45,
+    "sold": 187
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Zathin OZ-86",
+    "name": "LOGICHTE Zathin OZ-86",
+    "price": 487,
+    "rating": 4.07,
+    "sold": 88240
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Overhold OI-80",
+    "name": "H&P Overhold OI-80",
+    "price": 633,
+    "rating": 2.21,
+    "sold": 7565
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Biodex ZO-65",
+    "name": "LOGICHTE Biodex ZO-65",
+    "price": 566,
+    "rating": 2.31,
+    "sold": 4431
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Latlux BZ-27",
+    "name": "COURSEAIR Latlux BZ-27",
+    "price": 571,
+    "rating": 4.05,
+    "sold": 4998
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Pannier CQ-58",
+    "name": "MAK Pannier CQ-58",
+    "price": 9,
+    "rating": 1.17,
+    "sold": 5492
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Fix San ZH-26",
+    "name": "LOGICHTE Fix San ZH-26",
+    "price": 462,
+    "rating": 2.64,
+    "sold": 857137
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Temp ZV-20",
+    "name": "LOGICHTE Temp ZV-20",
+    "price": 369,
+    "rating": 1.84,
+    "sold": 4864
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Zontrax OC-23",
+    "name": "COURSEAIR Zontrax OC-23",
+    "price": 774,
+    "rating": 2.41,
+    "sold": 2852
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Wrapsafe IX-02",
+    "name": "MAK Wrapsafe IX-02",
+    "price": 956,
+    "rating": 2.7,
+    "sold": 870
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Fix San MY-72",
+    "name": "SONNY Fix San MY-72",
+    "price": 120,
+    "rating": 1.37,
+    "sold": 9005
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Tresom JV-14",
+    "name": "COURSEAIR Tresom JV-14",
+    "price": 44,
+    "rating": 4.7,
+    "sold": 3812
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Stringtough OT-03",
+    "name": "REVOLVO Stringtough OT-03",
+    "price": 484,
+    "rating": 4.27,
+    "sold": 628628
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Tempsoft IC-04",
+    "name": "COURSEAIR Tempsoft IC-04",
+    "price": 863,
+    "rating": 4.75,
+    "sold": 34029
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Treeflex IW-54",
+    "name": "SONNY Treeflex IW-54",
+    "price": 564,
+    "rating": 1.94,
+    "sold": 3599
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Y-find HD-62",
+    "name": "REVOLVO Y-find HD-62",
+    "price": 264,
+    "rating": 2.49,
+    "sold": 5114
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Hatity RF-04",
+    "name": "LOGICHTE Hatity RF-04",
+    "price": 890,
+    "rating": 1.47,
+    "sold": 4674
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Temp AU-44",
+    "name": "REVOLVO Temp AU-44",
+    "price": 224,
+    "rating": 4.94,
+    "sold": 102
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Rank SP-98",
+    "name": "REVOLVO Rank SP-98",
+    "price": 334,
+    "rating": 1.48,
+    "sold": 74935
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Sonair KX-05",
+    "name": "AZES Sonair KX-05",
+    "price": 351,
+    "rating": 2.73,
+    "sold": 34294
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Duobam VM-57",
+    "name": "H&P Duobam VM-57",
+    "price": 925,
+    "rating": 3.62,
+    "sold": 94654
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Bytecard SO-08",
+    "name": "COURSEAIR Bytecard SO-08",
+    "price": 259,
+    "rating": 3.63,
+    "sold": 304
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Temp DG-94",
+    "name": "MAK Temp DG-94",
+    "price": 35,
+    "rating": 4.06,
+    "sold": 761
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Zontrax LK-02",
+    "name": "SONNY Zontrax LK-02",
+    "price": 223,
+    "rating": 3.38,
+    "sold": 717871
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Job QB-71",
+    "name": "H&P Job QB-71",
+    "price": 945,
+    "rating": 1.12,
+    "sold": 983
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tampflex YP-57",
+    "name": "H&P Tampflex YP-57",
+    "price": 763,
+    "rating": 4.24,
+    "sold": 81429
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Sonair PU-48",
+    "name": "H&P Sonair PU-48",
+    "price": 277,
+    "rating": 4.64,
+    "sold": 46938
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Voyatouch FZ-55",
+    "name": "SONNY Voyatouch FZ-55",
+    "price": 400,
+    "rating": 3.34,
+    "sold": 1578
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Redhold DS-77",
+    "name": "COURSEAIR Redhold DS-77",
+    "price": 498,
+    "rating": 2.79,
+    "sold": 68950
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Cardguard BG-95",
+    "name": "MAK Cardguard BG-95",
+    "price": 434,
+    "rating": 4.51,
+    "sold": 9029
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Transcof GO-29",
+    "name": "LOGICHTE Transcof GO-29",
+    "price": 743,
+    "rating": 2.69,
+    "sold": 262
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Greenlam FH-01",
+    "name": "AZES Greenlam FH-01",
+    "price": 455,
+    "rating": 1.98,
+    "sold": 392
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Aerified EM-11",
+    "name": "REVOLVO Aerified EM-11",
+    "price": 243,
+    "rating": 1.47,
+    "sold": 95645
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Cookley GS-45",
+    "name": "COURSEAIR Cookley GS-45",
+    "price": 250,
+    "rating": 2.79,
+    "sold": 628
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Konklab WE-54",
+    "name": "MAK Konklab WE-54",
+    "price": 601,
+    "rating": 1.61,
+    "sold": 770084
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Andalax NF-87",
+    "name": "MAK Andalax NF-87",
+    "price": 48,
+    "rating": 4.33,
+    "sold": 994
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Biodex WM-56",
+    "name": "REVOLVO Biodex WM-56",
+    "price": 274,
+    "rating": 4.71,
+    "sold": 290339
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Zamit BZ-30",
+    "name": "MAK Zamit BZ-30",
+    "price": 715,
+    "rating": 4.41,
+    "sold": 29459
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Mat Lam Tam ET-90",
+    "name": "H&P Mat Lam Tam ET-90",
+    "price": 71,
+    "rating": 2.14,
+    "sold": 7812
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Daltfresh JT-22",
+    "name": "MAK Daltfresh JT-22",
+    "price": 679,
+    "rating": 2.41,
+    "sold": 5144
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Fix San QW-84",
+    "name": "REVOLVO Fix San QW-84",
+    "price": 412,
+    "rating": 1.7,
+    "sold": 294212
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Zontrax AH-70",
+    "name": "H&P Zontrax AH-70",
+    "price": 200,
+    "rating": 4.75,
+    "sold": 63127
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Bigtax VI-06",
+    "name": "SONNY Bigtax VI-06",
+    "price": 864,
+    "rating": 3.7,
+    "sold": 42935
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Subin UB-14",
+    "name": "AZES Subin UB-14",
+    "price": 162,
+    "rating": 4.71,
+    "sold": 3964
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Bigtax KD-02",
+    "name": "H&P Bigtax KD-02",
+    "price": 13,
+    "rating": 2.78,
+    "sold": 8148
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Flexidy PX-55",
+    "name": "LOGICHTE Flexidy PX-55",
+    "price": 200,
+    "rating": 3.1,
+    "sold": 57
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Tempsoft JL-17",
+    "name": "AZES Tempsoft JL-17",
+    "price": 39,
+    "rating": 3.74,
+    "sold": 32724
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Ventosanzap CT-69",
+    "name": "REVOLVO Ventosanzap CT-69",
+    "price": 102,
+    "rating": 1.77,
+    "sold": 5213
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Pannier QX-65",
+    "name": "LOGICHTE Pannier QX-65",
+    "price": 863,
+    "rating": 1.56,
+    "sold": 35454
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Hatity KO-40",
+    "name": "SONNY Hatity KO-40",
+    "price": 349,
+    "rating": 1.37,
+    "sold": 18072
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Solarbreeze DV-51",
+    "name": "SONNY Solarbreeze DV-51",
+    "price": 319,
+    "rating": 4.05,
+    "sold": 6967
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Wrapsafe NP-65",
+    "name": "H&P Wrapsafe NP-65",
+    "price": 531,
+    "rating": 3.86,
+    "sold": 7603
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Zoolab XM-15",
+    "name": "LOGICHTE Zoolab XM-15",
+    "price": 361,
+    "rating": 1.4,
+    "sold": 6367
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Daltfresh UQ-10",
+    "name": "H&P Daltfresh UQ-10",
+    "price": 790,
+    "rating": 3.45,
+    "sold": 68120
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Aerified RN-81",
+    "name": "MAK Aerified RN-81",
+    "price": 404,
+    "rating": 3.01,
+    "sold": 698
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Ventosanzap IH-69",
+    "name": "H&P Ventosanzap IH-69",
+    "price": 429,
+    "rating": 4.58,
+    "sold": 287485
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Temp YR-96",
+    "name": "SONNY Temp YR-96",
+    "price": 121,
+    "rating": 1.33,
+    "sold": 80076
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Holdlamis KG-01",
+    "name": "REVOLVO Holdlamis KG-01",
+    "price": 24,
+    "rating": 1.61,
+    "sold": 3815
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Latlux ON-79",
+    "name": "COURSEAIR Latlux ON-79",
+    "price": 732,
+    "rating": 4.46,
+    "sold": 1862
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Otcom HG-90",
+    "name": "AZES Otcom HG-90",
+    "price": 83,
+    "rating": 2.09,
+    "sold": 8361
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Fintone ZJ-12",
+    "name": "H&P Fintone ZJ-12",
+    "price": 340,
+    "rating": 4.11,
+    "sold": 20179
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Kanlam SG-64",
+    "name": "COURSEAIR Kanlam SG-64",
+    "price": 746,
+    "rating": 4.29,
+    "sold": 48426
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Viva IH-16",
+    "name": "LOGICHTE Viva IH-16",
+    "price": 827,
+    "rating": 2.27,
+    "sold": 16993
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Voyatouch FO-09",
+    "name": "MAK Voyatouch FO-09",
+    "price": 98,
+    "rating": 3.85,
+    "sold": 706
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Fix San LG-39",
+    "name": "SONNY Fix San LG-39",
+    "price": 309,
+    "rating": 3.8,
+    "sold": 926674
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Tres-Zap GA-27",
+    "name": "LOGICHTE Tres-Zap GA-27",
+    "price": 987,
+    "rating": 3.68,
+    "sold": 8463
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Solarbreeze IO-74",
+    "name": "REVOLVO Solarbreeze IO-74",
+    "price": 93,
+    "rating": 4,
+    "sold": 123
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Transcof UV-12",
+    "name": "COURSEAIR Transcof UV-12",
+    "price": 528,
+    "rating": 1.24,
+    "sold": 257
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Zoolab YQ-81",
+    "name": "REVOLVO Zoolab YQ-81",
+    "price": 443,
+    "rating": 2.58,
+    "sold": 30939
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Ventosanzap LI-10",
+    "name": "H&P Ventosanzap LI-10",
+    "price": 438,
+    "rating": 4.41,
+    "sold": 934
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Cookley EL-15",
+    "name": "LOGICHTE Cookley EL-15",
+    "price": 763,
+    "rating": 2.03,
+    "sold": 4876
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Zoolab QK-76",
+    "name": "REVOLVO Zoolab QK-76",
+    "price": 848,
+    "rating": 4.82,
+    "sold": 255
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Konklab KL-72",
+    "name": "COURSEAIR Konklab KL-72",
+    "price": 988,
+    "rating": 3.73,
+    "sold": 8127
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Fintone HN-72",
+    "name": "AZES Fintone HN-72",
+    "price": 34,
+    "rating": 3.84,
+    "sold": 58452
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Cardguard EW-71",
+    "name": "COURSEAIR Cardguard EW-71",
+    "price": 802,
+    "rating": 1.33,
+    "sold": 3909
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Hatity CW-06",
+    "name": "LOGICHTE Hatity CW-06",
+    "price": 489,
+    "rating": 1.76,
+    "sold": 7414
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Rank IP-14",
+    "name": "SONNY Rank IP-14",
+    "price": 159,
+    "rating": 4.38,
+    "sold": 6650
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Zoolab LE-76",
+    "name": "AZES Zoolab LE-76",
+    "price": 153,
+    "rating": 3.15,
+    "sold": 2453
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Andalax CF-51",
+    "name": "AZES Andalax CF-51",
+    "price": 976,
+    "rating": 3.82,
+    "sold": 53272
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Bitwolf QE-27",
+    "name": "COURSEAIR Bitwolf QE-27",
+    "price": 565,
+    "rating": 4.65,
+    "sold": 57122
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Sonair EN-16",
+    "name": "LOGICHTE Sonair EN-16",
+    "price": 299,
+    "rating": 3.9,
+    "sold": 19209
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Bitchip QR-59",
+    "name": "REVOLVO Bitchip QR-59",
+    "price": 862,
+    "rating": 3.45,
+    "sold": 62995
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Viva AD-60",
+    "name": "SONNY Viva AD-60",
+    "price": 428,
+    "rating": 2.61,
+    "sold": 4022
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Temp YL-43",
+    "name": "SONNY Temp YL-43",
+    "price": 952,
+    "rating": 3.89,
+    "sold": 94669
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Duobam JK-03",
+    "name": "AZES Duobam JK-03",
+    "price": 73,
+    "rating": 2.9,
+    "sold": 1680
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Latlux QB-05",
+    "name": "AZES Latlux QB-05",
+    "price": 547,
+    "rating": 1.72,
+    "sold": 442402
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Lotstring DV-52",
+    "name": "MAK Lotstring DV-52",
+    "price": 826,
+    "rating": 4.65,
+    "sold": 498
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Alphazap ZO-24",
+    "name": "LOGICHTE Alphazap ZO-24",
+    "price": 392,
+    "rating": 2.19,
+    "sold": 372
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Hatity TN-38",
+    "name": "COURSEAIR Hatity TN-38",
+    "price": 125,
+    "rating": 3.99,
+    "sold": 682
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Fintone KR-51",
+    "name": "COURSEAIR Fintone KR-51",
+    "price": 369,
+    "rating": 1.22,
+    "sold": 974173
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Flowdesk XZ-37",
+    "name": "AZES Flowdesk XZ-37",
+    "price": 872,
+    "rating": 1.71,
+    "sold": 132383
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Veribet JM-75",
+    "name": "MAK Veribet JM-75",
+    "price": 72,
+    "rating": 3.89,
+    "sold": 7992
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Stringtough IG-69",
+    "name": "MAK Stringtough IG-69",
+    "price": 348,
+    "rating": 4.09,
+    "sold": 1976
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Y-Solowarm QJ-20",
+    "name": "MAK Y-Solowarm QJ-20",
+    "price": 23,
+    "rating": 3.51,
+    "sold": 88277
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Pannier NW-78",
+    "name": "AZES Pannier NW-78",
+    "price": 547,
+    "rating": 1.23,
+    "sold": 3980
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Veribet DF-38",
+    "name": "LOGICHTE Veribet DF-38",
+    "price": 259,
+    "rating": 3.42,
+    "sold": 5982
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Hatity GL-77",
+    "name": "REVOLVO Hatity GL-77",
+    "price": 714,
+    "rating": 2.21,
+    "sold": 281
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Viva AU-62",
+    "name": "REVOLVO Viva AU-62",
+    "price": 287,
+    "rating": 1.09,
+    "sold": 1015
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Andalax BD-22",
+    "name": "REVOLVO Andalax BD-22",
+    "price": 730,
+    "rating": 2.47,
+    "sold": 94903
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Keylex JL-27",
+    "name": "MAK Keylex JL-27",
+    "price": 959,
+    "rating": 1.59,
+    "sold": 3389
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Fix San PR-69",
+    "name": "SONNY Fix San PR-69",
+    "price": 877,
+    "rating": 3.26,
+    "sold": 6617
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Otcom SP-20",
+    "name": "H&P Otcom SP-20",
+    "price": 405,
+    "rating": 3.74,
+    "sold": 8190
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Cookley SF-97",
+    "name": "MAK Cookley SF-97",
+    "price": 770,
+    "rating": 3.57,
+    "sold": 331
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Alpha IU-33",
+    "name": "H&P Alpha IU-33",
+    "price": 332,
+    "rating": 1.57,
+    "sold": 902
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Treeflex YU-58",
+    "name": "MAK Treeflex YU-58",
+    "price": 505,
+    "rating": 4.28,
+    "sold": 4899
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Prodder CI-26",
+    "name": "SONNY Prodder CI-26",
+    "price": 933,
+    "rating": 1.2,
+    "sold": 51084
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Opela WG-03",
+    "name": "H&P Opela WG-03",
+    "price": 87,
+    "rating": 3.48,
+    "sold": 47478
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Matsoft FX-13",
+    "name": "LOGICHTE Matsoft FX-13",
+    "price": 895,
+    "rating": 2.01,
+    "sold": 4980
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Solarbreeze LU-26",
+    "name": "LOGICHTE Solarbreeze LU-26",
+    "price": 453,
+    "rating": 1.57,
+    "sold": 850
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Asoka GL-97",
+    "name": "REVOLVO Asoka GL-97",
+    "price": 516,
+    "rating": 1.23,
+    "sold": 6989
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Temp NZ-22",
+    "name": "SONNY Temp NZ-22",
+    "price": 221,
+    "rating": 2.39,
+    "sold": 13798
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bitchip SW-17",
+    "name": "LOGICHTE Bitchip SW-17",
+    "price": 522,
+    "rating": 4.72,
+    "sold": 4050
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Fintone AB-32",
+    "name": "MAK Fintone AB-32",
+    "price": 900,
+    "rating": 2.25,
+    "sold": 63
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Aerified GX-00",
+    "name": "COURSEAIR Aerified GX-00",
+    "price": 962,
+    "rating": 2.33,
+    "sold": 37027
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Greenlam FV-27",
+    "name": "SONNY Greenlam FV-27",
+    "price": 190,
+    "rating": 2.26,
+    "sold": 82053
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tempsoft CE-11",
+    "name": "H&P Tempsoft CE-11",
+    "price": 942,
+    "rating": 3.79,
+    "sold": 789
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sonair PR-26",
+    "name": "COURSEAIR Sonair PR-26",
+    "price": 582,
+    "rating": 3.59,
+    "sold": 85460
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Stronghold MN-33",
+    "name": "SONNY Stronghold MN-33",
+    "price": 467,
+    "rating": 2.22,
+    "sold": 647
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Cardguard DW-31",
+    "name": "H&P Cardguard DW-31",
+    "price": 967,
+    "rating": 1.57,
+    "sold": 97140
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Viva GN-09",
+    "name": "COURSEAIR Viva GN-09",
+    "price": 532,
+    "rating": 3.67,
+    "sold": 1388
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Redhold AV-83",
+    "name": "REVOLVO Redhold AV-83",
+    "price": 394,
+    "rating": 4.54,
+    "sold": 415
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Fix San WI-21",
+    "name": "H&P Fix San WI-21",
+    "price": 62,
+    "rating": 3.76,
+    "sold": 1781
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tempsoft AK-62",
+    "name": "H&P Tempsoft AK-62",
+    "price": 81,
+    "rating": 2.68,
+    "sold": 680
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Sonair WN-66",
+    "name": "H&P Sonair WN-66",
+    "price": 396,
+    "rating": 3.37,
+    "sold": 25921
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Domainer UT-76",
+    "name": "AZES Domainer UT-76",
+    "price": 470,
+    "rating": 4.42,
+    "sold": 886
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Fintone MW-74",
+    "name": "MAK Fintone MW-74",
+    "price": 438,
+    "rating": 4.28,
+    "sold": 8604
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Matsoft DL-01",
+    "name": "MAK Matsoft DL-01",
+    "price": 386,
+    "rating": 1.73,
+    "sold": 2313
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Zontrax LV-66",
+    "name": "SONNY Zontrax LV-66",
+    "price": 601,
+    "rating": 3.54,
+    "sold": 8494
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Bytecard ME-60",
+    "name": "LOGICHTE Bytecard ME-60",
+    "price": 149,
+    "rating": 3.2,
+    "sold": 1519
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Fintone TI-32",
+    "name": "H&P Fintone TI-32",
+    "price": 136,
+    "rating": 2.09,
+    "sold": 7950
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Bamity SK-92",
+    "name": "MAK Bamity SK-92",
+    "price": 581,
+    "rating": 3.4,
+    "sold": 196
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Alpha JY-93",
+    "name": "AZES Alpha JY-93",
+    "price": 889,
+    "rating": 1.21,
+    "sold": 2855
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "It CE-94",
+    "name": "H&P It CE-94",
+    "price": 648,
+    "rating": 1.82,
+    "sold": 81670
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Job KQ-53",
+    "name": "AZES Job KQ-53",
+    "price": 395,
+    "rating": 4.99,
+    "sold": 8580
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Greenlam BA-28",
+    "name": "MAK Greenlam BA-28",
+    "price": 504,
+    "rating": 4.62,
+    "sold": 176
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Job EH-72",
+    "name": "COURSEAIR Job EH-72",
+    "price": 343,
+    "rating": 3.59,
+    "sold": 759705
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Sonsing NE-03",
+    "name": "COURSEAIR Sonsing NE-03",
+    "price": 340,
+    "rating": 4.56,
+    "sold": 9768
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "AZES",
+    "model": "Bitchip FQ-86",
+    "name": "AZES Bitchip FQ-86",
+    "price": 792,
+    "rating": 1.08,
+    "sold": 57433
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "COURSEAIR",
+    "model": "Keylex XW-10",
+    "name": "COURSEAIR Keylex XW-10",
+    "price": 337,
+    "rating": 3.29,
+    "sold": 2960
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Ventosanzap MD-94",
+    "name": "SONNY Ventosanzap MD-94",
+    "price": 563,
+    "rating": 1.93,
+    "sold": 4180
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "H&P",
+    "model": "Tampflex BO-40",
+    "name": "H&P Tampflex BO-40",
+    "price": 199,
+    "rating": 3.77,
+    "sold": 92379
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "LOGICHTE",
+    "model": "Voyatouch OW-30",
+    "name": "LOGICHTE Voyatouch OW-30",
+    "price": 307,
+    "rating": 3.6,
+    "sold": 855
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Veribet FA-82",
+    "name": "SONNY Veribet FA-82",
+    "price": 711,
+    "rating": 1.93,
+    "sold": 4516
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "REVOLVO",
+    "model": "Tin KM-76",
+    "name": "REVOLVO Tin KM-76",
+    "price": 831,
+    "rating": 1.56,
+    "sold": 407
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Ronstring IM-05",
+    "name": "SONNY Ronstring IM-05",
+    "price": 726,
+    "rating": 2.16,
+    "sold": 42258
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Tempsoft UT-28",
+    "name": "SONNY Tempsoft UT-28",
+    "price": 241,
+    "rating": 1.58,
+    "sold": 39573
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "MAK",
+    "model": "Otcom EW-37",
+    "name": "MAK Otcom EW-37",
+    "price": 19,
+    "rating": 2.47,
+    "sold": 1069
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Overhold SL-87",
+    "name": "SONNY Overhold SL-87",
+    "price": 648,
+    "rating": 3.97,
+    "sold": 4445
+  },
+  {
+    "category": "LAPTOP",
+    "brand": "SONNY",
+    "model": "Temp AH-33",
+    "name": "SONNY Temp AH-33",
+    "price": 409,
+    "rating": 3.76,
+    "sold": 68784
+  }
+]
