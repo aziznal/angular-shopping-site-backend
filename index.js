@@ -125,53 +125,58 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
         //#endregion TEST HANDLER
         
         //#region PRODUCT_FORMS 
-        app.route("/forms")
+        // POST Handler for Search Query
+        app.post("/forms/get", (req, res) => {
 
-            // GET Handler
-            .get((req, res) => {
+            console.log("\nGot the following as request body: ");
+            lib.logRequestBody(req.body);
 
-                console.log("\nGot the following as request body: ");
-                lib.logRequestBody(req.body);
+            lib.searchQuery(db, req.body, (err, search_results) => {
 
-                lib.searchQuery(db, req.body, (search_results) => {
+                if (err) {
+                    console.log("No documents were found")
+                    res.status(404).send("No documents were found");
+                }
+                else {
                     console.log("Found " + search_results.length + " Documents\n");
                     res.send(search_results);
-                });
+                }
+            });
+        });
+
+        // POST Handler for Adding Documents
+        app.post("/forms", (req, res) => {
+            lib.createProduct(db, req.body, (results) => {
+
+                console.log("\nCreated Document with ID = " + results.insertedId);
+                console.log("ID has been sent back as response\n");
+
+                // Server sends back ID of inserted Document as response
+                res.set({'Content-Type': 'plain/text'});
+                res.send(results.insertedId);
+
+            });
+        });
+
+        // PUT Handler
+        app.put("/forms", (req, res) => {
+
+            lib.logRequestBody(req.body);
+
+            lib.updateProduct(db, req.body, (results) => {
+                console.log("\nUpdated " + results.result.n + " Documents\n");
+                res.send("\nUpdated " + results.result.n + " Documents\n");
             })
+        });
 
-            // POST Handler
-            .post((req, res) => {
-                lib.createProduct(db, req.body, (results) => {
+        // POST Handler for Deleting Documents
+        app.post("/forms/delete", (req, res) => {
+            lib.deleteQuery(db, req.body, (results) => {
+                console.log("\nDeleted " + results.result.n + " documents\n");
+                res.send("Deleted " + results.result.n + " documents");
 
-                    console.log("\nCreated Document with ID = " + results.insertedId);
-                    console.log("ID has been sent back as response\n");
-
-                    // Server sends back ID of inserted Document as response
-                    res.set({'Content-Type': 'plain/text'});
-                    res.send(results.insertedId);
-
-                });
             })
-
-            // PUT Handler
-            .put((req, res) => {
-                // Note: req.body is expected to be in the form { _id, set: { stuff_to: update} }
-                lib.updateProduct(db, req.body, (results) => {
-                    console.log("\nUpdated " + results.result.n + " Documents\n");
-                    res.send("\nUpdated " + results.result.n + " Documents\n");
-                })
-            })
-
-            // DELETE Handler
-            .delete((req, res) => {
-                lib.deleteQuery(db, req.body, (results) => {
-
-                    console.log("\nDeleted " + results.result.n + " documents\n");
-
-                    res.send("Deleted " + results.result.n + " documents");
-
-                })
-            })
+        })
 
         //#endregion PRODUCT_FORMS
 

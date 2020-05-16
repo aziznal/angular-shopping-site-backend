@@ -21,14 +21,20 @@ const convertID = (_id) => { return ObjectId(_id) }
 // Main Query Function
 const searchQuery = (db, query, callback) => {
 
-    const collection = db.collection(env_var.DB_PRODUCTS);
-
     // if present, _id field needs to be converted to an ObjectID.
-    if (query._id) query._id = convertID(query._id);
+    try {
+        if (query._id) query._id = convertID(query._id);
+        console.log(query._id);
+    } catch(err){
+        callback(err, null);
+        return;
+    }
+
+    const collection = db.collection(env_var.DB_PRODUCTS);
 
     collection.find(query).toArray((err, search_results) => {
         if (err) throw err;
-        callback(search_results);
+        callback(null, search_results);
     });
 }
 
@@ -44,22 +50,30 @@ const createProduct = (db, doc, callback) => {
 
 // Update Product Function
 const updateProduct = (db, doc, callback) => {
-    const collection = db.collection(env_var.DB_PRODUCTS);
-
     // Id is only needed for the query
     const query = {
         "_id": convertID(doc._id)
     }
 
-    // So it's deleted to not mess with the PUT request
+    
+    console.log("\nLOGGING DOC\n");
+    console.log(doc);
+
+    // So then it's deleted to not mess with the PUT request
     delete doc._id;
 
     // Some mongo semantics
+
+    console.log("\nLOGGING DOC\n");
+    console.log(doc);
+
     const update_set = {
-        $set: doc.set
+        $set: doc
     }
 
     // Finally, send the query
+    const collection = db.collection(env_var.DB_PRODUCTS);
+
     collection.updateOne(query, update_set, (err, results) => {
         if (err) throw err;
         callback(results);
