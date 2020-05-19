@@ -12,8 +12,12 @@ const app = express();
 
 // To allow CORs
 app.use(cors());
+
+// To Parse JSON request bodies
 app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
+
+// To Parse urlencoded variables
+app.use(express.urlencoded({ extended: true }));
 
 app.listen(env_var.EXPRESS_PORT, () => {
     console.log("Express is running on port " + env_var.EXPRESS_PORT);
@@ -180,6 +184,30 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
 
         //#endregion PRODUCT_FORMS
 
+        //#region ADVANCED_QUERIES
+
+        // POST Handler for Loading Products
+        app.post('/browse', (req, res) => {
+
+            // TODO: delete all logging related to debug 
+
+            console.log("\nRecieved the following Request Body in /browse:")
+            console.log(JSON.stringify(req.body, null, 2) + "\n");
+
+            console.log("\nRecieved the following Query Params in /browse:")
+            console.log(JSON.stringify(req.query, null, 2) + "\n");
+
+            lib.advancedSearchQuery(db, req.body, req.query, (search_results) => {
+                
+                console.log(`Got ${search_results.length} Results in the advanced query`);
+                res.status(200).send(search_results);
+
+            });
+
+        });
+
+        //#endregion ADVANCED_QUERIES
+    
         //#endregion REQUEST HANDLERS
     }
 );

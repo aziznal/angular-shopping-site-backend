@@ -7,6 +7,8 @@
     "DB_COMMENTS": "comments",
     "DB_SPECS": "specs",
 
-    "EXPRESS_PORT": 3000
+    "EXPRESS_PORT": 3000,
+
+    "VIEW_LIMIT": 21
     
 }

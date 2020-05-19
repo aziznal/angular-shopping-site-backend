@@ -104,6 +104,26 @@ const deleteQuery = (db, query, callback) => {
     }
 }
 
+//#region ADVANCED_QUERIES
+const advancedSearchQuery = (db, query, settings, callback) => {
+
+    const skip_amount = settings.page * env_var.VIEW_LIMIT;
+
+    var query_options = {
+        limit: env_var.VIEW_LIMIT,
+        skip: skip_amount,
+    }
+
+    const collection = db.collection(env_var.DB_PRODUCTS);
+
+    return collection.find(query, query_options).toArray((err, search_results) => {
+        if (err) throw err;
+        callback(search_results);
+    });
+    
+}
+//#endregion ADVANCED_QUERIES
+
 
 module.exports = {
     sendTestData,
@@ -112,5 +132,7 @@ module.exports = {
     searchQuery,
     createProduct,
     deleteQuery,
-    updateProduct
+    updateProduct,
+
+    advancedSearchQuery
 }
