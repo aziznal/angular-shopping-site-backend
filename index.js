@@ -3,6 +3,7 @@
 const express = require("express");
 const cors = require('cors');
 const MongoClient = require("mongodb").MongoClient;
+const assert = require('assert');
 
 const lib = require("./lib.js");
 const env_var = require("./metadata.json");
@@ -44,7 +45,7 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
 
         //#region ROOT HANDLER
 
-        // for POST, PUT, and DELETE. note: Allow header MUST be defined according to code 405
+        // for PUT, and DELETE. note: Allow header MUST be defined according to http code 405 rules
         res_headers = {
             "Content-Type": "text/plain",
             Allow: "GET",
@@ -63,12 +64,6 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                 });
                 // lib.sendTestData(res);
                 res.status(200).send("You Found Me!");
-            })
-            .post((req, res) => {
-                // method not supported
-                console.log("Received POST request on ROOT!");
-                res.set(res_headers);
-                res.status(405).send("Unsupported Method");
             })
             .put((req, res) => {
                 // method not supported
@@ -184,6 +179,47 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
 
         //#endregion PRODUCT_FORMS
 
+        //#region BASIC_QUERIES
+
+        // Basic Search Query
+        app.post('/', (req, res) => {
+            console.log("\nGot the following as request body: ");
+            lib.logRequestBody(req.body);
+
+            lib.searchQuery(db, req.body, (err, search_results) => {
+
+                if (err) {
+                    console.log("No documents were found")
+                    res.status(404).send("No documents were found");
+                }
+                else {
+                    if (req.query.for_product_page) {
+                        console.log("Got param for_product_page = " + req.query.for_product_page);
+
+                        /*
+                        Requesting for a single product (hopefully) means that the query is being made
+                        with an ID field, in which case only a single result can be found
+                         */
+
+                        if (search_results.length > 1){
+                            console.log("More than 1 product was found. Check Your Query");
+                            res.status(400).send("More than 1 product was found. Check Your Query");
+                        } else {
+                            console.log("Found " + search_results.length + " Documents\n");
+                            res.send(search_results[0]);
+                        }
+
+                    } else {
+                        console.log("Found " + search_results.length + " Documents\n");
+                        res.send(search_results);
+                    }
+
+                }
+            });
+        });
+
+        //#endregion BASIC_QUERIES
+
         //#region ADVANCED_QUERIES
 
         // POST Handler for Loading Products
@@ -207,7 +243,7 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
         });
 
         //#endregion ADVANCED_QUERIES
-    
+        
         //#endregion REQUEST HANDLERS
     }
 );

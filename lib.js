@@ -20,11 +20,10 @@ const convertID = (_id) => { return ObjectId(_id) }
 
 // Main Query Function
 const searchQuery = (db, query, callback) => {
-
+    // IDEA: technically, if _id is present, then the query can be made a lot simpler..
     // if present, _id field needs to be converted to an ObjectID.
     try {
         if (query._id) query._id = convertID(query._id);
-        console.log(query._id);
     } catch(err){
         callback(err, null);
         return;
