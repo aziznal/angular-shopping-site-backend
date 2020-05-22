@@ -203,15 +203,15 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
 
                         if (search_results.length > 1){
                             console.log("More than 1 product was found. Check Your Query");
-                            res.status(400).send("More than 1 product was found. Check Your Query");
+                            return res.status(400).send("More than 1 product was found. Check Your Query");
                         } else {
                             console.log("Found " + search_results.length + " Documents\n");
-                            res.send(search_results[0]);
+                            return res.send(search_results[0]);
                         }
 
                     } else {
                         console.log("Found " + search_results.length + " Documents\n");
-                        res.send(search_results);
+                        return res.send(search_results);
                     }
 
                 }

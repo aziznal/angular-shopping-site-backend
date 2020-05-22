@@ -113,6 +113,26 @@ const advancedSearchQuery = (db, query, settings, callback) => {
         skip: skip_amount,
     }
 
+    // Checking to see if any special sorting was requested
+    if( settings.sort_by ){
+        console.log("Sorting Results by " + settings.sort_by);
+
+        switch(settings.sort_by){
+            case "price":
+                query_options['sort'] = { 'price': -1 };       // -1 for descending
+                break;
+            case "rating":
+                query_options['sort'] = { 'rating': -1 };      // -1 for descending
+                break;
+            case "sold":
+                query_options['sort'] = { 'sold': -1 };        // -1 for descending
+                break;
+            default:
+                console.log("Bad Value found for sort_by. Skipping.");
+        }
+    }
+
+    // Finally, do the query
     const collection = db.collection(env_var.DB_PRODUCTS);
 
     return collection.find(query, query_options).toArray((err, search_results) => {
