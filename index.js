@@ -1,12 +1,13 @@
-// BUG: data can't be properly queried because numerical types have been converted to string.
-
 const express = require("express");
 const cors = require('cors');
 const MongoClient = require("mongodb").MongoClient;
-const assert = require('assert');
 
 const lib = require("./lib.js");
+const users = require('./users.js');
 const env_var = require("./metadata.json");
+
+
+// TODO: refactor the F##K out of this file. Put every section of handlers into its own file
 
 //#region EXPRESS SETTINGS
 const app = express();
@@ -157,7 +158,7 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
             });
         });
 
-        // PUT Handler
+        // PUT Handler for updating documents
         app.put("/forms", (req, res) => {
 
             lib.logRequestBody(req.body);
@@ -244,6 +245,96 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
 
         //#endregion ADVANCED_QUERIES
         
+        //#region USER LOGIN HANDLER
+
+        // User Login Handler
+        app.post('/user/login', (req, res) => {
+
+            // TODO: Stop logging plain text password to the console (eventually)
+            console.log("Got the following information from frontend: ");
+            console.log(JSON.stringify(req.body, null, 2));
+
+            users.logUserIn(db, req.body, (results) => {
+
+                // Success
+                if (results == 200) return res.status(200).send("Successfully Identified User");
+                
+                // Wrong Password
+                if (results == 401) return res.status(401).send("Bad Password");
+                
+                // No such account
+                if (results == 404) return res.status(404).send("No accounts were found");
+
+            });
+
+        });
+
+        // User Finder Handler
+        app.post('/user/find', (req, res) => {
+
+            console.log("Trying to find user with following credentials: ");
+            console.log(JSON.stringify(req.body, null, 2));
+
+            users.findUser(db, req.body, (err, results) => {
+
+                if (err) {
+                    console.log("No Documents were found");
+                    return res.status(404).send("No Documents were found");
+                } else {
+                    console.log("Found " + results.length+ " Documents");
+                    return res.send(results);
+                }
+            });
+
+        });
+
+        // User Creation Handler
+        app.post('/user/create', (req, res) => {
+
+            // TODO: Stop logging plain text password to the console
+            console.log("\nGot the following information from frontend: ");
+            console.log(JSON.stringify(req.body, null, 2));
+
+            users.createNewUser(db, req.body, (results) => {
+
+                // 409 = conflict, where form resubmission may resolve the issue
+                if (results == -1){
+                    return res.status(409).send("\nAn account with this email already exists");
+                }
+
+                // 201 = created
+                if (results.result.n == 1){
+                    console.log("\nAccount successfully created");
+                    return res.status(201).send(results);
+                }
+            })
+        });
+
+        // User Update Handler
+        app.put('/user/update', (req, res) => {
+
+            users.updateUser(db, req.body, (results) => {
+                console.log("\nUpdated " + results.result.n + " Documents\n");
+                res.send("\nUpdated " + results.result.n + " Documents\n");
+            })
+
+        });
+
+        // User Delete Handler
+        app.post('user/delete', (req, res) => {
+            users.deleteUser(db, req.body, (results, err) => {
+
+                if (err) {
+                    return res.status(404).send("No users found with given ID");
+                } else {
+                    console.log("\nDeleted " + results.result.n + " Documents\n");
+                    res.send("\nDeleted " + results.result.n + " Documents\n");
+                }
+            })
+        });
+
+        //#endregion USER LOGIN HANDLER
+
         //#endregion REQUEST HANDLERS
     }
 );

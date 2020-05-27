@@ -1,5 +1,6 @@
 const env_var = require('./metadata.json');
 const test_json = require('./test_data.json');
+
 const ObjectId = require('mongodb').ObjectID;
 
 // TODO: delete the two functions below
@@ -143,15 +144,16 @@ const advancedSearchQuery = (db, query, settings, callback) => {
 }
 //#endregion ADVANCED_QUERIES
 
-
 module.exports = {
     sendTestData,
     logRequestBody,
 
+    convertID,
     searchQuery,
     createProduct,
     deleteQuery,
     updateProduct,
 
-    advancedSearchQuery
+    advancedSearchQuery,
+
 }

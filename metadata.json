@@ -6,6 +6,7 @@
     "DB_PRODUCTS": "products",
     "DB_COMMENTS": "comments",
     "DB_SPECS": "specs",
+    "DB_USERS": "users",
 
     "EXPRESS_PORT": 3000,
 
