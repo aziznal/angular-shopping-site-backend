@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require('cors');
+const cookieParser = require('cookie-parser');
 const MongoClient = require("mongodb").MongoClient;
 
 const lib = require("./lib.js");
@@ -20,6 +21,9 @@ app.use(express.json());
 
 // To Parse urlencoded variables
 app.use(express.urlencoded({ extended: true }));
+
+// For Cookies
+app.use(cookieParser());
 
 app.listen(env_var.EXPRESS_PORT, () => {
     console.log("Express is running on port " + env_var.EXPRESS_PORT);
@@ -113,7 +117,7 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                 res.send("got PUT request on ROOT/test");
             })
 
-            // DELETE Hanlder
+            // DELETE Handler
             .delete((req, res) => {
 
                 res.set(test_headers);
@@ -122,6 +126,30 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
 
                 res.send("got DELETE request on ROOT/test");
             });
+
+        // Cookie Tester GET Handler
+        app.get('/cookie_tester', (req, res) => {
+
+            let client_cookies = req.cookies;
+
+            console.log(client_cookies);
+
+            // res.cookie("Number_1", "Hey");
+            // res.cookie("Number_2", "Now");
+            // res.cookie("Number_3", "You're");
+            // res.cookie("Number_4", "A");
+            // res.cookie("Number_5", "Rockstar");
+
+            if (client_cookies.session_id){
+                res.send("I see your cookie!");
+            } else {
+                res.cookie("session_id", "0x084698454asda98s4d684w", {'maxAge': 10000});
+                res.send("Looks like you're missing a cookie. Here, have one! This Cookie expires in Ten Seconds");
+            }
+
+
+        })
+
         //#endregion TEST HANDLER
         
         //#region PRODUCT_FORMS 
