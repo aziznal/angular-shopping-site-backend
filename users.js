@@ -1,7 +1,7 @@
 const lib = require('./lib.js');
 const env_var = require('./metadata.json');
 const bcrypt = require('bcrypt');
-
+const uuid = require('uuid');
 
 
 const alreadyExists = async (query, collection) => {
@@ -126,29 +126,63 @@ const logUserIn = async (db, user, callback) => {
     if (!accountExists) return callback(404);
 
     let user_hash;
+    let user_;  // to use in generating a session token later
 
     const user_query = { email: user.user_email };
     await findUser(db, user_query, (err, results) => {
-        if (err) {
-            reject();
-            throw Error;
-        }   
+        if (err) throw Error;
 
+        user_ = results;
         user_hash = results.password;
         console.log(results);
-        console.log("\nFound the hash!!");
-        console.log(user_hash);
+
     });
 
     valid_password = bcrypt.compareSync(user.user_password, user_hash);
 
     if (valid_password){
         console.log("\nPassword matches hash!");
-        callback(200);  // OK
+        callback(200, user_);  // OK
     } else {
         console.log("\nPassword does not match hash");
-        callback(401);  // Unauthorized
+        callback(401, null);  // Unauthorized
     }
+
+}
+
+// Generate a token to keep the user logged in throughout website
+const generateToken = (user) => {
+    return new Promise((resolve, reject) => {
+        const hash_body = user._id + user.email;
+        const user_token = bcrypt.hashSync(hash_body, 10);
+        resolve(user_token);
+    })
+}
+
+const validateToken = (user, token) => {
+    return new Promise((resolve, reject) => {
+        const hash_body = user._id + user.email;
+        const tokenIsValid = bcrypt.compareSync(hash_body, token);
+
+        if (tokenIsValid) resolve(tokenIsValid);
+        else reject("Bad Token");
+    });
+}
+
+const checkIsLoggedIn = async (user, token) => {
+    
+    return new Promise( async (resolve, reject) => {
+
+        // if no token was provided then obviously user isn't logged in
+        if (!token){
+            console.log("\nNo Token was provided. User must be logged out");
+            resolve(false);
+        } else {
+            const isValid = await validateToken(user, token);
+            resolve(isValid);
+        }
+
+    })
 
 }
 
@@ -158,5 +192,9 @@ module.exports = {
     deleteUser,
     updateUser,
     findUser,
+
+    generateToken,
+    validateToken,
+    checkIsLoggedIn
 
 }

@@ -14,7 +14,16 @@ const env_var = require("./metadata.json");
 const app = express();
 
 // To allow CORs
-app.use(cors());
+
+// Using these solves {withCredentials = true} cors issue
+userLoginPreflightOptions = {
+    "Access-Control-Allow-Origin": "http://localhost:4200/", 
+    "Access-Control-Allow-Methods":"POST, GET, DELETE, PUT",
+    credentials:true,
+    origin: true,
+}
+
+app.use(cors(userLoginPreflightOptions));
 
 // To Parse JSON request bodies
 app.use(express.json());
@@ -276,25 +285,69 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
         //#region USER LOGIN HANDLER
 
         // User Login Handler
-        app.post('/user/login', (req, res) => {
+        app.post('/user/login', cors(userLoginPreflightOptions), async (req, res) => {
 
             // TODO: Stop logging plain text password to the console (eventually)
             console.log("Got the following information from frontend: ");
             console.log(JSON.stringify(req.body, null, 2));
 
-            users.logUserIn(db, req.body, (results) => {
+            // Check if user is already logged in
+            if (req.cookies.session_id){
 
-                // Success
-                if (results == 200) return res.status(200).send("Successfully Identified User");
+                // First, get the user with the _id field from the db
+                let user_;
+                await users.findUser(db, {email: req.body.user_email}, (err, results) => {
+                    if (err) throw Error;
+                    console.log("\n\nlogging results of user search");
+                    console.log(results);
+                    user_ = results;
+                });
+
+                // Execute login check
+                const isLoggedIn = await users.checkIsLoggedIn(user_, req.cookies.session_id);
+
+                // Bob's ur uncle
+                if (isLoggedIn) {
+                    console.log("User is already logged in");
+                    return res.status(200).send("User is already logged in");
+                } else {
+                    console.log("Unhandled Case: Session probably expired");
+                    return res.status(500).send("Unhandled Case: session probably expired");
+                }
+
                 
-                // Wrong Password
-                if (results == 401) return res.status(401).send("Bad Password");
-                
-                // No such account
-                if (results == 404) return res.status(404).send("No accounts were found");
+            } else {
+                users.logUserIn(db, req.body, async (results, user_) => {
 
-            });
-
+                    switch(results){
+    
+                        case 200:   // Success
+    
+                            console.log("\nClient sent following cookies: ");
+                            console.log(req.cookies);
+    
+                            // Generating Token for current session
+                            const token = await users.generateToken(user_);
+    
+                            // Sending Token as cookie
+                            res.cookie("session_id", token, { sameSite:"lax", maxAge:10000 });
+    
+                            res.status(200).send("Successfully Identified User");
+                            break;
+    
+                        case 401:   // Wrong Password
+                            res.status(401).send("Bad Password");
+                            break;
+    
+                        case 404:   // No Such acccount exists
+                            res.status(404).send("No account were found");
+                            break;
+    
+                        default:
+                            res.status(500).send("Unknown Error Occured");
+                    }
+                });
+            }
         });
 
         // User Finder Handler
