@@ -9,6 +9,7 @@ const env_var = require("./metadata.json");
 
 
 // TODO: refactor the F##K out of this file. Put every section of handlers into its own file
+// TODO: delete the sea of console.log()
 
 //#region EXPRESS SETTINGS
 const app = express();
@@ -307,7 +308,12 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                     delete user_db._id;
                     delete user_db.password;
 
-                    return res.status(200).send({ msg: "User is still logged in", user: {user_email: user_db.email}});
+                    // email field needs a name change
+                    user_db.user_email = user_db.email;
+
+                    delete user_db.email;
+
+                    return res.status(200).send({ msg: "User is still logged in", user: user_db});
                 }
 
                 else {
@@ -361,7 +367,14 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                     switch(results){
     
                         case 200:   // Success
-    
+                        
+                            /* TODO: Generate better way of handling the session_id situation
+                             * Create two seperate cookies:
+                                - A session-only cookie to keep user logged in for current session, terminates with the session
+                                - A stays-behind the scenes cookie to keep the user from having to login again if they close thesite
+                                    and open it again later (with a maxage ofcourse)
+                             */
+
                             // Generating Token for current session
                             const token = await users.generateToken(user_);
     
@@ -431,9 +444,16 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
         // User Update Handler
         app.put('/user/update', (req, res) => {
 
+            console.log("Recieved user update request on /user/update");
+            console.log("Logging request body.. ");
+            console.log(JSON.stringify(req.body, null, 2));
+
             users.updateUser(db, req.body, (results) => {
+
+                if (results == 404) return res.status(404).send({msg: "No users were found with the given query"});
+
                 console.log("\nUpdated " + results.result.n + " Documents\n");
-                res.send("\nUpdated " + results.result.n + " Documents\n");
+                res.send({msg: "User info successfully updated"});
             })
 
         });

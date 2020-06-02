@@ -17,7 +17,7 @@ const alreadyExists = async (query, collection) => {
     })
 }
 
-// Method to Create new user
+// Create new user METHOD
 const createNewUser = async (db, user, callback) => {
     const collection = db.collection(env_var.DB_USERS);
 
@@ -48,7 +48,7 @@ const createNewUser = async (db, user, callback) => {
     });
 }
 
-// Method to find user
+// find user METHOD (how many users is this thing supposed to be finding again?)
 const findUser = async (db, query, callback) => {
     return new Promise((resolve, reject) => {
         const collection = db.collection(env_var.DB_USERS);
@@ -71,18 +71,23 @@ const findUser = async (db, query, callback) => {
     })
 }
 
-// Method to Update User Info
-const updateUser = (db, user, callback) => {
+// Update User Info METHOD
+const updateUser = async (db, user, callback) => {
 
     const collection = db.collection(env_var.DB_USERS);
 
-    // Only find users by ID so weird things don't happen (technically emails are also unique..)
+    // Safety Check: Confirm user exists
+    const accountExists = await alreadyExists({ email: user.user_email }, collection);
+    if (!accountExists) return callback(404);
+
+
+    // Set up search query
     const query = {
-        "_id": convertID(user._id)
+        email: user.user_email   
     }
 
-    // id is deleted to not mess with the mongo query
-    delete user._id;
+    // Adjust update_set to not include unnecessary fields
+    delete user.user_email;
 
     // Some mongo semantics
     const update_set = {
@@ -96,7 +101,7 @@ const updateUser = (db, user, callback) => {
     });
 }
 
-// Method to Delete User
+// Delete User METHOD
 const deleteUser = (db, user, callback) => {
     const collection = db.collection(env_var.DB_USERS);
 
@@ -115,7 +120,7 @@ const deleteUser = (db, user, callback) => {
     });
 }
 
-// Method to log user in
+// Login User METHOD
 const logUserIn = async (db, user, callback) => {
     const collection = db.collection(env_var.DB_USERS);
     
@@ -158,6 +163,7 @@ const generateToken = (user) => {
     })
 }
 
+// Helper Method to Validate a session_id token sent by the user
 const validateToken = (user, token) => {
     return new Promise((resolve, reject) => {
         const hash_body = user._id + user.email;
