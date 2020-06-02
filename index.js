@@ -284,8 +284,47 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
         
         //#region USER LOGIN HANDLER
 
+        // Check if user is still logged in (used whenever navigating from page to page)
+        app.post('/user/login-validate', cors(userLoginPreflightOptions), async (req, res) => {
+
+            console.log("\nRecieved login validation request on /user/login-validate\n");
+
+            // validate user token
+            const query_ = { email: req.cookies.user_email };
+            const user_token = req.cookies.session_id;
+
+            users.findUser(db, query_, async (err, user_db) => {
+                if (err) throw err;
+
+                console.log("\nFound the following user: ");
+                console.log(user_db);
+
+
+                const isValid = await users.validateToken(user_db, user_token);
+
+                if (isValid) {
+                    // Send back the user's info, but don't give away the id or password
+                    delete user_db._id;
+                    delete user_db.password;
+
+                    return res.status(200).send({ msg: "User is still logged in", user: {user_email: user_db.email}});
+                }
+
+                else {
+                    return res.status(401).send("Session Expired");
+                }
+
+            })
+
+        });
+
         // User Login Handler
         app.post('/user/login', cors(userLoginPreflightOptions), async (req, res) => {
+            
+            if (req.cookies){
+                console.log("\nClient sent following cookies: ");
+                console.log(req.cookies);
+            }
 
             // TODO: Stop logging plain text password to the console (eventually)
             console.log("Got the following information from frontend: ");
@@ -315,7 +354,7 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
                     return res.status(500).send("Unhandled Case: session probably expired");
                 }
 
-                
+            // Else, If user wasn't already logged in
             } else {
                 users.logUserIn(db, req.body, async (results, user_) => {
 
@@ -323,16 +362,14 @@ MongoClient.connect( env_var.DB_URL, { useUnifiedTopology: true }, (err, client)
     
                         case 200:   // Success
     
-                            console.log("\nClient sent following cookies: ");
-                            console.log(req.cookies);
-    
                             // Generating Token for current session
                             const token = await users.generateToken(user_);
     
                             // Sending Token as cookie
-                            res.cookie("session_id", token, { sameSite:"lax", maxAge:10000 });
-    
-                            res.status(200).send("Successfully Identified User");
+                            res.cookie("session_id", token, { sameSite:"lax", maxAge:3600000 });
+                            res.cookie("user_email", req.body.user_email, {sameSite:"lax", maxAge: 3600000});
+
+                            res.status(200).send({ msg: "Successfully Identified User"});
                             break;
     
                         case 401:   // Wrong Password

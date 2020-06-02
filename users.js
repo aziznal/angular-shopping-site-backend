@@ -1,7 +1,6 @@
 const lib = require('./lib.js');
 const env_var = require('./metadata.json');
 const bcrypt = require('bcrypt');
-const uuid = require('uuid');
 
 
 const alreadyExists = async (query, collection) => {
