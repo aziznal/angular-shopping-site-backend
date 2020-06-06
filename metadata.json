@@ -10,6 +10,12 @@
 
     "EXPRESS_PORT": 3000,
 
-    "VIEW_LIMIT": 21
-    
+    "VIEW_LIMIT": 21,
+
+    "preflightOptions": {
+        "Access-Control-Allow-Origin": "http://localhost:4200/",
+        "Access-Control-Allow-Methods": "POST, GET, DELETE, PUT",
+        "credentials": true,
+        "origin": true
+    }
 }
