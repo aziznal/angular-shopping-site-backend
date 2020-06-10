@@ -10,6 +10,7 @@ const ROOT_HANDLER = require("./route_handlers/root");
 const PRODUCT_FORMS_HANDLER = require("./route_handlers/product_forms");
 const PRODUCT_LOADING_HANDLER = require("./route_handlers/product_loading");
 const USER_HANDLER = require("./route_handlers/user");
+const CART_HANDLER = require("./route_handlers/cart");
 
 //#region EXPRESS_APP_SETUP
 const app = express();
@@ -45,4 +46,6 @@ MongoClient.connect(env_var.DB_URL, { useUnifiedTopology: true }, (err, client) 
     PRODUCT_LOADING_HANDLER.create_handler(app, db);
 
     USER_HANDLER.create_handler(app, db, cors);
+
+    CART_HANDLER.create_handler(app, db);
 });

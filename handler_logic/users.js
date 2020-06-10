@@ -91,7 +91,7 @@ const updateUser = async (db, user, callback) => {
         email: user.user_email,
     };
 
-    // Adjust update_set to not include unnecessary fields
+    // Adjust update_set to not include immutable fields
     delete user.user_email;
 
     // Some mongo semantics
@@ -192,6 +192,7 @@ const checkIsLoggedIn = async (user, token) => {
 };
 
 module.exports = {
+    alreadyExists,
     createNewUser,
     logUserIn,
     deleteUser,

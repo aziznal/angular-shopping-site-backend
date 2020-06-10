@@ -17,8 +17,7 @@ const create_handler = (express_app, database_, cors) => {
             const isValid = await users.validateToken(user_db, user_token);
 
             if (isValid) {
-                // Send back the user's info, but don't give away the id or password
-                delete user_db._id;
+                // Send back the user's info, but don't give away password
                 delete user_db.password;
 
                 // email field needs a key change
