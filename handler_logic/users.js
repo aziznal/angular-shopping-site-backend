@@ -16,6 +16,15 @@ const alreadyExists = async (query, collection) => {
     // returns true if query matches a doc in the collection
 
     return new Promise((resolve, reject) => {
+
+        // If present (usually the case), convert id fields to ObjectID
+        try {
+            if (query._id) query._id = lib.convertID(query._id);
+        } catch (err) {
+            console.log("Error in users.alreadyExists: " + err);
+            return;
+        }
+
         collection.countDocuments(query, (err, docCount) => {
             if (err) reject(err);
 
@@ -92,6 +101,7 @@ const updateUser = async (db, user, callback) => {
     };
 
     // Adjust update_set to not include immutable fields
+    delete user._id;
     delete user.user_email;
 
     // Some mongo semantics
@@ -143,16 +153,13 @@ const logUserIn = async (db, user, callback) => {
 
         user_ = results;
         user_hash = results.password;
-        console.log(results);
     });
 
     valid_password = bcrypt.compareSync(user.user_password, user_hash);
 
     if (valid_password) {
-        console.log("\nPassword matches hash!");
         callback(200, user_); // OK
     } else {
-        console.log("\nPassword does not match hash");
         callback(401, null); // Unauthorized
     }
 };

@@ -86,7 +86,7 @@ const create_handler = (express_app, database_, cors) => {
 
     // ### User Finder Handler
     express_app.post("/user/find", (req, res) => {
-        // NOTE: this is not being used anywhere yet
+        // NOTE: this is not being used anywhere yet (Maybe used after a frontend implementation)
         // TODO: test after implementation on frontend
         users.findUser(database_, req.body, (err, results) => {
             if (err) {
@@ -146,7 +146,7 @@ const create_handler = (express_app, database_, cors) => {
     // ### User Delete Handler
     express_app.post("user/delete", (req, res) => {
         // NOTE: this is not being used yet
-        // REFACTOR to new system
+        // REFACTOR to send a response with a msg object instead
         users.deleteUser(database_, req.body, (results, err) => {
             if (err) {
                 return res.status(404).send("No users found with given ID");
