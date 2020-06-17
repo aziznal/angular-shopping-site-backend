@@ -16,7 +16,7 @@ const create_handler = (express_app, database_) => {
         await cart.update(user, database_, (status) => {
             switch (status) {
                 case 200:
-                    res.status(200).send({ msg: "Successfully Updated Product" });
+                    res.status(200).send({ msg: "Successfully Updated Cart" });
                     break;
 
                 case 404:
