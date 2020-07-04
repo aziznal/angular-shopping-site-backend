@@ -184,20 +184,6 @@ const validateToken = (user, token) => {
     });
 };
 
-// TODO: check if this method is used anywhere
-const checkIsLoggedIn = async (user, token) => {
-    return new Promise(async (resolve, reject) => {
-        // if no token was provided then obviously user isn't logged in
-        if (!token) {
-            console.log("\nNo Token was provided. User must be logged out\n");
-            resolve(false);
-        } else {
-            const isValid = await validateToken(user, token);
-            resolve(isValid);
-        }
-    });
-};
-
 module.exports = {
     alreadyExists,
     createNewUser,
@@ -208,5 +194,4 @@ module.exports = {
 
     generateToken,
     validateToken,
-    checkIsLoggedIn,
 };

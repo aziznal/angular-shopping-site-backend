@@ -17,5 +17,15 @@
         "Access-Control-Allow-Methods": "POST, GET, DELETE, PUT",
         "credentials": true,
         "origin": true
-    }
+    },
+
+    "productCategories":  [
+        "DESKTOP",
+        "LAPTOP",
+        "MONITOR",
+        "KEYBOARD",
+        "MOUSE",
+        "BACKPACK",
+        "TEST"
+    ]
 }

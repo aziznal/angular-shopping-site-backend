@@ -1,7 +1,42 @@
 const lib = require("../lib");
 const env_var = require("../metadata.json");
 
-// Search for products with a given query (used in single product page and in product forms)
+let productCounts = {};  // Save products counts in this object
+
+// ### Counting Logic for updateProductCount
+const updateCategory = (collection, category) => {
+    return new Promise((resolve, reject) => {
+        const query = { category: category }
+        resolve(collection.countDocuments(query));
+    })
+}
+
+// ### Main productCountUpdate function
+const updateProductCountMain = async (db) => {
+
+    console.log("\nUpdating Product Counts..");
+    const collection = db.collection(env_var.DB_PRODUCTS);
+
+    for (category of env_var.productCategories) {
+        let newCount = await updateCategory(collection, category);
+        productCounts[category] = newCount;
+    }
+
+    console.log("Current Product Counts: ");
+    console.log(JSON.stringify(productCounts, null, 2) + "\n");
+
+}
+
+// ### Update number of items per category every five minutes
+const updateProductCount = (db) => {
+
+    // Update counts when server is first started, then set interval
+    updateProductCountMain(db);
+
+    setInterval(updateProductCountMain, 300000, db);
+};
+
+// ### Search for products with a given query (used in single product page and in product forms)
 const productQuery = (db, query, callback) => {
     // if present, _id field needs to be converted to an ObjectID.
     try {
@@ -19,7 +54,7 @@ const productQuery = (db, query, callback) => {
     });
 };
 
-// Product Creation Function (used in forms)
+// ### Product Creation Function (used in forms)
 const createProduct = (db, doc, callback) => {
     const collection = db.collection(env_var.DB_PRODUCTS);
 
@@ -29,7 +64,7 @@ const createProduct = (db, doc, callback) => {
     });
 };
 
-// Update Product (used in forms)
+// ### Update Product (used in forms)
 const updateProduct = (db, doc, callback) => {
     // Id is only needed for the query
     const query = {
@@ -54,7 +89,7 @@ const updateProduct = (db, doc, callback) => {
     });
 };
 
-// Delete Product (used in forms)
+// ### Delete Product (used in forms)
 const deleteQuery = (db, query, callback) => {
     const collection = db.collection(env_var.DB_PRODUCTS);
 
@@ -75,9 +110,11 @@ const deleteQuery = (db, query, callback) => {
     }
 };
 
-// Get group of products filtered by settings (used in multiple products page)
+// ### Get group of products filtered by settings (used in multiple products page)
 const advancedSearchQuery = (db, query, settings, callback) => {
     const skip_amount = settings.page * env_var.VIEW_LIMIT;
+
+    // Get total available
 
     var query_options = {
         limit: env_var.VIEW_LIMIT,
@@ -104,15 +141,16 @@ const advancedSearchQuery = (db, query, settings, callback) => {
     // Finally, do the query
     const collection = db.collection(env_var.DB_PRODUCTS);
 
-    return collection
-        .find(query, query_options)
-        .toArray((err, search_results) => {
-            if (err) throw err;
-            callback(search_results);
-        });
+    return collection.find(query, query_options).toArray( async (err, search_results) => {
+        if (err) throw err;
+        const totalPageCount = Math.floor(productCounts[query["category"]] / env_var.VIEW_LIMIT);
+        callback(search_results, totalPageCount);
+    });
 };
 
 module.exports = {
+    updateProductCount,
+
     productQuery,
     createProduct,
     deleteQuery,

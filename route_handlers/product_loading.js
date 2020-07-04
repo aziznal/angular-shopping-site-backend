@@ -2,10 +2,12 @@ const env_var = require("../metadata.json");
 const lib = require("../lib");
 const products = require("../handler_logic/products");
 
-// TODO: send total page number in response to product page load request
-
 const create_handler = (express_app, database_) => {
-    // Basic Search Query (for loading products, either singular product page or in forms)
+
+    // ### Pass needed variables to intiailize updateProductCount
+    products.updateProductCount(database_);
+
+    // ### Basic Search Query (for loading products, either singular product page or in forms)
     express_app.post("/", (req, res) => {
         products.productQuery(database_, req.body, (err, search_results) => {
             if (err) {
@@ -31,11 +33,12 @@ const create_handler = (express_app, database_) => {
     }); // End of Basic Query
 
     // a more advanced query for loading a pagefull of products
-    // POST Handler for Loading Products
+    // ### POST Handler for Loading Products
     express_app.post("/browse", (req, res) => {
-        products.advancedSearchQuery(database_, req.body, req.query, (search_results) => {
+        products.advancedSearchQuery(database_, req.body, req.query, (search_results, total_pages) => {
             const response = {
                 results: search_results,
+                total_page_number: total_pages,
                 msg: `Got ${search_results.length} Results in the advanced query`,
             };
 
